@@ -1,0 +1,13 @@
+uid: SR-0115
+type: system_requirement
+status: approved
+title: Give a specific message per error state
+text: Avoid generic messages such as 'An error occurred' or 'This field is required';
+  give a specific message for each error state (empty, too long, wrong format, and
+  so on).
+links:
+- target: UR-0011
+  type: implements
+attrs:
+  source_ref: error-message#be-specific
+  kind: usage

@@ -1,0 +1,13 @@
+uid: SR-0104
+type: system_requirement
+status: approved
+title: Some users avoid the reveal link
+text: There is evidence some users avoid clicking the details link because they think
+  it will take them away from the page, and some voice-control users may struggle
+  to interact with it.
+links:
+- target: UR-0010
+  type: implements
+attrs:
+  source_ref: details#avoidance-research
+  kind: research

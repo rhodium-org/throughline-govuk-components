@@ -1,0 +1,12 @@
+uid: UR-0011
+type: user_requirement
+status: approved
+title: Error message
+text: The service uses the GOV.UK Error message component to explain, next to each
+  field, what went wrong and how to fix it, worded to match the error summary and
+  following the plain-English error guidance.
+links:
+- target: INT-0001
+  type: derives_from
+attrs:
+  source_ref: error-message

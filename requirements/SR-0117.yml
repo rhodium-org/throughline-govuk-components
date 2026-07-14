@@ -1,0 +1,12 @@
+uid: SR-0117
+type: system_requirement
+status: approved
+title: Use the standard error message templates
+text: Use the standard error message templates for common errors on components and
+  patterns such as dates, checkboxes and addresses.
+links:
+- target: UR-0011
+  type: implements
+attrs:
+  source_ref: error-message#use-templates
+  kind: usage

@@ -1,0 +1,13 @@
+uid: SR-0091
+type: system_requirement
+status: approved
+title: Confirm the choice and remember it for a year
+text: Once the user accepts or rejects, hide the message, show a confirmation with
+  a 'hide' button, and save the preference in a cookie for one year; do not show the
+  banner again or set non-essential cookies the user did not accept.
+links:
+- target: UR-0009
+  type: implements
+attrs:
+  source_ref: cookie-banner#confirmation-and-persist
+  kind: usage

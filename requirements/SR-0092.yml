@@ -1,0 +1,12 @@
+uid: SR-0092
+type: system_requirement
+status: approved
+title: Position the banner before the skip link
+text: Position the cookie banner after the opening body tag and before the 'skip to
+  main content' link.
+links:
+- target: UR-0009
+  type: implements
+attrs:
+  source_ref: cookie-banner#position-before-skip-link
+  kind: accessibility

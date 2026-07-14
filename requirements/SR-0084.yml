@@ -1,0 +1,13 @@
+uid: SR-0084
+type: system_requirement
+status: approved
+title: Provide a 'none' option where valid
+text: Where 'none' is a valid answer, provide a 'none' checkbox shown last, separated
+  by an 'or' divider, labelled to repeat the key part of the question, with exclusive
+  behaviour that unchecks the other options.
+links:
+- target: UR-0008
+  type: implements
+attrs:
+  source_ref: checkboxes#none-option
+  kind: usage

@@ -1,0 +1,12 @@
+uid: SR-0102
+type: system_requirement
+status: approved
+title: Use for a single section of content
+text: Use the details component instead of tabs or an accordion when there is only
+  one section of content and it is less important to users.
+links:
+- target: UR-0010
+  type: implements
+attrs:
+  source_ref: details#single-section-only
+  kind: usage

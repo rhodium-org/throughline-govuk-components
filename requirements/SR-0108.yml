@@ -1,0 +1,12 @@
+uid: SR-0108
+type: system_requirement
+status: approved
+title: Do not clear the user's answers
+text: Do not clear any form fields when showing an error; keep both passing and failing
+  answers so users can see and edit what went wrong.
+links:
+- target: UR-0011
+  type: implements
+attrs:
+  source_ref: error-message#keep-field-values
+  kind: usage

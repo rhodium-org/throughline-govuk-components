@@ -1,0 +1,12 @@
+uid: SR-0076
+type: system_requirement
+status: approved
+title: Use radios for a single choice
+text: Do not use checkboxes if users can only choose one option from a selection;
+  use the radios component instead.
+links:
+- target: UR-0008
+  type: implements
+attrs:
+  source_ref: checkboxes#not-for-single-choice
+  kind: usage

@@ -1,0 +1,12 @@
+uid: SR-0100
+type: system_requirement
+status: approved
+title: Use for information only some users need
+text: Use the details component to make a page easier to scan when it contains information
+  that only some users will need.
+links:
+- target: UR-0010
+  type: implements
+attrs:
+  source_ref: details#for-some-users
+  kind: usage

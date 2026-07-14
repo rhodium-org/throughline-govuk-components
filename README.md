@@ -13,10 +13,10 @@ reference its clauses as `govuk:SR-0003`.
 
 A grounded graph of
 <!-- tl:count type == 'user_requirement' -->
-7
+11
 <!-- tl:end --> component requirements and
 <!-- tl:count type == 'system_requirement' -->
-74
+117
 <!-- tl:end --> distilled clauses, published to [`docs/spec.md`](docs/spec.md):
 
 - `INT-0001` — the root intent (why the Design System exists), `normative: false`.

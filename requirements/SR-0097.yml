@@ -1,0 +1,12 @@
+uid: SR-0097
+type: system_requirement
+status: approved
+title: Name the service in the banner heading
+text: Include the service name in the banner heading so users understand these cookies
+  differ from those set by the main GOV.UK platform.
+links:
+- target: UR-0009
+  type: implements
+attrs:
+  source_ref: cookie-banner#name-the-service
+  kind: usage

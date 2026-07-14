@@ -1,0 +1,12 @@
+uid: SR-0101
+type: system_requirement
+status: approved
+title: Do not hide information most users need
+text: Do not use the details component to hide information that the majority of users
+  will need.
+links:
+- target: UR-0010
+  type: implements
+attrs:
+  source_ref: details#not-for-essential
+  kind: usage

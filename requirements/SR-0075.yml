@@ -1,0 +1,12 @@
+uid: SR-0075
+type: system_requirement
+status: approved
+title: Use to select multiple options or toggle one
+text: Use checkboxes to let users select multiple options from a list, or toggle a
+  single option on or off.
+links:
+- target: UR-0008
+  type: implements
+attrs:
+  source_ref: checkboxes#for-multiple-selection
+  kind: usage

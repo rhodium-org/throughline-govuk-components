@@ -1,0 +1,12 @@
+uid: SR-0090
+type: system_requirement
+status: approved
+title: Show the banner until the user decides
+text: Show the cookie banner on every visit until the user accepts or rejects cookies,
+  or saves their preferences on the cookies page.
+links:
+- target: UR-0009
+  type: implements
+attrs:
+  source_ref: cookie-banner#show-until-choice
+  kind: usage

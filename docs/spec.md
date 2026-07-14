@@ -198,3 +198,106 @@ accessibility acceptance criterion or do-and-don't is a `system_requirement` tha
 | SR-0074 | system_requirement | approved | Tested with disabled users; announcement fixed |
 <!-- tl:end -->
 
+## Checkboxes
+
+<!-- tl:item UR-0008 -->
+**UR-0008 — Checkboxes** — `user_requirement`, status `approved`
+
+> The service uses the GOV.UK Checkboxes component to let users select one or more options, grouped in a fieldset with an accessible legend, ordered and labelled to guidance.
+
+**source_ref**: checkboxes
+<!-- tl:end -->
+
+<!-- tl:table type == 'system_requirement' and attrs.get('source_ref').startswith('checkboxes#') -->
+| UID | Type | Status | Title |
+|---|---|---|---|
+| SR-0075 | system_requirement | approved | Use to select multiple options or toggle one |
+| SR-0076 | system_requirement | approved | Use radios for a single choice |
+| SR-0077 | system_requirement | approved | Position checkboxes to the left of labels |
+| SR-0078 | system_requirement | approved | Explain that multiple options can be selected |
+| SR-0079 | system_requirement | approved | Do not pre-select options |
+| SR-0080 | system_requirement | approved | Order options alphabetically by default |
+| SR-0081 | system_requirement | approved | Group checkboxes in a fieldset with a legend |
+| SR-0082 | system_requirement | approved | Set the legend as the heading for one question per page |
+| SR-0083 | system_requirement | approved | Keep item hints short and link-free |
+| SR-0084 | system_requirement | approved | Provide a 'none' option where valid |
+| SR-0085 | system_requirement | approved | Only conditionally reveal simple questions |
+| SR-0086 | system_requirement | approved | Conditional reveal is not always announced |
+| SR-0087 | system_requirement | approved | Use specific error messages |
+<!-- tl:end -->
+
+## Cookie banner
+
+<!-- tl:item UR-0009 -->
+**UR-0009 — Cookie banner** — `user_requirement`, status `approved`
+
+> The service uses the GOV.UK Cookie banner component to let users accept or reject non-essential cookies, shown until a choice is made, with an accessible confirmation and a supporting cookies page.
+
+**source_ref**: cookie-banner
+<!-- tl:end -->
+
+<!-- tl:table type == 'system_requirement' and attrs.get('source_ref').startswith('cookie-banner#') -->
+| UID | Type | Status | Title |
+|---|---|---|---|
+| SR-0088 | system_requirement | approved | Use when the service sets cookies |
+| SR-0089 | system_requirement | approved | Treat storage technologies as non-essential cookies |
+| SR-0090 | system_requirement | approved | Show the banner until the user decides |
+| SR-0091 | system_requirement | approved | Confirm the choice and remember it for a year |
+| SR-0092 | system_requirement | approved | Position the banner before the skip link |
+| SR-0093 | system_requirement | approved | Do not make the banner sticky |
+| SR-0094 | system_requirement | approved | Essential-only services still need a cookies page |
+| SR-0095 | system_requirement | approved | Support consent without JavaScript |
+| SR-0096 | system_requirement | approved | Move focus to the confirmation with assistive roles |
+| SR-0097 | system_requirement | approved | Name the service in the banner heading |
+| SR-0098 | system_requirement | approved | Keep cookie text short but accurate |
+| SR-0099 | system_requirement | approved | Provide a cookies page alongside the banner |
+<!-- tl:end -->
+
+## Details
+
+<!-- tl:item UR-0010 -->
+**UR-0010 — Details** — `user_requirement`, status `approved`
+
+> The service uses the GOV.UK Details component to let users reveal more detailed information only if they need it, with short descriptive link text, for content only some users need.
+
+**source_ref**: details
+<!-- tl:end -->
+
+<!-- tl:table type == 'system_requirement' and attrs.get('source_ref').startswith('details#') -->
+| UID | Type | Status | Title |
+|---|---|---|---|
+| SR-0100 | system_requirement | approved | Use for information only some users need |
+| SR-0101 | system_requirement | approved | Do not hide information most users need |
+| SR-0102 | system_requirement | approved | Use for a single section of content |
+| SR-0103 | system_requirement | approved | Write short, descriptive link text |
+| SR-0104 | system_requirement | approved | Some users avoid the reveal link |
+<!-- tl:end -->
+
+## Error message
+
+<!-- tl:item UR-0011 -->
+**UR-0011 — Error message** — `user_requirement`, status `approved`
+
+> The service uses the GOV.UK Error message component to explain, next to each field, what went wrong and how to fix it, worded to match the error summary and following the plain-English error guidance.
+
+**source_ref**: error-message
+<!-- tl:end -->
+
+<!-- tl:table type == 'system_requirement' and attrs.get('source_ref').startswith('error-message#') -->
+| UID | Type | Status | Title |
+|---|---|---|---|
+| SR-0105 | system_requirement | approved | Show a message on each validation error |
+| SR-0106 | system_requirement | approved | Do not use for problems the user cannot fix |
+| SR-0107 | system_requirement | approved | Style and connect the message to its question |
+| SR-0108 | system_requirement | approved | Do not clear the user's answers |
+| SR-0109 | system_requirement | approved | Include a hidden 'Error:' prefix |
+| SR-0110 | system_requirement | approved | Summarise all errors at the top of the page |
+| SR-0111 | system_requirement | approved | Match the message to the question wording |
+| SR-0112 | system_requirement | approved | Write in plain, positive English |
+| SR-0113 | system_requirement | approved | Do not repeat an on-screen example |
+| SR-0114 | system_requirement | approved | Keep the field and summary messages identical |
+| SR-0115 | system_requirement | approved | Give a specific message per error state |
+| SR-0116 | system_requirement | approved | Use instructions and descriptions consistently |
+| SR-0117 | system_requirement | approved | Use the standard error message templates |
+<!-- tl:end -->
+

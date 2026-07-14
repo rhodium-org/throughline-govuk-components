@@ -1,0 +1,13 @@
+uid: SR-0105
+type: system_requirement
+status: approved
+title: Show a message on each validation error
+text: Follow the validation pattern and, when there is a validation error, show an
+  error message next to the field and in the error summary explaining what went wrong
+  and how to fix it.
+links:
+- target: UR-0011
+  type: implements
+attrs:
+  source_ref: error-message#show-on-validation-error
+  kind: usage

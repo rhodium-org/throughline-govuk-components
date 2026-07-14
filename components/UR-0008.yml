@@ -1,0 +1,12 @@
+uid: UR-0008
+type: user_requirement
+status: approved
+title: Checkboxes
+text: The service uses the GOV.UK Checkboxes component to let users select one or
+  more options, grouped in a fieldset with an accessible legend, ordered and labelled
+  to guidance.
+links:
+- target: INT-0001
+  type: derives_from
+attrs:
+  source_ref: checkboxes

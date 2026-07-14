@@ -1,0 +1,12 @@
+uid: SR-0094
+type: system_requirement
+status: approved
+title: Essential-only services still need a cookies page
+text: A service that sets only essential cookies may omit the banner but must still
+  tell users about them, for example on a cookies page linked in the footer.
+links:
+- target: UR-0009
+  type: implements
+attrs:
+  source_ref: cookie-banner#essential-only-cookies-page
+  kind: usage

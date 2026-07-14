@@ -1,0 +1,12 @@
+uid: UR-0009
+type: user_requirement
+status: approved
+title: Cookie banner
+text: The service uses the GOV.UK Cookie banner component to let users accept or reject
+  non-essential cookies, shown until a choice is made, with an accessible confirmation
+  and a supporting cookies page.
+links:
+- target: INT-0001
+  type: derives_from
+attrs:
+  source_ref: cookie-banner

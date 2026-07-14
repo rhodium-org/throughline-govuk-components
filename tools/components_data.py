@@ -649,4 +649,379 @@ COMPONENTS = [
             },
         ],
     },
+    {
+        "slug": "checkboxes",
+        "title": "Checkboxes",
+        "ur_text": "The service uses the GOV.UK Checkboxes component to let users select "
+                   "one or more options, grouped in a fieldset with an accessible "
+                   "legend, ordered and labelled to guidance.",
+        "clauses": [
+            {
+                "anchor": "for-multiple-selection",
+                "kind": "usage",
+                "title": "Use to select multiple options or toggle one",
+                "text": "Use checkboxes to let users select multiple options from a "
+                        "list, or toggle a single option on or off.",
+            },
+            {
+                "anchor": "not-for-single-choice",
+                "kind": "usage",
+                "title": "Use radios for a single choice",
+                "text": "Do not use checkboxes if users can only choose one option from "
+                        "a selection; use the radios component instead.",
+            },
+            {
+                "anchor": "boxes-left-of-labels",
+                "kind": "accessibility",
+                "title": "Position checkboxes to the left of labels",
+                "text": "Always position checkboxes to the left of their labels so they "
+                        "are easier to find, especially for screen magnifier users.",
+            },
+            {
+                "anchor": "hint-select-all",
+                "kind": "usage",
+                "title": "Explain that multiple options can be selected",
+                "text": "Do not assume users know they can select more than one option; "
+                        "where needed add a hint such as 'Select all that apply'.",
+            },
+            {
+                "anchor": "no-preselection",
+                "kind": "usage",
+                "title": "Do not pre-select options",
+                "text": "Do not pre-select checkbox options, as users may then miss the "
+                        "question or submit the wrong answer.",
+            },
+            {
+                "anchor": "order-alphabetically",
+                "kind": "usage",
+                "title": "Order options alphabetically by default",
+                "text": "Order checkbox options alphabetically by default, or from most "
+                        "to least common where that is more helpful.",
+            },
+            {
+                "anchor": "fieldset-legend",
+                "kind": "accessibility",
+                "title": "Group checkboxes in a fieldset with a legend",
+                "text": "Group checkboxes in a fieldset with a legend that describes "
+                        "them, usually phrased as a question.",
+            },
+            {
+                "anchor": "legend-heading-single",
+                "kind": "accessibility",
+                "title": "Set the legend as the heading for one question per page",
+                "text": "When asking one question per page, set the legend as the page "
+                        "heading so screen reader users hear it only once; when asking "
+                        "more than one question, do not.",
+            },
+            {
+                "anchor": "hint-single-sentence",
+                "kind": "accessibility",
+                "title": "Keep item hints short and link-free",
+                "text": "Keep each checkbox item hint to a single short sentence without "
+                        "full stops, and do not put links in hint text, because screen "
+                        "readers read the whole hint and do not flag links.",
+            },
+            {
+                "anchor": "none-option",
+                "kind": "usage",
+                "title": "Provide a 'none' option where valid",
+                "text": "Where 'none' is a valid answer, provide a 'none' checkbox shown "
+                        "last, separated by an 'or' divider, labelled to repeat the key "
+                        "part of the question, with exclusive behaviour that unchecks "
+                        "the other options.",
+            },
+            {
+                "anchor": "conditional-reveal-simple",
+                "kind": "usage",
+                "title": "Only conditionally reveal simple questions",
+                "text": "Only conditionally reveal questions — never non-question "
+                        "content — and keep a revealed question simple, moving anything "
+                        "complex to the next page.",
+            },
+            {
+                "anchor": "conditional-reveal-notify",
+                "kind": "accessibility",
+                "title": "Conditional reveal is not always announced",
+                "text": "Users are not always notified when a conditionally revealed "
+                        "question is shown or hidden, so keep revealed questions simple; "
+                        "this is a known failure of the component.",
+                "wcag": "4.1.2",
+            },
+            {
+                "anchor": "error-messages",
+                "kind": "usage",
+                "title": "Use specific error messages",
+                "text": "Follow the error message guidance and use specific wording for "
+                        "each error state, for example 'Select your nationality or "
+                        "nationalities' when nothing is selected.",
+            },
+        ],
+    },
+    {
+        "slug": "cookie-banner",
+        "title": "Cookie banner",
+        "ur_text": "The service uses the GOV.UK Cookie banner component to let users "
+                   "accept or reject non-essential cookies, shown until a choice is "
+                   "made, with an accessible confirmation and a supporting cookies "
+                   "page.",
+        "clauses": [
+            {
+                "anchor": "when-cookies-set",
+                "kind": "usage",
+                "title": "Use when the service sets cookies",
+                "text": "Use a cookie banner if the service sets any cookies; tell users "
+                        "about the cookies set and let them accept or reject any that "
+                        "are not essential.",
+            },
+            {
+                "anchor": "non-essential-scope",
+                "kind": "usage",
+                "title": "Treat storage technologies as non-essential cookies",
+                "text": "Treat HTML5 local storage, service workers and any other "
+                        "technology that stores files on the user's device as "
+                        "non-essential cookies requiring consent.",
+            },
+            {
+                "anchor": "show-until-choice",
+                "kind": "usage",
+                "title": "Show the banner until the user decides",
+                "text": "Show the cookie banner on every visit until the user accepts or "
+                        "rejects cookies, or saves their preferences on the cookies "
+                        "page.",
+            },
+            {
+                "anchor": "confirmation-and-persist",
+                "kind": "usage",
+                "title": "Confirm the choice and remember it for a year",
+                "text": "Once the user accepts or rejects, hide the message, show a "
+                        "confirmation with a 'hide' button, and save the preference in a "
+                        "cookie for one year; do not show the banner again or set "
+                        "non-essential cookies the user did not accept.",
+            },
+            {
+                "anchor": "position-before-skip-link",
+                "kind": "accessibility",
+                "title": "Position the banner before the skip link",
+                "text": "Position the cookie banner after the opening body tag and "
+                        "before the 'skip to main content' link.",
+            },
+            {
+                "anchor": "not-sticky",
+                "kind": "accessibility",
+                "title": "Do not make the banner sticky",
+                "text": "Do not fix the cookie banner to the top of the page, so it "
+                        "cannot cover or obscure content that has focus.",
+                "wcag": "2.4.11",
+            },
+            {
+                "anchor": "essential-only-cookies-page",
+                "kind": "usage",
+                "title": "Essential-only services still need a cookies page",
+                "text": "A service that sets only essential cookies may omit the banner "
+                        "but must still tell users about them, for example on a cookies "
+                        "page linked in the footer.",
+            },
+            {
+                "anchor": "server-side-form",
+                "kind": "accessibility",
+                "title": "Support consent without JavaScript",
+                "text": "Where non-essential cookies are set server-side, present the "
+                        "banner inside a form so all users can submit their choice "
+                        "without relying on JavaScript.",
+            },
+            {
+                "anchor": "client-side-focus",
+                "kind": "accessibility",
+                "title": "Move focus to the confirmation with assistive roles",
+                "text": "For a JavaScript-only banner, reveal the confirmation message by "
+                        "removing the hidden attribute, give it tabindex=-1 and "
+                        "role=alert, and shift focus to it so assistive technology reads "
+                        "it.",
+            },
+            {
+                "anchor": "name-the-service",
+                "kind": "usage",
+                "title": "Name the service in the banner heading",
+                "text": "Include the service name in the banner heading so users "
+                        "understand these cookies differ from those set by the main "
+                        "GOV.UK platform.",
+            },
+            {
+                "anchor": "short-accurate-text",
+                "kind": "usage",
+                "title": "Keep cookie text short but accurate",
+                "text": "Keep the cookie banner text as short as possible while "
+                        "accurately describing how cookies are used, adapting the "
+                        "example text if third parties set cookies or cookies are used "
+                        "beyond analytics and settings.",
+            },
+            {
+                "anchor": "needs-cookies-page",
+                "kind": "usage",
+                "title": "Provide a cookies page alongside the banner",
+                "text": "Provide a cookies page in the service as well as the cookie "
+                        "banner.",
+            },
+        ],
+    },
+    {
+        "slug": "details",
+        "title": "Details",
+        "ur_text": "The service uses the GOV.UK Details component to let users reveal "
+                   "more detailed information only if they need it, with short "
+                   "descriptive link text, for content only some users need.",
+        "clauses": [
+            {
+                "anchor": "for-some-users",
+                "kind": "usage",
+                "title": "Use for information only some users need",
+                "text": "Use the details component to make a page easier to scan when it "
+                        "contains information that only some users will need.",
+            },
+            {
+                "anchor": "not-for-essential",
+                "kind": "usage",
+                "title": "Do not hide information most users need",
+                "text": "Do not use the details component to hide information that the "
+                        "majority of users will need.",
+            },
+            {
+                "anchor": "single-section-only",
+                "kind": "usage",
+                "title": "Use for a single section of content",
+                "text": "Use the details component instead of tabs or an accordion when "
+                        "there is only one section of content and it is less important "
+                        "to users.",
+            },
+            {
+                "anchor": "clear-link-text",
+                "kind": "accessibility",
+                "title": "Write short, descriptive link text",
+                "text": "Make the details link text short and descriptive so users can "
+                        "quickly work out whether they need to reveal it.",
+            },
+            {
+                "anchor": "avoidance-research",
+                "kind": "research",
+                "title": "Some users avoid the reveal link",
+                "text": "There is evidence some users avoid clicking the details link "
+                        "because they think it will take them away from the page, and "
+                        "some voice-control users may struggle to interact with it.",
+            },
+        ],
+    },
+    {
+        "slug": "error-message",
+        "title": "Error message",
+        "ur_text": "The service uses the GOV.UK Error message component to explain, next "
+                   "to each field, what went wrong and how to fix it, worded to match "
+                   "the error summary and following the plain-English error guidance.",
+        "clauses": [
+            {
+                "anchor": "show-on-validation-error",
+                "kind": "usage",
+                "title": "Show a message on each validation error",
+                "text": "Follow the validation pattern and, when there is a validation "
+                        "error, show an error message next to the field and in the error "
+                        "summary explaining what went wrong and how to fix it.",
+            },
+            {
+                "anchor": "not-for-service-problems",
+                "kind": "usage",
+                "title": "Do not use for problems the user cannot fix",
+                "text": "Do not use an error message to tell users they are ineligible, "
+                        "lack permission, or face a service problem they cannot fix; "
+                        "take them to a page that explains the problem and what to do "
+                        "next.",
+            },
+            {
+                "anchor": "red-message-and-border",
+                "kind": "usage",
+                "title": "Style and connect the message to its question",
+                "text": "Put the message in red after the question and hint text, use a "
+                        "red border to connect it to the question, and if the error "
+                        "relates to a specific field give that field a red border and "
+                        "name it in the message.",
+            },
+            {
+                "anchor": "keep-field-values",
+                "kind": "usage",
+                "title": "Do not clear the user's answers",
+                "text": "Do not clear any form fields when showing an error; keep both "
+                        "passing and failing answers so users can see and edit what "
+                        "went wrong.",
+            },
+            {
+                "anchor": "hidden-error-prefix",
+                "kind": "accessibility",
+                "title": "Include a hidden 'Error:' prefix",
+                "text": "Include a visually hidden 'Error:' before the message so screen "
+                        "readers announce the error state; allow the prefix to be "
+                        "changed for other languages.",
+            },
+            {
+                "anchor": "summarise-at-top",
+                "kind": "usage",
+                "title": "Summarise all errors at the top of the page",
+                "text": "Summarise all errors at the top of the page in an error "
+                        "summary component.",
+            },
+            {
+                "anchor": "match-label-language",
+                "kind": "usage",
+                "title": "Match the message to the question wording",
+                "text": "Word the error message using language from the question or "
+                        "fieldset label so it is clear which field it belongs to.",
+            },
+            {
+                "anchor": "clear-and-concise",
+                "kind": "usage",
+                "title": "Write in plain, positive English",
+                "text": "Describe what happened and how to fix it in plain, positive "
+                        "English; avoid technical jargon, words like 'forbidden', "
+                        "'illegal' or 'you forgot', and 'please', 'sorry', 'valid', "
+                        "'invalid' or humorous language.",
+            },
+            {
+                "anchor": "no-redundant-example",
+                "kind": "usage",
+                "title": "Do not repeat an on-screen example",
+                "text": "Do not give an example in the error message if an example is "
+                        "already shown on screen, such as in hint text.",
+            },
+            {
+                "anchor": "consistent-with-summary",
+                "kind": "usage",
+                "title": "Keep the field and summary messages identical",
+                "text": "Use the same message next to the field and in the error summary "
+                        "so they look, sound and mean the same and make sense out of "
+                        "context.",
+            },
+            {
+                "anchor": "be-specific",
+                "kind": "usage",
+                "title": "Give a specific message per error state",
+                "text": "Avoid generic messages such as 'An error occurred' or 'This "
+                        "field is required'; give a specific message for each error "
+                        "state (empty, too long, wrong format, and so on).",
+            },
+            {
+                "anchor": "instructions-and-descriptions",
+                "kind": "usage",
+                "title": "Use instructions and descriptions consistently",
+                "text": "Use instructions for some errors and descriptions for others, "
+                        "consistently — for example an instruction like 'Enter your "
+                        "name' for empty fields and a description like 'Name must be 35 "
+                        "characters or less' for over-long entries.",
+            },
+            {
+                "anchor": "use-templates",
+                "kind": "usage",
+                "title": "Use the standard error message templates",
+                "text": "Use the standard error message templates for common errors on "
+                        "components and patterns such as dates, checkboxes and "
+                        "addresses.",
+            },
+        ],
+    },
 ]

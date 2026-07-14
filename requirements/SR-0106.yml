@@ -1,0 +1,13 @@
+uid: SR-0106
+type: system_requirement
+status: approved
+title: Do not use for problems the user cannot fix
+text: Do not use an error message to tell users they are ineligible, lack permission,
+  or face a service problem they cannot fix; take them to a page that explains the
+  problem and what to do next.
+links:
+- target: UR-0011
+  type: implements
+attrs:
+  source_ref: error-message#not-for-service-problems
+  kind: usage

@@ -1,0 +1,12 @@
+uid: UR-0010
+type: user_requirement
+status: approved
+title: Details
+text: The service uses the GOV.UK Details component to let users reveal more detailed
+  information only if they need it, with short descriptive link text, for content
+  only some users need.
+links:
+- target: INT-0001
+  type: derives_from
+attrs:
+  source_ref: details

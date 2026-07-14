@@ -1,0 +1,12 @@
+uid: SR-0103
+type: system_requirement
+status: approved
+title: Write short, descriptive link text
+text: Make the details link text short and descriptive so users can quickly work out
+  whether they need to reveal it.
+links:
+- target: UR-0010
+  type: implements
+attrs:
+  source_ref: details#clear-link-text
+  kind: accessibility

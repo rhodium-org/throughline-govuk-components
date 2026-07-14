@@ -1,0 +1,13 @@
+uid: SR-0107
+type: system_requirement
+status: approved
+title: Style and connect the message to its question
+text: Put the message in red after the question and hint text, use a red border to
+  connect it to the question, and if the error relates to a specific field give that
+  field a red border and name it in the message.
+links:
+- target: UR-0011
+  type: implements
+attrs:
+  source_ref: error-message#red-message-and-border
+  kind: usage

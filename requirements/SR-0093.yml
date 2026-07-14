@@ -1,0 +1,13 @@
+uid: SR-0093
+type: system_requirement
+status: approved
+title: Do not make the banner sticky
+text: Do not fix the cookie banner to the top of the page, so it cannot cover or obscure
+  content that has focus.
+links:
+- target: UR-0009
+  type: implements
+attrs:
+  source_ref: cookie-banner#not-sticky
+  kind: accessibility
+  wcag: 2.4.11

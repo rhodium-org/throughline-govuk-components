@@ -1,0 +1,12 @@
+uid: SR-0113
+type: system_requirement
+status: approved
+title: Do not repeat an on-screen example
+text: Do not give an example in the error message if an example is already shown on
+  screen, such as in hint text.
+links:
+- target: UR-0011
+  type: implements
+attrs:
+  source_ref: error-message#no-redundant-example
+  kind: usage

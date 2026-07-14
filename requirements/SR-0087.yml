@@ -1,0 +1,12 @@
+uid: SR-0087
+type: system_requirement
+status: approved
+title: Use specific error messages
+text: Follow the error message guidance and use specific wording for each error state,
+  for example 'Select your nationality or nationalities' when nothing is selected.
+links:
+- target: UR-0008
+  type: implements
+attrs:
+  source_ref: checkboxes#error-messages
+  kind: usage
