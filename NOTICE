@@ -1,0 +1,20 @@
+standard-govuk-components
+Copyright 2026 Time Back Solutions Limited
+
+This product includes work developed by Time Back Solutions Limited.
+
+Licensed under the Apache License, Version 2.0. See the LICENSE file for the
+full terms.
+
+This repository is a throughline *source*: a requirements graph, not a program. It
+re-expresses the guidance of the GOV.UK Design System component library as a grounded
+IDD graph so consuming projects can compose it with throughline-compose.
+
+The GOV.UK Design System is produced by the Government Digital Service. Its guidance
+content is © Crown copyright and is published under the Open Government Licence v3.0
+(https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/); the
+component code (govuk-frontend) is published under the MIT Licence. The guidance text
+distilled here into items' `text`/`title`/`attrs.source_ref` is derived from the GOV.UK
+Design System and remains Crown copyright; this repository claims no ownership over that
+content and reproduces it for interoperability. See
+https://design-system.service.gov.uk/ for the authoritative source.

@@ -1,0 +1,12 @@
+uid: UR-0003
+type: user_requirement
+status: approved
+title: Date input
+text: The service uses the GOV.UK Date input component to help users enter a memorable
+  date across day, month and year fields, grouped in a fieldset, with accessible labelling,
+  autocomplete and specific error messages.
+links:
+- target: INT-0001
+  type: derives_from
+attrs:
+  source_ref: date-input

@@ -1,0 +1,12 @@
+uid: SR-0015
+type: system_requirement
+status: approved
+title: Show the error summary at the top of the page
+text: Show the error summary at the top of the page to summarise any errors the user
+  has made.
+links:
+- target: UR-0002
+  type: implements
+attrs:
+  source_ref: error-summary#top-of-page
+  kind: usage

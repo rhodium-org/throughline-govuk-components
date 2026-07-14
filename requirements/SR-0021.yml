@@ -1,0 +1,12 @@
+uid: SR-0021
+type: system_requirement
+status: approved
+title: Prefix the page title with 'Error:'
+text: Follow the validation pattern by adding 'Error:' to the start of the page title
+  so screen readers announce the error state as soon as possible.
+links:
+- target: UR-0002
+  type: implements
+attrs:
+  source_ref: error-summary#error-prefix-title
+  kind: accessibility

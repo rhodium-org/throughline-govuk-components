@@ -1,0 +1,12 @@
+uid: UR-0002
+type: user_requirement
+status: approved
+title: Error summary
+text: The service uses the GOV.UK Error summary component at the top of a page to
+  summarise validation errors, moving focus to it, linking each error to its answer
+  and mirroring the inline error messages.
+links:
+- target: INT-0001
+  type: derives_from
+attrs:
+  source_ref: error-summary

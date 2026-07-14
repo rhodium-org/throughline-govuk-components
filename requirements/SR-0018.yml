@@ -1,0 +1,12 @@
+uid: SR-0018
+type: system_requirement
+status: approved
+title: Move keyboard focus to the error summary
+text: Move keyboard focus to the error summary when it appears so assistive technology
+  users are taken to it (the govuk-frontend JavaScript does this).
+links:
+- target: UR-0002
+  type: implements
+attrs:
+  source_ref: error-summary#move-focus
+  kind: accessibility

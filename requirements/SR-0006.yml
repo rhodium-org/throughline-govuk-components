@@ -1,0 +1,12 @@
+uid: SR-0006
+type: system_requirement
+status: approved
+title: Secondary buttons for secondary actions only
+text: Use secondary buttons only for secondary calls to action, and simplify the page
+  rather than adding many secondary buttons.
+links:
+- target: UR-0001
+  type: implements
+attrs:
+  source_ref: button#secondary-for-secondary-actions
+  kind: usage

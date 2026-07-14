@@ -1,0 +1,12 @@
+uid: SR-0007
+type: system_requirement
+status: approved
+title: Warning buttons only for serious destructive actions
+text: Use warning buttons only for actions with serious destructive consequences that
+  cannot be easily undone, and use them very sparingly.
+links:
+- target: UR-0001
+  type: implements
+attrs:
+  source_ref: button#warning-sparingly
+  kind: usage

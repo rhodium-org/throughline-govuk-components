@@ -1,0 +1,12 @@
+uid: SR-0032
+type: system_requirement
+status: approved
+title: Accept month names in full or abbreviated form
+text: Accept month names written in full or abbreviated form (for example 'january'
+  or 'jan') as some users enter months this way.
+links:
+- target: UR-0003
+  type: implements
+attrs:
+  source_ref: date-input#accept-month-names
+  kind: usage

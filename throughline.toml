@@ -1,0 +1,53 @@
+[project]
+name = "GOV.UK Design System components (throughline source)"
+format_version = 2
+
+# A throughline *source*: a standalone graph a consuming project composes via
+# throughline-compose, importing it under a namespace (e.g. `govuk`) and referencing
+# clauses as `govuk:SR-0001`. The UIDs here are this source's own and immutable; the
+# component's native anchor (e.g. `date-input` or `date-input#accessibility`) lives in
+# `attrs.source_ref`, never in the UID.
+
+[grounding]
+root_types = ["intent"]
+delivery_roots = ["intent"]
+ground_link_types = ["derives_from", "implements"]
+ai_origins = ["ai", "hybrid"]
+
+# Each component is a user_requirement grouping the standard ("the service provides a
+# compliant {component}"); each usage rule / accessibility criterion / do-and-don't is a
+# system_requirement implementing its component UR.
+[types.user_requirement]
+attrs.source_ref = { required = true }
+
+[types.system_requirement]
+attrs.source_ref = { required = true }
+attrs.kind = { required = true, values = ["usage", "accessibility", "research"] }
+
+[links]
+types = ["derives_from", "implements", "relates"]
+
+[link_rules]
+derives_from = { from = ["user_requirement"], to = ["intent"] }
+implements   = { from = ["system_requirement"], to = ["user_requirement"] }
+
+[status]
+values = ["proposed", "draft", "deferred", "approved", "ratified", "implemented",
+          "verified", "suspect", "rejected", "deleted"]
+
+[transitions]
+proposed    = ["draft", "approved", "ratified", "deferred", "rejected", "deleted"]
+draft       = ["approved", "deferred", "rejected", "deleted"]
+deferred    = ["draft", "approved", "rejected", "deleted"]
+approved    = ["ratified", "implemented", "deferred", "suspect", "rejected", "deleted"]
+ratified    = ["implemented", "suspect", "rejected", "deleted"]
+implemented = ["verified", "suspect", "rejected", "deleted"]
+verified    = ["implemented", "suspect", "deleted"]
+suspect     = ["approved", "ratified", "implemented", "verified", "rejected", "deleted"]
+rejected    = ["draft", "deleted"]
+
+# `tl docs` regenerates docs/*.md from the graph; `tl docs --check` gates it.
+# This activates the `unpublished` rule: every live normative item must be
+# referenced by a published document or `tl check --strict` fails.
+[docs]
+paths = ["README.md", "docs/*.md"]

@@ -1,0 +1,13 @@
+uid: SR-0013
+type: system_requirement
+status: approved
+title: Guard against accidental double submission
+text: Where research shows users send information twice, set data-prevent-double-click
+  to true to ignore the second click for users with JavaScript, and also protect against
+  duplicate submission server-side.
+links:
+- target: UR-0001
+  type: implements
+attrs:
+  source_ref: button#prevent-double-click
+  kind: usage

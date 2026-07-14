@@ -1,0 +1,12 @@
+uid: SR-0020
+type: system_requirement
+status: approved
+title: Summary wording matches the inline messages
+text: Word the error messages in the summary the same as the messages shown next to
+  the inputs with errors.
+links:
+- target: UR-0002
+  type: implements
+attrs:
+  source_ref: error-summary#wording-matches-inline
+  kind: usage

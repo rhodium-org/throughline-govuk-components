@@ -1,0 +1,13 @@
+uid: SR-0010
+type: system_requirement
+status: approved
+title: Buttons on dark backgrounds meet contrast minimum
+text: When using the inverse button on a dark background, ensure the button and its
+  background colour have a contrast ratio of at least 4.5:1.
+links:
+- target: UR-0001
+  type: implements
+attrs:
+  source_ref: button#inverse-contrast
+  kind: accessibility
+  wcag: 1.4.3

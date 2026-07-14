@@ -1,0 +1,12 @@
+uid: SR-0001
+type: system_requirement
+status: approved
+title: Buttons carry out an action
+text: Use the button component to help users carry out an action, such as starting
+  an application or saving their information.
+links:
+- target: UR-0001
+  type: implements
+attrs:
+  source_ref: button#carry-out-an-action
+  kind: usage

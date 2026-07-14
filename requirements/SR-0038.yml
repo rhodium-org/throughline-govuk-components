@@ -1,0 +1,13 @@
+uid: SR-0038
+type: system_requirement
+status: approved
+title: Accepting month names reduced errors
+text: On the Apply for teacher training service, hundreds of users entered months
+  as full or abbreviated names and got errors; accepting month names dropped the error
+  rate dramatically and may help users with dyscalculia.
+links:
+- target: UR-0003
+  type: implements
+attrs:
+  source_ref: date-input#accept-month-names-research
+  kind: research

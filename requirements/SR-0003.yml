@@ -1,0 +1,11 @@
+uid: SR-0003
+type: system_requirement
+status: approved
+title: Primary action aligns to the left of the form
+text: Align the primary action button to the left edge of the form.
+links:
+- target: UR-0001
+  type: implements
+attrs:
+  source_ref: button#align-left
+  kind: usage

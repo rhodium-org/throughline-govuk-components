@@ -1,0 +1,13 @@
+uid: SR-0009
+type: system_requirement
+status: approved
+title: Do not rely on warning button colour alone
+text: Do not rely on the red colour of a warning button to convey the seriousness
+  of the action; the surrounding context and the button text must make clear what
+  will happen, because not all users can see or interpret the colour.
+links:
+- target: UR-0001
+  type: implements
+attrs:
+  source_ref: button#warning-not-colour-alone
+  kind: accessibility

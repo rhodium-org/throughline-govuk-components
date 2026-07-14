@@ -1,0 +1,12 @@
+uid: SR-0033
+type: system_requirement
+status: approved
+title: Do not auto-tab between fields
+text: Never automatically move focus between the day, month and year fields, because
+  it is confusing and can clash with normal keyboard controls.
+links:
+- target: UR-0003
+  type: implements
+attrs:
+  source_ref: date-input#no-auto-tab
+  kind: accessibility

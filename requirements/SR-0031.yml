@@ -1,0 +1,12 @@
+uid: SR-0031
+type: system_requirement
+status: approved
+title: Hint text example dates are valid for the question
+text: Make sure any example dates used in hint text are valid for the question being
+  asked.
+links:
+- target: UR-0003
+  type: implements
+attrs:
+  source_ref: date-input#valid-example-dates
+  kind: usage

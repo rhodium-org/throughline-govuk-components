@@ -1,0 +1,14 @@
+uid: SR-0037
+type: system_requirement
+status: approved
+title: Use specific wording for each error state
+text: Give specific error messages for specific error states — for example 'Enter
+  your date of birth' when nothing is entered, 'Date of birth must include a month'
+  when incomplete, and 'Date of birth must be a real date' when the date cannot be
+  correct.
+links:
+- target: UR-0003
+  type: implements
+attrs:
+  source_ref: date-input#error-specific-wording
+  kind: usage

@@ -1,0 +1,13 @@
+uid: SR-0008
+type: system_requirement
+status: approved
+title: Precede a warning action with a confirmation step
+text: When an action needs a warning button, include an additional step that asks
+  the user to confirm, using another button style for the initial action and the warning
+  button for the final confirmation.
+links:
+- target: UR-0001
+  type: implements
+attrs:
+  source_ref: button#warning-confirmation-step
+  kind: usage

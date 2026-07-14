@@ -1,0 +1,13 @@
+uid: SR-0023
+type: system_requirement
+status: approved
+title: Link multi-field errors to the first errored field
+text: For a question answered across multiple fields such as a date input, link the
+  summary error to the first field that contains an error, or to the first field if
+  the errored field is unknown.
+links:
+- target: UR-0002
+  type: implements
+attrs:
+  source_ref: error-summary#link-multiple-fields
+  kind: accessibility

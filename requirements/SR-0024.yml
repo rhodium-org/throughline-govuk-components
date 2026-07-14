@@ -1,0 +1,12 @@
+uid: SR-0024
+type: system_requirement
+status: approved
+title: Link option errors to the first option
+text: For a question answered by selecting radios or checkboxes, link the summary
+  error to the first radio or checkbox.
+links:
+- target: UR-0002
+  type: implements
+attrs:
+  source_ref: error-summary#link-radios-checkboxes
+  kind: accessibility

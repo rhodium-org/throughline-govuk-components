@@ -1,0 +1,12 @@
+uid: SR-0011
+type: system_requirement
+status: approved
+title: Avoid disabled buttons
+text: Avoid disabled buttons because they have poor contrast and can confuse users;
+  use one only where research shows it makes the interface easier to understand.
+links:
+- target: UR-0001
+  type: implements
+attrs:
+  source_ref: button#avoid-disabled
+  kind: accessibility

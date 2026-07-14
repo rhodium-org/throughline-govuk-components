@@ -1,0 +1,12 @@
+uid: SR-0004
+type: system_requirement
+status: approved
+title: Avoid multiple default buttons on a page
+text: Use a default button for the main call to action, and avoid more than one default
+  button on a single page so users can tell what to do next.
+links:
+- target: UR-0001
+  type: implements
+attrs:
+  source_ref: button#one-default-per-page
+  kind: usage

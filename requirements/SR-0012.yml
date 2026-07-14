@@ -1,0 +1,12 @@
+uid: SR-0012
+type: system_requirement
+status: approved
+title: Group buttons placed together
+text: Use a button group when two or more buttons are placed together so they and
+  any adjacent links align.
+links:
+- target: UR-0001
+  type: implements
+attrs:
+  source_ref: button#group-related-buttons
+  kind: usage

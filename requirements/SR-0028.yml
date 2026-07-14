@@ -1,0 +1,12 @@
+uid: SR-0028
+type: system_requirement
+status: approved
+title: Group the three fields in a fieldset with a legend
+text: Group the day, month and year fields in a fieldset with a legend that describes
+  them, usually phrased as a question.
+links:
+- target: UR-0003
+  type: implements
+attrs:
+  source_ref: date-input#fieldset-legend
+  kind: accessibility

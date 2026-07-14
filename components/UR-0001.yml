@@ -1,0 +1,12 @@
+uid: UR-0001
+type: user_requirement
+status: approved
+title: Button
+text: The service uses the GOV.UK Button component to let users carry out an action,
+  following its guidance on button text, variants, grouping, contrast and double-click
+  prevention.
+links:
+- target: INT-0001
+  type: derives_from
+attrs:
+  source_ref: button

@@ -1,0 +1,12 @@
+uid: SR-0002
+type: system_requirement
+status: approved
+title: Button text is sentence case and describes the action
+text: Write button text in sentence case, describing the action it performs (for example
+  'Start now', 'Save and continue').
+links:
+- target: UR-0001
+  type: implements
+attrs:
+  source_ref: button#sentence-case-text
+  kind: usage

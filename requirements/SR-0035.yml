@@ -1,0 +1,13 @@
+uid: SR-0035
+type: system_requirement
+status: approved
+title: Highlight only the fields in error
+text: When the whole date is in error, style all three fields; when only one field
+  is in error, style just that field and state in the message which field has the
+  error.
+links:
+- target: UR-0003
+  type: implements
+attrs:
+  source_ref: date-input#error-highlight-scope
+  kind: usage
