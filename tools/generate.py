@@ -153,8 +153,8 @@ def generate_spec(slug2ur: dict[str, str]) -> None:
 def main() -> int:
     slug2ur, urs, srs = generate_items()
     generate_spec(slug2ur)
-    total_sr = len(list(REQS_DIR.glob("*.yml")))
-    total_ur = len(list(COMPONENTS_DIR.glob("*.yml")))
+    total_sr = len(list(REQS_DIR.glob("SR-*.yml")))
+    total_ur = len(list(COMPONENTS_DIR.glob("UR-*.yml")))
     print(f"components: {urs} new URs written, {total_ur} total")
     print(f"clauses: {srs} new SRs written, {total_sr} total")
     print(f"spec: {SPEC} regenerated for {len(COMPONENTS)} components")
