@@ -1,0 +1,12 @@
+uid: SR-0233
+type: system_requirement
+status: approved
+title: Do not pre-select an option
+text: Do not pre-select radio options, as users are more likely to miss the question
+  or submit the wrong answer.
+links:
+- target: UR-0023
+  type: implements
+attrs:
+  source_ref: radios#no-preselect
+  kind: usage

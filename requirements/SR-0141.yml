@@ -1,0 +1,15 @@
+uid: SR-0141
+type: system_requirement
+status: approved
+title: Use the prescribed error wording
+text: Use the standard wording for each error state, for example 'Select a [thing]',
+  'The selected file must be a [types]', 'The selected file must be smaller than [size]',
+  'The selected file is empty', 'The selected file contains a virus', 'The selected
+  file is password protected', and 'The selected file could not be uploaded - try
+  again'.
+links:
+- target: UR-0014
+  type: implements
+attrs:
+  source_ref: file-upload#error-wording
+  kind: usage

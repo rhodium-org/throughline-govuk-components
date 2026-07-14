@@ -1,0 +1,12 @@
+uid: SR-0314
+type: system_requirement
+status: approved
+title: Use colour to distinguish or emphasise
+text: Use colour to help distinguish between different tags or to draw attention to
+  an especially important tag, such as red for an 'Urgent' tag.
+links:
+- target: UR-0030
+  type: implements
+attrs:
+  source_ref: tag#colour-to-emphasise
+  kind: usage

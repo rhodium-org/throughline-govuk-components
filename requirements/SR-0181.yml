@@ -1,0 +1,11 @@
+uid: SR-0181
+type: system_requirement
+status: approved
+title: Remove the green banner when moving to a new page
+text: Remove a green notification banner when the user moves to a new page.
+links:
+- target: UR-0018
+  type: implements
+attrs:
+  source_ref: notification-banner#remove-green-on-navigation
+  kind: usage

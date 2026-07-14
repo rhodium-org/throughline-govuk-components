@@ -1,0 +1,13 @@
+uid: SR-0245
+type: system_requirement
+status: approved
+title: Use smaller radios only when less prominence helps
+text: Use standard-sized radios in nearly all cases; use smaller versions only where
+  making them less prominent helps, such as search filters or information-dense caseworking
+  screens designed for repeat use.
+links:
+- target: UR-0023
+  type: implements
+attrs:
+  source_ref: radios#smaller-radios
+  kind: usage

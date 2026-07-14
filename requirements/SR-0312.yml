@@ -1,0 +1,13 @@
+uid: SR-0312
+type: system_requirement
+status: approved
+title: Do not convey information by colour alone
+text: Do not use colour alone to convey information in a tag, to meet WCAG 2.2 success
+  criterion 1.4.1 Use of colour.
+links:
+- target: UR-0030
+  type: implements
+attrs:
+  source_ref: tag#colour-not-alone
+  kind: accessibility
+  wcag: 1.4.1

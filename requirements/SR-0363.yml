@@ -1,0 +1,14 @@
+uid: SR-0363
+type: system_requirement
+status: approved
+title: Use the autocomplete attribute
+text: Use the autocomplete attribute to specify an input's purpose so browsers can
+  autofill; in production with a relevant input purpose this is needed to meet WCAG
+  2.2 success criterion 1.3.5 Identify input purpose.
+links:
+- target: UR-0033
+  type: implements
+attrs:
+  source_ref: text-input#autocomplete-attribute
+  kind: accessibility
+  wcag: 1.3.5

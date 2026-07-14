@@ -1,0 +1,12 @@
+uid: SR-0145
+type: system_requirement
+status: approved
+title: Avoid the required attribute
+text: Screen readers do not read the required attribute in the improved version, and
+  the guidance recommends not using it.
+links:
+- target: UR-0014
+  type: implements
+attrs:
+  source_ref: file-upload#no-required-attribute
+  kind: accessibility

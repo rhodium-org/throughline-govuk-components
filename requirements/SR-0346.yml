@@ -1,0 +1,12 @@
+uid: SR-0346
+type: system_requirement
+status: approved
+title: Use for single-line text
+text: Use the text input component when you need to let users enter text no longer
+  than a single line, such as their name or phone number.
+links:
+- target: UR-0033
+  type: implements
+attrs:
+  source_ref: text-input#when-single-line
+  kind: usage

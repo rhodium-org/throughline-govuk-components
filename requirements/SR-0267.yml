@@ -1,0 +1,12 @@
+uid: SR-0267
+type: system_requirement
+status: approved
+title: Place after the opening body tag
+text: Place the skip link immediately after the opening body tag, or immediately after
+  the cookie banner if a cookie banner component is used.
+links:
+- target: UR-0026
+  type: implements
+attrs:
+  source_ref: skip-link#placement
+  kind: usage

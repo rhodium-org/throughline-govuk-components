@@ -1,0 +1,12 @@
+uid: SR-0323
+type: system_requirement
+status: approved
+title: Status indicates whether a task can be started
+text: Show a status alongside each task that indicates whether the user can start
+  it, and update it to 'Completed' once the task is done.
+links:
+- target: UR-0031
+  type: implements
+attrs:
+  source_ref: task-list#status-shows-startability
+  kind: usage

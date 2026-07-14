@@ -1,0 +1,12 @@
+uid: SR-0165
+type: system_requirement
+status: approved
+title: Use to differentiate a block of text
+text: Use inset text to differentiate a block of text such as a quote, example or
+  additional information about the page from the surrounding content.
+links:
+- target: UR-0017
+  type: implements
+attrs:
+  source_ref: inset-text#differentiate-block
+  kind: usage

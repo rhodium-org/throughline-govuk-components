@@ -1,0 +1,13 @@
+uid: SR-0246
+type: system_requirement
+status: approved
+title: Show an error when no radio or revealed question is answered
+text: Display an error message if the user has not selected any radios or has not
+  answered a conditionally revealed question, following the error message component
+  guidance with specific messages for specific error states.
+links:
+- target: UR-0023
+  type: implements
+attrs:
+  source_ref: radios#error-conditions
+  kind: usage

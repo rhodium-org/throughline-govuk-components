@@ -1,0 +1,13 @@
+uid: SR-0360
+type: system_requirement
+status: approved
+title: Visually separate characters in codes
+text: Style the input to visually separate each character when asking for an unmemorised
+  code or sequence such as a reference ID, account number, or security code, but not
+  for memorable information like phone numbers and postcodes.
+links:
+- target: UR-0033
+  type: implements
+attrs:
+  source_ref: text-input#separate-code-characters
+  kind: usage

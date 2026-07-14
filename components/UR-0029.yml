@@ -1,0 +1,11 @@
+uid: UR-0029
+type: user_requirement
+status: approved
+title: Tabs
+text: The tabs component lets users quickly switch between related sections of content,
+  displaying one clearly labelled section at a time.
+links:
+- target: INT-0001
+  type: derives_from
+attrs:
+  source_ref: tabs

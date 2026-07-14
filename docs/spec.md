@@ -301,3 +301,627 @@ accessibility acceptance criterion or do-and-don't is a `system_requirement` tha
 | SR-0117 | system_requirement | approved | Use the standard error message templates |
 <!-- tl:end -->
 
+## Exit this page
+
+<!-- tl:item UR-0012 -->
+**UR-0012 — Exit this page** — `user_requirement`, status `approved`
+
+> Exit this page gives users a way to quickly and safely leave a service, website or application when a page holds sensitive information that could put them at risk.
+
+**source_ref**: exit-this-page
+<!-- tl:end -->
+
+<!-- tl:table type == 'system_requirement' and attrs.get('source_ref').startswith('exit-this-page#') -->
+| UID | Type | Status | Title |
+|---|---|---|---|
+| SR-0118 | system_requirement | approved | Pair with the Exit a page quickly pattern |
+| SR-0119 | system_requirement | approved | Use only for at-risk pages |
+| SR-0120 | system_requirement | approved | Apply to whole service or sensitive parts |
+| SR-0121 | system_requirement | approved | Do not use when risk is unlikely |
+| SR-0122 | system_requirement | approved | Position above the grid |
+| SR-0123 | system_requirement | approved | Choose a safe redirect destination |
+| SR-0124 | system_requirement | approved | Add the secondary skip link |
+| SR-0125 | system_requirement | approved | Decide how to handle session data |
+| SR-0126 | system_requirement | approved | Loading overlay clears the screen |
+| SR-0127 | system_requirement | approved | Support shift-key activation |
+| SR-0128 | system_requirement | approved | Offer discreet assistive-tech activation |
+| SR-0129 | system_requirement | approved | Grounded in lived-experience research |
+| SR-0130 | system_requirement | approved | Research with your own users first |
+<!-- tl:end -->
+
+## Fieldset
+
+<!-- tl:item UR-0013 -->
+**UR-0013 — Fieldset** — `user_requirement`, status `approved`
+
+> The fieldset component groups related form inputs so users understand the relationship between them.
+
+**source_ref**: fieldset
+<!-- tl:end -->
+
+<!-- tl:table type == 'system_requirement' and attrs.get('source_ref').startswith('fieldset#') -->
+| UID | Type | Status | Title |
+|---|---|---|---|
+| SR-0131 | system_requirement | approved | Use to group related inputs |
+| SR-0132 | system_requirement | approved | Reuse existing component fieldsets |
+| SR-0133 | system_requirement | approved | Legend must come first and describe the group |
+| SR-0134 | system_requirement | approved | Set the legend as the page heading for single questions |
+| SR-0135 | system_requirement | approved | Legend signals inputs are related |
+| SR-0136 | system_requirement | approved | Keep any legend help text short |
+<!-- tl:end -->
+
+## File upload
+
+<!-- tl:item UR-0014 -->
+**UR-0014 — File upload** — `user_requirement`, status `approved`
+
+> The file upload component helps users select and upload a file within a service.
+
+**source_ref**: file-upload
+<!-- tl:end -->
+
+<!-- tl:table type == 'system_requirement' and attrs.get('source_ref').startswith('file-upload#') -->
+| UID | Type | Status | Title |
+|---|---|---|---|
+| SR-0137 | system_requirement | approved | Ask for uploads only when critical |
+| SR-0138 | system_requirement | approved | Support choose-file and drag-and-drop |
+| SR-0139 | system_requirement | approved | Let users reuse uploaded files |
+| SR-0140 | system_requirement | approved | Follow error message guidance with specific errors |
+| SR-0141 | system_requirement | approved | Use the prescribed error wording |
+| SR-0142 | system_requirement | approved | Opt in to the improved component |
+| SR-0143 | system_requirement | approved | Keep changeable text short |
+| SR-0144 | system_requirement | approved | Keep required attributes on the original input |
+| SR-0145 | system_requirement | approved | Avoid the required attribute |
+| SR-0146 | system_requirement | approved | Improved component supports speech recognition |
+| SR-0147 | system_requirement | approved | Make the drop zone visible and responsive |
+| SR-0148 | system_requirement | approved | Interaction states refreshed for the brand |
+| SR-0149 | system_requirement | approved | Known gap in the earlier version |
+<!-- tl:end -->
+
+## GOV.UK footer
+
+<!-- tl:item UR-0015 -->
+**UR-0015 — GOV.UK footer** — `user_requirement`, status `approved`
+
+> The GOV.UK footer provides copyright, licensing and other information about a service and sits at the bottom of every page.
+
+**source_ref**: footer
+<!-- tl:end -->
+
+<!-- tl:table type == 'system_requirement' and attrs.get('source_ref').startswith('footer#') -->
+| UID | Type | Status | Title |
+|---|---|---|---|
+| SR-0150 | system_requirement | approved | Use at the bottom of every page |
+| SR-0151 | system_requirement | approved | Add a copyright notice and coat of arms |
+| SR-0152 | system_requirement | approved | State the reuse licence |
+| SR-0153 | system_requirement | approved | Use standard footer link text |
+| SR-0154 | system_requirement | approved | Place help links consistently |
+| SR-0155 | system_requirement | approved | Add secondary navigation only for GOV.UK services |
+| SR-0156 | system_requirement | approved | Restrict the footer to GOV.UK services |
+| SR-0157 | system_requirement | approved | Use the refreshed branding |
+<!-- tl:end -->
+
+## GOV.UK header
+
+<!-- tl:item UR-0016 -->
+**UR-0016 — GOV.UK header** — `user_requirement`, status `approved`
+
+> The GOV.UK header tells users they are using a service on GOV.UK and gives access to GOV.UK-wide tools.
+
+**source_ref**: header
+<!-- tl:end -->
+
+<!-- tl:table type == 'system_requirement' and attrs.get('source_ref').startswith('header#') -->
+| UID | Type | Status | Title |
+|---|---|---|---|
+| SR-0158 | system_requirement | approved | Use only on GOV.UK domains |
+| SR-0159 | system_requirement | approved | Show on every page to maintain trust |
+| SR-0160 | system_requirement | approved | Do not use off GOV.UK domains |
+| SR-0161 | system_requirement | approved | Use the default header showing only logo and GOV.UK tools |
+| SR-0162 | system_requirement | approved | Do not show service name or navigation in the header |
+| SR-0163 | system_requirement | approved | Pair with service navigation for consistency |
+| SR-0164 | system_requirement | approved | Use the refreshed branding |
+<!-- tl:end -->
+
+## Inset text
+
+<!-- tl:item UR-0017 -->
+**UR-0017 — Inset text** — `user_requirement`, status `approved`
+
+> The inset text component differentiates a block of text from the surrounding content, such as quotes, examples or additional information.
+
+**source_ref**: inset-text
+<!-- tl:end -->
+
+<!-- tl:table type == 'system_requirement' and attrs.get('source_ref').startswith('inset-text#') -->
+| UID | Type | Status | Title |
+|---|---|---|---|
+| SR-0165 | system_requirement | approved | Use to differentiate a block of text |
+| SR-0166 | system_requirement | approved | Do not use for very important information |
+| SR-0167 | system_requirement | approved | Use Warning text for critical content |
+| SR-0168 | system_requirement | approved | Use sparingly |
+<!-- tl:end -->
+
+## Notification banner
+
+<!-- tl:item UR-0018 -->
+**UR-0018 — Notification banner** — `user_requirement`, status `approved`
+
+> A notification banner tells the user about something they need to know that is not directly related to the page content, and a service uses it for service-wide problems, personal alerts, or the outcome of a completed action.
+
+**source_ref**: notification-banner
+<!-- tl:end -->
+
+<!-- tl:table type == 'system_requirement' and attrs.get('source_ref').startswith('notification-banner#') -->
+| UID | Type | Status | Title |
+|---|---|---|---|
+| SR-0169 | system_requirement | approved | Use for information not directly relevant to the page task |
+| SR-0170 | system_requirement | approved | Use notification banners sparingly |
+| SR-0171 | system_requirement | approved | Put directly relevant information in the page content |
+| SR-0172 | system_requirement | approved | Do not use for validation errors |
+| SR-0173 | system_requirement | approved | Do not show alongside an error summary |
+| SR-0174 | system_requirement | approved | Position immediately before the page h1 |
+| SR-0175 | system_requirement | approved | Expose the banner as a labelled region |
+| SR-0176 | system_requirement | approved | Show only one notification banner per page |
+| SR-0177 | system_requirement | approved | Use h3 headings to structure content |
+| SR-0178 | system_requirement | approved | Use the neutral blue version for problems and elsewhere-events |
+| SR-0179 | system_requirement | approved | Use the green version to confirm an expected outcome |
+| SR-0180 | system_requirement | approved | Add role=alert so focus shifts on load |
+| SR-0181 | system_requirement | approved | Remove the green banner when moving to a new page |
+| SR-0182 | system_requirement | approved | Convey success meaning with a heading, not colour alone |
+| SR-0183 | system_requirement | approved | Use the same success heading consistently |
+| SR-0184 | system_requirement | approved | Open research questions |
+<!-- tl:end -->
+
+## Pagination
+
+<!-- tl:item UR-0019 -->
+**UR-0019 — Pagination** — `user_requirement`, status `approved`
+
+> Pagination helps users navigate forwards and backwards through a series of numbered pages, and a service uses it for collections such as search results or guidance split across multiple pages.
+
+**source_ref**: pagination
+<!-- tl:end -->
+
+<!-- tl:table type == 'system_requirement' and attrs.get('source_ref').startswith('pagination#') -->
+| UID | Type | Status | Title |
+|---|---|---|---|
+| SR-0185 | system_requirement | approved | Use when a single page loads too slowly or most users need only early pages |
+| SR-0186 | system_requirement | approved | Only paginate if it improves performance or usability |
+| SR-0187 | system_requirement | approved | Avoid infinite scroll |
+| SR-0188 | system_requirement | approved | Do not use for linear journeys |
+| SR-0189 | system_requirement | approved | Place pagination after the page content |
+| SR-0190 | system_requirement | approved | Do not show pagination for a single page |
+| SR-0191 | system_requirement | approved | Redirect to the first page for dead URLs |
+| SR-0192 | system_requirement | approved | Use block style for related content pages |
+| SR-0193 | system_requirement | approved | Use link labels for context |
+| SR-0194 | system_requirement | approved | Use list style for pages of items |
+| SR-0195 | system_requirement | approved | Show the page number in the page title |
+| SR-0196 | system_requirement | approved | Show pages appropriate to screen size |
+| SR-0197 | system_requirement | approved | Use ellipses for skipped pages |
+| SR-0198 | system_requirement | approved | Hide previous on first page and next on last page |
+| SR-0199 | system_requirement | approved | Apply filtering and sorting to the whole list |
+| SR-0200 | system_requirement | approved | Set defaults to reduce clicks |
+| SR-0201 | system_requirement | approved | Based on proven government components |
+<!-- tl:end -->
+
+## Panel
+
+<!-- tl:item UR-0020 -->
+**UR-0020 — Panel** — `user_requirement`, status `approved`
+
+> The panel component is a visible container used on confirmation or results pages to highlight important content, and a service uses it to confirm a completed transaction.
+
+**source_ref**: panel
+<!-- tl:end -->
+
+<!-- tl:table type == 'system_requirement' and attrs.get('source_ref').startswith('panel#') -->
+| UID | Type | Status | Title |
+|---|---|---|---|
+| SR-0202 | system_requirement | approved | Use to display important information after a completed transaction |
+| SR-0203 | system_requirement | approved | Never use to highlight information in body content |
+| SR-0204 | system_requirement | approved | Keep panel text brief |
+| SR-0205 | system_requirement | approved | Use short words to stay readable at all sizes |
+| SR-0206 | system_requirement | approved | Use description text for detail |
+<!-- tl:end -->
+
+## Password input
+
+<!-- tl:item UR-0021 -->
+**UR-0021 — Password input** — `user_requirement`, status `approved`
+
+> The password input component helps users accessibly create and enter passwords, with an option to show what they have entered as plain text, and a service uses it whenever a password must be created or entered.
+
+**source_ref**: password-input
+<!-- tl:end -->
+
+<!-- tl:table type == 'system_requirement' and attrs.get('source_ref').startswith('password-input#') -->
+| UID | Type | Status | Title |
+|---|---|---|---|
+| SR-0207 | system_requirement | approved | Use whenever a password is created or entered |
+| SR-0208 | system_requirement | approved | Do not use for non-password information |
+| SR-0209 | system_requirement | approved | Let users show their entry as plain text |
+| SR-0210 | system_requirement | approved | Do not reveal which credential was wrong |
+| SR-0211 | system_requirement | approved | Hide passwords by default |
+| SR-0212 | system_requirement | approved | Use distinct labels and toggles for multiple inputs |
+| SR-0213 | system_requirement | approved | Avoid a confirm password field |
+| SR-0214 | system_requirement | approved | Set input type to password on submit |
+| SR-0215 | system_requirement | approved | Use the autocomplete attribute |
+| SR-0216 | system_requirement | approved | Always allow copy and paste |
+| SR-0217 | system_requirement | approved | Support all characters and avoid restricting input |
+| SR-0218 | system_requirement | approved | Keep any restrictions identical and consistent |
+| SR-0219 | system_requirement | approved | Do not use maxlength to restrict length |
+| SR-0220 | system_requirement | approved | Disable spellcheck and autocapitalise |
+| SR-0221 | system_requirement | approved | Native show/hide tools can duplicate or mismatch |
+| SR-0222 | system_requirement | approved | Research decided against a second field |
+<!-- tl:end -->
+
+## Phase banner
+
+<!-- tl:item UR-0022 -->
+**UR-0022 — Phase banner** — `user_requirement`, status `approved`
+
+> The phase banner shows users a service is still being worked on, and a service.gov.uk service uses it to display its alpha or beta status until it passes a live assessment.
+
+**source_ref**: phase-banner
+<!-- tl:end -->
+
+<!-- tl:table type == 'system_requirement' and attrs.get('source_ref').startswith('phase-banner#') -->
+| UID | Type | Status | Title |
+|---|---|---|---|
+| SR-0223 | system_requirement | approved | Required on service.gov.uk until live assessment passed |
+| SR-0224 | system_requirement | approved | Use the alpha or beta banner to match the phase |
+| SR-0225 | system_requirement | approved | Show inside the header after navigation or GOV.UK header |
+| SR-0226 | system_requirement | approved | Show on all pages as a service-level message |
+| SR-0227 | system_requirement | approved | Include a feedback link |
+| SR-0228 | system_requirement | approved | Let users return to their place after feedback |
+<!-- tl:end -->
+
+## Radios
+
+<!-- tl:item UR-0023 -->
+**UR-0023 — Radios** — `user_requirement`, status `approved`
+
+> The radios component lets users select a single option from a list, and a service uses it when only one option can be chosen.
+
+**source_ref**: radios
+<!-- tl:end -->
+
+<!-- tl:table type == 'system_requirement' and attrs.get('source_ref').startswith('radios#') -->
+| UID | Type | Status | Title |
+|---|---|---|---|
+| SR-0229 | system_requirement | approved | Use when only one option can be selected |
+| SR-0230 | system_requirement | approved | Do not use when multiple selections are possible |
+| SR-0231 | system_requirement | approved | Position radios to the left of their labels |
+| SR-0232 | system_requirement | approved | Add a hint that only one option can be chosen |
+| SR-0233 | system_requirement | approved | Do not pre-select an option |
+| SR-0234 | system_requirement | approved | Include a 'None of the above' option when valid |
+| SR-0235 | system_requirement | approved | Order options alphabetically by default |
+| SR-0236 | system_requirement | approved | Group radios in a fieldset with a describing legend |
+| SR-0237 | system_requirement | approved | Set legend as page heading when asking one question |
+| SR-0238 | system_requirement | approved | Do not set legend as heading with multiple questions |
+| SR-0239 | system_requirement | approved | Only use inline radios for two short options |
+| SR-0240 | system_requirement | approved | Keep item hints to one short sentence with no links |
+| SR-0241 | system_requirement | approved | Separate a distinct option with a text divider |
+| SR-0242 | system_requirement | approved | Keep conditionally revealed questions simple |
+| SR-0243 | system_requirement | approved | Restrict conditional reveal to questions only |
+| SR-0244 | system_requirement | approved | Conditional reveal has a known notification gap |
+| SR-0245 | system_requirement | approved | Use smaller radios only when less prominence helps |
+| SR-0246 | system_requirement | approved | Show an error when no radio or revealed question is answered |
+| SR-0247 | system_requirement | approved | Word errors according to the option pattern |
+| SR-0248 | system_requirement | approved | Research found simple conditional reveals workable |
+<!-- tl:end -->
+
+## Select
+
+<!-- tl:item UR-0024 -->
+**UR-0024 — Select** — `user_requirement`, status `approved`
+
+> The select component helps users choose a single item from a long list, used only as a last resort in public-facing services because some users find selects hard to use.
+
+**source_ref**: select
+<!-- tl:end -->
+
+<!-- tl:table type == 'system_requirement' and attrs.get('source_ref').startswith('select#') -->
+| UID | Type | Status | Title |
+|---|---|---|---|
+| SR-0249 | system_requirement | approved | Use only as a last resort |
+| SR-0250 | system_requirement | approved | Reduce options before using select |
+| SR-0251 | system_requirement | approved | Pre-select only for settings |
+| SR-0252 | system_requirement | approved | Do not pre-select for questions |
+| SR-0253 | system_requirement | approved | Keep hint text short |
+| SR-0254 | system_requirement | approved | No links in hint text |
+| SR-0255 | system_requirement | approved | Show error when no option selected |
+| SR-0256 | system_requirement | approved | Avoid multiple selection |
+| SR-0257 | system_requirement | approved | Known usability struggles |
+<!-- tl:end -->
+
+## Service navigation
+
+<!-- tl:item UR-0025 -->
+**UR-0025 — Service navigation** — `user_requirement`, status `approved`
+
+> Service navigation helps users understand they are using your service and lets them navigate around it, showing the service name and optional navigation links.
+
+**source_ref**: service-navigation
+<!-- tl:end -->
+
+<!-- tl:table type == 'system_requirement' and attrs.get('source_ref').startswith('service-navigation#') -->
+| UID | Type | Status | Title |
+|---|---|---|---|
+| SR-0258 | system_requirement | approved | Use to identify the service |
+| SR-0259 | system_requirement | approved | Pair with the GOV.UK header |
+| SR-0260 | system_requirement | approved | Show the service name |
+| SR-0261 | system_requirement | approved | Show navigation links |
+| SR-0262 | system_requirement | approved | Use slots for custom elements |
+| SR-0263 | system_requirement | approved | Keep aria-label accurate |
+| SR-0264 | system_requirement | approved | Retest slots on each update |
+| SR-0265 | system_requirement | approved | Use refreshed GOV.UK branding |
+<!-- tl:end -->
+
+## Skip link
+
+<!-- tl:item UR-0026 -->
+**UR-0026 — Skip link** — `user_requirement`, status `approved`
+
+> The skip link component helps keyboard-only users skip the top-level navigation and jump straight to the main content on a page.
+
+**source_ref**: skip-link
+<!-- tl:end -->
+
+<!-- tl:table type == 'system_requirement' and attrs.get('source_ref').startswith('skip-link#') -->
+| UID | Type | Status | Title |
+|---|---|---|---|
+| SR-0266 | system_requirement | approved | Include on every GOV.UK page |
+| SR-0267 | system_requirement | approved | Place after the opening body tag |
+| SR-0268 | system_requirement | approved | Ignore the landmark warning |
+| SR-0269 | system_requirement | approved | Let users bypass navigation |
+| SR-0270 | system_requirement | approved | Hidden until keyboard activation |
+<!-- tl:end -->
+
+## Summary list
+
+<!-- tl:item UR-0027 -->
+**UR-0027 — Summary list** — `user_requirement`, status `approved`
+
+> A summary list summarises information as a list of key facts, such as a user's responses at the end of a form, with an optional summary card variant for grouping multiple lists.
+
+**source_ref**: summary-list
+<!-- tl:end -->
+
+<!-- tl:table type == 'system_requirement' and attrs.get('source_ref').startswith('summary-list#') -->
+| UID | Type | Status | Title |
+|---|---|---|---|
+| SR-0271 | system_requirement | approved | Use for a list of key facts |
+| SR-0272 | system_requirement | approved | Only for key-and-value information |
+| SR-0273 | system_requirement | approved | Do not use for tables or simple lists |
+| SR-0274 | system_requirement | approved | Structure each row as key and value |
+| SR-0275 | system_requirement | approved | Add structure to multiple lists |
+| SR-0276 | system_requirement | approved | Add visually hidden text to row actions |
+| SR-0277 | system_requirement | approved | Pre-populate when returning to answers |
+| SR-0278 | system_requirement | approved | Mark rows without actions |
+| SR-0279 | system_requirement | approved | Think carefully before removing borders |
+| SR-0280 | system_requirement | approved | Link to complete missing information |
+| SR-0281 | system_requirement | approved | Use summary cards for same-type lists |
+| SR-0282 | system_requirement | approved | Do not use cards for small amounts |
+| SR-0283 | system_requirement | approved | Give each card a unique title |
+| SR-0284 | system_requirement | approved | Write clear card action link text |
+| SR-0285 | system_requirement | approved | Limit card actions |
+| SR-0286 | system_requirement | approved | Confirm serious card actions |
+<!-- tl:end -->
+
+## Table
+
+<!-- tl:item UR-0028 -->
+**UR-0028 — Table** — `user_requirement`, status `approved`
+
+> The table component presents information in rows and columns to make it easier for users to compare and scan.
+
+**source_ref**: table
+<!-- tl:end -->
+
+<!-- tl:table type == 'system_requirement' and attrs.get('source_ref').startswith('table#') -->
+| UID | Type | Status | Title |
+|---|---|---|---|
+| SR-0287 | system_requirement | approved | Use to compare information |
+| SR-0288 | system_requirement | approved | Never use for layout |
+| SR-0289 | system_requirement | approved | Describe the table with a caption |
+| SR-0290 | system_requirement | approved | Use headers with scope |
+| SR-0291 | system_requirement | approved | Right-align columns of numbers |
+| SR-0292 | system_requirement | approved | Reduce data in tables |
+| SR-0293 | system_requirement | approved | Only shrink text for lots of data |
+<!-- tl:end -->
+
+## Tabs
+
+<!-- tl:item UR-0029 -->
+**UR-0029 — Tabs** — `user_requirement`, status `approved`
+
+> The tabs component lets users quickly switch between related sections of content, displaying one clearly labelled section at a time.
+
+**source_ref**: tabs
+<!-- tl:end -->
+
+<!-- tl:table type == 'system_requirement' and attrs.get('source_ref').startswith('tabs#') -->
+| UID | Type | Status | Title |
+|---|---|---|---|
+| SR-0294 | system_requirement | approved | Use for clearly separable sections |
+| SR-0295 | system_requirement | approved | Do not use for heavy or navigational content |
+| SR-0296 | system_requirement | approved | Do not use for ordered or comparison content |
+| SR-0297 | system_requirement | approved | Test content without tabs first |
+| SR-0298 | system_requirement | approved | Choose tabs versus accordion or details |
+| SR-0299 | system_requirement | approved | Provide a no-JavaScript fallback |
+| SR-0300 | system_requirement | approved | Use clear tab labels |
+| SR-0301 | system_requirement | approved | Order tabs by user need |
+| SR-0302 | system_requirement | approved | Do not disable tabs |
+| SR-0303 | system_requirement | approved | Avoid tabs wrapping onto multiple lines |
+| SR-0304 | system_requirement | approved | Add a heading to each tab's content |
+| SR-0305 | system_requirement | approved | Not yet tested with users |
+<!-- tl:end -->
+
+## Tag
+
+<!-- tl:item UR-0030 -->
+**UR-0030 — Tag** — `user_requirement`, status `approved`
+
+> As a service, I use the Tag component to show users the status of something, such as an item on a task list or a phase banner.
+
+**source_ref**: tag
+<!-- tl:end -->
+
+<!-- tl:table type == 'system_requirement' and attrs.get('source_ref').startswith('tag#') -->
+| UID | Type | Status | Title |
+|---|---|---|---|
+| SR-0306 | system_requirement | approved | Use when a thing can have more than one status |
+| SR-0307 | system_requirement | approved | Use tags only to indicate status |
+| SR-0308 | system_requirement | approved | Do not make tags interactive |
+| SR-0309 | system_requirement | approved | Name tags with adjectives |
+| SR-0310 | system_requirement | approved | Start with the fewest statuses |
+| SR-0311 | system_requirement | approved | A single status can be enough |
+| SR-0312 | system_requirement | approved | Do not convey information by colour alone |
+| SR-0313 | system_requirement | approved | Keep tag colour consistent across uses |
+| SR-0314 | system_requirement | approved | Use colour to distinguish or emphasise |
+| SR-0315 | system_requirement | approved | Tags no longer use uppercase text |
+| SR-0316 | system_requirement | approved | Tag styling changed to avoid looking like buttons |
+<!-- tl:end -->
+
+## Task list
+
+<!-- tl:item UR-0031 -->
+**UR-0031 — Task list** — `user_requirement`, status `approved`
+
+> As a service, I use the task list component to display all the tasks a user needs to do and let them see which are done and which remain.
+
+**source_ref**: task-list
+<!-- tl:end -->
+
+<!-- tl:table type == 'system_requirement' and attrs.get('source_ref').startswith('task-list#') -->
+| UID | Type | Status | Title |
+|---|---|---|---|
+| SR-0317 | system_requirement | approved | Use to give control over long, complex services |
+| SR-0318 | system_requirement | approved | Only use with supporting evidence |
+| SR-0319 | system_requirement | approved | Try to simplify the service first |
+| SR-0320 | system_requirement | approved | Do not use for strictly ordered services |
+| SR-0321 | system_requirement | approved | Do not use to show users their answers |
+| SR-0322 | system_requirement | approved | Let users complete tasks in any order |
+| SR-0323 | system_requirement | approved | Status indicates whether a task can be started |
+| SR-0324 | system_requirement | approved | Only allow moving on when all tasks are completed |
+| SR-0325 | system_requirement | approved | Each task has a name and a status |
+| SR-0326 | system_requirement | approved | Link the whole task row |
+| SR-0327 | system_requirement | approved | Write clear, short task names in sentence case |
+| SR-0328 | system_requirement | approved | Split tasks that are hard to name concisely |
+| SR-0329 | system_requirement | approved | Keep hint text to one short sentence |
+| SR-0330 | system_requirement | approved | Do not put links in hint text |
+| SR-0331 | system_requirement | approved | Group tasks under clear headings |
+| SR-0332 | system_requirement | approved | Statuses use colour and a short descriptor |
+| SR-0333 | system_requirement | approved | Statuses redesigned and rows linked after feedback |
+| SR-0334 | system_requirement | approved | Statuses moved to sentence case for readability |
+| SR-0335 | system_requirement | approved | Component still needs user testing |
+<!-- tl:end -->
+
+## Textarea
+
+<!-- tl:item UR-0032 -->
+**UR-0032 — Textarea** — `user_requirement`, status `approved`
+
+> As a service, I use the textarea component to let users enter an amount of text that is longer than a single line.
+
+**source_ref**: textarea
+<!-- tl:end -->
+
+<!-- tl:table type == 'system_requirement' and attrs.get('source_ref').startswith('textarea#') -->
+| UID | Type | Status | Title |
+|---|---|---|---|
+| SR-0336 | system_requirement | approved | Use for text longer than a single line |
+| SR-0337 | system_requirement | approved | Consider breaking up open-ended questions |
+| SR-0338 | system_requirement | approved | Do not use for single-line answers |
+| SR-0339 | system_requirement | approved | Always label the textarea |
+| SR-0340 | system_requirement | approved | Align labels above and use sentence case |
+| SR-0341 | system_requirement | approved | Size the textarea to expected input |
+| SR-0342 | system_requirement | approved | Do not disable copy and paste |
+| SR-0343 | system_requirement | approved | Label is not the page heading with multiple questions |
+| SR-0344 | system_requirement | approved | Limit character count with the right component |
+| SR-0345 | system_requirement | approved | Use specific error messages per state |
+<!-- tl:end -->
+
+## Text input
+
+<!-- tl:item UR-0033 -->
+**UR-0033 — Text input** — `user_requirement`, status `approved`
+
+> As a service, I use the text input component to let users enter text no longer than a single line, such as their name or phone number.
+
+**source_ref**: text-input
+<!-- tl:end -->
+
+<!-- tl:table type == 'system_requirement' and attrs.get('source_ref').startswith('text-input#') -->
+| UID | Type | Status | Title |
+|---|---|---|---|
+| SR-0346 | system_requirement | approved | Use for single-line text |
+| SR-0347 | system_requirement | approved | Do not use for multi-line answers |
+| SR-0348 | system_requirement | approved | All inputs must have labels |
+| SR-0349 | system_requirement | approved | Align labels above and use sentence case |
+| SR-0350 | system_requirement | approved | Avoid placeholder text |
+| SR-0351 | system_requirement | approved | Use label as heading for one question per page |
+| SR-0352 | system_requirement | approved | Label is not the page heading with multiple questions |
+| SR-0353 | system_requirement | approved | Size inputs to the expected content |
+| SR-0354 | system_requirement | approved | Use hint text for widely relevant help |
+| SR-0355 | system_requirement | approved | Do not put links in hint text |
+| SR-0356 | system_requirement | approved | Do not use hint text for long explanations |
+| SR-0357 | system_requirement | approved | Set inputmode numeric for whole numbers |
+| SR-0358 | system_requirement | approved | Set inputmode decimal for decimals |
+| SR-0359 | system_requirement | approved | Avoid input type number |
+| SR-0360 | system_requirement | approved | Visually separate characters in codes |
+| SR-0361 | system_requirement | approved | Do not rely on prefixes or suffixes alone |
+| SR-0362 | system_requirement | approved | Position prefixes and suffixes outside the input |
+| SR-0363 | system_requirement | approved | Use the autocomplete attribute |
+| SR-0364 | system_requirement | approved | Do not disable copy and paste |
+| SR-0365 | system_requirement | approved | Avoid restricting input length |
+| SR-0366 | system_requirement | approved | Disable spellcheck where inappropriate |
+| SR-0367 | system_requirement | approved | Use specific error messages per state |
+| SR-0368 | system_requirement | approved | Support all characters the user needs |
+| SR-0369 | system_requirement | approved | Problems found with input type number |
+| SR-0370 | system_requirement | approved | Some users clicked on prefixes |
+<!-- tl:end -->
+
+## Warning text
+
+<!-- tl:item UR-0034 -->
+**UR-0034 — Warning text** — `user_requirement`, status `approved`
+
+> As a service, I use the warning text component to warn users about something important, such as legal consequences of an action or inaction.
+
+**source_ref**: warning-text
+<!-- tl:end -->
+
+<!-- tl:table type == 'system_requirement' and attrs.get('source_ref').startswith('warning-text#') -->
+| UID | Type | Status | Title |
+|---|---|---|---|
+| SR-0371 | system_requirement | approved | Use to warn about something important |
+| SR-0372 | system_requirement | approved | Adapt the hidden text to context |
+<!-- tl:end -->
+
+## Generic header
+
+<!-- tl:item UR-0035 -->
+**UR-0035 — Generic header** — `user_requirement`, status `approved`
+
+> As a service, I use the Generic header component to tell users they are using a government service that is not part of the GOV.UK website.
+
+**source_ref**: generic-header
+<!-- tl:end -->
+
+<!-- tl:table type == 'system_requirement' and attrs.get('source_ref').startswith('generic-header#') -->
+| UID | Type | Status | Title |
+|---|---|---|---|
+| SR-0373 | system_requirement | approved | Use for public services not on GOV.UK |
+| SR-0374 | system_requirement | approved | Bring consistency across cross-government journeys |
+| SR-0375 | system_requirement | approved | Do not use GOV.UK branding in the header |
+| SR-0376 | system_requirement | approved | Do not use on gov.uk domains |
+| SR-0377 | system_requirement | approved | Replace the default header in the page template |
+| SR-0378 | system_requirement | approved | Display your own brand logo, link, and font |
+| SR-0379 | system_requirement | approved | Make the brand logo accessible and optimised |
+| SR-0380 | system_requirement | approved | Customise the homepage link |
+| SR-0381 | system_requirement | approved | Do not show navigation links in the header |
+<!-- tl:end -->
+

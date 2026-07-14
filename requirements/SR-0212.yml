@@ -1,0 +1,12 @@
+uid: SR-0212
+type: system_requirement
+status: approved
+title: Use distinct labels and toggles for multiple inputs
+text: If a page has two or more password inputs, the show and hide toggles and labels
+  for each input must be different.
+links:
+- target: UR-0021
+  type: implements
+attrs:
+  source_ref: password-input#distinct-toggle-labels
+  kind: accessibility

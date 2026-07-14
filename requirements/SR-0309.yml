@@ -1,0 +1,12 @@
+uid: SR-0309
+type: system_requirement
+status: approved
+title: Name tags with adjectives
+text: Use adjectives (descriptive words) rather than verbs for tag names, so users
+  do not think clicking them will do something.
+links:
+- target: UR-0030
+  type: implements
+attrs:
+  source_ref: tag#use-adjectives
+  kind: usage

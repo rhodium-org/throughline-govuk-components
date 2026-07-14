@@ -1,0 +1,13 @@
+uid: SR-0183
+type: system_requirement
+status: approved
+title: Use the same success heading consistently
+text: Use the same heading for green notification banners across a service to identify
+  components that work the same way consistently.
+links:
+- target: UR-0018
+  type: implements
+attrs:
+  source_ref: notification-banner#consistent-success-heading
+  kind: accessibility
+  wcag: 3.2.4

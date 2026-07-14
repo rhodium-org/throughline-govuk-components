@@ -1,0 +1,11 @@
+uid: SR-0197
+type: system_requirement
+status: approved
+title: Use ellipses for skipped pages
+text: Use ellipses to replace any skipped page numbers.
+links:
+- target: UR-0019
+  type: implements
+attrs:
+  source_ref: pagination#ellipses-for-skipped
+  kind: usage

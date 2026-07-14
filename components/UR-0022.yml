@@ -1,0 +1,11 @@
+uid: UR-0022
+type: user_requirement
+status: approved
+title: Phase banner
+text: The phase banner shows users a service is still being worked on, and a service.gov.uk
+  service uses it to display its alpha or beta status until it passes a live assessment.
+links:
+- target: INT-0001
+  type: derives_from
+attrs:
+  source_ref: phase-banner

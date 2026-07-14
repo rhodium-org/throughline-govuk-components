@@ -1,0 +1,12 @@
+uid: SR-0249
+type: system_requirement
+status: approved
+title: Use only as a last resort
+text: Only use the select component in public-facing services as a last resort, because
+  research shows some users find selects very difficult to use.
+links:
+- target: UR-0024
+  type: implements
+attrs:
+  source_ref: select#last-resort-public
+  kind: usage

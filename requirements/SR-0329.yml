@@ -1,0 +1,12 @@
+uid: SR-0329
+type: system_requirement
+status: approved
+title: Keep hint text to one short sentence
+text: Keep task hint text to a single short sentence without full stops, because screen
+  readers read the entire text when users interact with the task link.
+links:
+- target: UR-0031
+  type: implements
+attrs:
+  source_ref: task-list#hint-text-single-sentence
+  kind: accessibility

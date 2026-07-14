@@ -1,0 +1,12 @@
+uid: SR-0153
+type: system_requirement
+status: approved
+title: Use standard footer link text
+text: Use 'Privacy', 'Accessibility', 'Cookies' and 'Terms and conditions' as the
+  link text when adding those links.
+links:
+- target: UR-0015
+  type: implements
+attrs:
+  source_ref: footer#standard-link-text
+  kind: usage

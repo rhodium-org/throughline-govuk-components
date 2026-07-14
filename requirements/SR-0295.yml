@@ -1,0 +1,12 @@
+uid: SR-0295
+type: system_requirement
+status: approved
+title: Do not use for heavy or navigational content
+text: Do not use tabs if the content would make the page slow to load, and do not
+  use them as a form of page navigation.
+links:
+- target: UR-0029
+  type: implements
+attrs:
+  source_ref: tabs#not-for-slow-content
+  kind: usage

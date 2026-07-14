@@ -1,0 +1,12 @@
+uid: SR-0268
+type: system_requirement
+status: approved
+title: Ignore the landmark warning
+text: Ignore automated accessibility warnings that the skip link is not inside a landmark;
+  do not wrap it in a nav region or move it inside the header.
+links:
+- target: UR-0026
+  type: implements
+attrs:
+  source_ref: skip-link#ignore-landmark-warning
+  kind: accessibility

@@ -1,0 +1,12 @@
+uid: SR-0252
+type: system_requirement
+status: approved
+title: Do not pre-select for questions
+text: When the component is used for questions, do not pre-select any option in case
+  it influences users' answers.
+links:
+- target: UR-0024
+  type: implements
+attrs:
+  source_ref: select#no-preselect-questions
+  kind: usage

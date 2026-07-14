@@ -1,0 +1,12 @@
+uid: SR-0231
+type: system_requirement
+status: approved
+title: Position radios to the left of their labels
+text: Always position radios to the left of their labels to make them easier to find,
+  especially for screen magnifier users.
+links:
+- target: UR-0023
+  type: implements
+attrs:
+  source_ref: radios#position-left-of-labels
+  kind: accessibility

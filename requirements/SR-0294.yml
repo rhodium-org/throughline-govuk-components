@@ -1,0 +1,12 @@
+uid: SR-0294
+type: system_requirement
+status: approved
+title: Use for clearly separable sections
+text: Use tabs when content separates into clearly labelled sections, the first section
+  is most relevant for most users, and users do not need to view all sections at once.
+links:
+- target: UR-0029
+  type: implements
+attrs:
+  source_ref: tabs#when-tabs-help
+  kind: usage

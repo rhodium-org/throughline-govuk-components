@@ -1,0 +1,11 @@
+uid: UR-0030
+type: user_requirement
+status: approved
+title: Tag
+text: As a service, I use the Tag component to show users the status of something,
+  such as an item on a task list or a phase banner.
+links:
+- target: INT-0001
+  type: derives_from
+attrs:
+  source_ref: tag

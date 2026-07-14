@@ -1,0 +1,11 @@
+uid: UR-0020
+type: user_requirement
+status: approved
+title: Panel
+text: The panel component is a visible container used on confirmation or results pages
+  to highlight important content, and a service uses it to confirm a completed transaction.
+links:
+- target: INT-0001
+  type: derives_from
+attrs:
+  source_ref: panel

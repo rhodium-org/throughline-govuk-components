@@ -1,0 +1,13 @@
+uid: SR-0196
+type: system_requirement
+status: approved
+title: Show pages appropriate to screen size
+text: 'Show an appropriate number of pages for the horizontal space: on smaller screens
+  show current, previous, next, first and last; on larger screens show current, at
+  least one page either side, and first and last.'
+links:
+- target: UR-0019
+  type: implements
+attrs:
+  source_ref: pagination#responsive-page-count
+  kind: usage

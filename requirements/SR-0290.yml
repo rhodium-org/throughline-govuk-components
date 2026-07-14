@@ -1,0 +1,12 @@
+uid: SR-0290
+type: system_requirement
+status: approved
+title: Use headers with scope
+text: Use table headers to tell users what rows and columns represent, and use the
+  scope attribute to help assistive technology distinguish row and column headers.
+links:
+- target: UR-0028
+  type: implements
+attrs:
+  source_ref: table#headers-with-scope
+  kind: accessibility

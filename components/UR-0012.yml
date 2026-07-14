@@ -1,0 +1,11 @@
+uid: UR-0012
+type: user_requirement
+status: approved
+title: Exit this page
+text: Exit this page gives users a way to quickly and safely leave a service, website
+  or application when a page holds sensitive information that could put them at risk.
+links:
+- target: INT-0001
+  type: derives_from
+attrs:
+  source_ref: exit-this-page

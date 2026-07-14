@@ -1,0 +1,11 @@
+uid: UR-0035
+type: user_requirement
+status: approved
+title: Generic header
+text: As a service, I use the Generic header component to tell users they are using
+  a government service that is not part of the GOV.UK website.
+links:
+- target: INT-0001
+  type: derives_from
+attrs:
+  source_ref: generic-header

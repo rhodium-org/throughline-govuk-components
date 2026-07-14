@@ -1,0 +1,13 @@
+uid: SR-0333
+type: system_requirement
+status: approved
+title: Statuses redesigned and rows linked after feedback
+text: Statuses were redesigned to look less like buttons and the whole row was linked
+  because user feedback showed some users tried to select statuses thinking they were
+  buttons or links.
+links:
+- target: UR-0031
+  type: implements
+attrs:
+  source_ref: task-list#research-whole-row-linked
+  kind: research

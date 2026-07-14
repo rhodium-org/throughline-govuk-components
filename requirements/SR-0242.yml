@@ -1,0 +1,13 @@
+uid: SR-0242
+type: system_requirement
+status: approved
+title: Keep conditionally revealed questions simple
+text: You can conditionally reveal a related question when a radio option is selected,
+  but keep it simple and show complicated or multi-part questions on the next page
+  instead.
+links:
+- target: UR-0023
+  type: implements
+attrs:
+  source_ref: radios#conditional-reveal-simple
+  kind: usage

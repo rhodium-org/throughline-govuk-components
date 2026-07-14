@@ -1,0 +1,13 @@
+uid: SR-0222
+type: system_requirement
+status: approved
+title: Research decided against a second field
+text: The team decided a second field is not helpful for users, particularly on password
+  inputs with show and hide buttons, and is seeking real-life examples from service
+  teams to support this.
+links:
+- target: UR-0021
+  type: implements
+attrs:
+  source_ref: password-input#research-no-second-field
+  kind: research

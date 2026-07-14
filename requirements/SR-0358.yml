@@ -1,0 +1,12 @@
+uid: SR-0358
+type: system_requirement
+status: approved
+title: Set inputmode decimal for decimals
+text: When asking for a number that might include decimals, set inputmode to decimal
+  to show a numeric keypad with a decimal separator.
+links:
+- target: UR-0033
+  type: implements
+attrs:
+  source_ref: text-input#inputmode-decimal
+  kind: usage

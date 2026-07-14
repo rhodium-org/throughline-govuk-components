@@ -1,0 +1,12 @@
+uid: SR-0281
+type: system_requirement
+status: approved
+title: Use summary cards for same-type lists
+text: Use summary cards when showing multiple summary lists that describe the same
+  type of thing, or actions that apply to all items in a list.
+links:
+- target: UR-0027
+  type: implements
+attrs:
+  source_ref: summary-list#cards-same-type
+  kind: usage

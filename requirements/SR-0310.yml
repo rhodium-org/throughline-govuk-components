@@ -1,0 +1,12 @@
+uid: SR-0310
+type: system_requirement
+status: approved
+title: Start with the fewest statuses
+text: Start with the smallest number of statuses that might work and add more only
+  if user research shows a need, because more tags are harder to remember.
+links:
+- target: UR-0030
+  type: implements
+attrs:
+  source_ref: tag#minimise-status-count
+  kind: usage

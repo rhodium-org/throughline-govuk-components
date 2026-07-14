@@ -1,0 +1,12 @@
+uid: SR-0302
+type: system_requirement
+status: approved
+title: Do not disable tabs
+text: Do not disable tabs; if there is no content, either remove the tab or explain
+  why there is no content when the tab is selected.
+links:
+- target: UR-0029
+  type: implements
+attrs:
+  source_ref: tabs#do-not-disable
+  kind: usage

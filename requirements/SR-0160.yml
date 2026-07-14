@@ -1,0 +1,12 @@
+uid: SR-0160
+type: system_requirement
+status: approved
+title: Do not use off GOV.UK domains
+text: If the service is not on a gov.uk domain, do not use the GOV.UK header; use
+  the Generic header component to show your own organisation's branding instead.
+links:
+- target: UR-0016
+  type: implements
+attrs:
+  source_ref: header#not-off-domain
+  kind: usage

@@ -1,0 +1,13 @@
+uid: SR-0221
+type: system_requirement
+status: approved
+title: Native show/hide tools can duplicate or mismatch
+text: Be aware that browsers, password managers and screen readers may add their own
+  show/hide functionality, which can duplicate the button or cause the button label
+  to mismatch the actual state.
+links:
+- target: UR-0021
+  type: implements
+attrs:
+  source_ref: password-input#known-issues-native-toggles
+  kind: usage

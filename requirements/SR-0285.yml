@@ -1,0 +1,11 @@
+uid: SR-0285
+type: system_requirement
+status: approved
+title: Limit card actions
+text: Do not add more than two to three actions in a summary card header.
+links:
+- target: UR-0027
+  type: implements
+attrs:
+  source_ref: summary-list#limit-card-actions
+  kind: usage

@@ -1,0 +1,12 @@
+uid: SR-0210
+type: system_requirement
+status: approved
+title: Do not reveal which credential was wrong
+text: If account details are entered incorrectly, do not reveal whether the username
+  or password was wrong, and clear any information entered into the password input.
+links:
+- target: UR-0021
+  type: implements
+attrs:
+  source_ref: password-input#generic-login-error
+  kind: usage

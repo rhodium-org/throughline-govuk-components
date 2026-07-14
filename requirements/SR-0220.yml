@@ -1,0 +1,13 @@
+uid: SR-0220
+type: system_requirement
+status: approved
+title: Disable spellcheck and autocapitalise
+text: Set the spellcheck attribute to false and the autocapitalize attribute to off
+  so browsers do not alter the input, which also avoids spell-jacking that can leak
+  passwords to third parties.
+links:
+- target: UR-0021
+  type: implements
+attrs:
+  source_ref: password-input#no-spellcheck-autocapitalise
+  kind: usage

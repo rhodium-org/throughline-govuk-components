@@ -1,0 +1,11 @@
+uid: UR-0026
+type: user_requirement
+status: approved
+title: Skip link
+text: The skip link component helps keyboard-only users skip the top-level navigation
+  and jump straight to the main content on a page.
+links:
+- target: INT-0001
+  type: derives_from
+attrs:
+  source_ref: skip-link

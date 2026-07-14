@@ -1,0 +1,12 @@
+uid: SR-0162
+type: system_requirement
+status: approved
+title: Do not show service name or navigation in the header
+text: Do not show a service name or navigation links in the GOV.UK header; use the
+  Service navigation component for those instead.
+links:
+- target: UR-0016
+  type: implements
+attrs:
+  source_ref: header#no-service-name
+  kind: usage

@@ -1,0 +1,13 @@
+uid: SR-0184
+type: system_requirement
+status: approved
+title: Open research questions
+text: More research is needed on how often users miss important information in notification
+  banners, including assistive technology users, and whether and how to let users
+  dismiss notifications.
+links:
+- target: UR-0018
+  type: implements
+attrs:
+  source_ref: notification-banner#research-gaps
+  kind: research

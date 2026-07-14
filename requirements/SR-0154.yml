@@ -1,0 +1,14 @@
+uid: SR-0154
+type: system_requirement
+status: approved
+title: Place help links consistently
+text: Place any help links consistently within the footer and ensure they function
+  the same way on every page, to comply with WCAG 2.2 success criterion 3.2.6 Consistent
+  help.
+links:
+- target: UR-0015
+  type: implements
+attrs:
+  source_ref: footer#consistent-help-links
+  kind: accessibility
+  wcag: 3.2.6

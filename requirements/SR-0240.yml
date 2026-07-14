@@ -1,0 +1,13 @@
+uid: SR-0240
+type: system_requirement
+status: approved
+title: Keep item hints to one short sentence with no links
+text: Keep each radio item hint to a single short sentence without full stops and
+  do not use links in hint text, because screen readers read the whole text and do
+  not usually announce that it is a link.
+links:
+- target: UR-0023
+  type: implements
+attrs:
+  source_ref: radios#hint-text-format
+  kind: accessibility

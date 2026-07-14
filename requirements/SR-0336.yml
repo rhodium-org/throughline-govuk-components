@@ -1,0 +1,12 @@
+uid: SR-0336
+type: system_requirement
+status: approved
+title: Use for text longer than a single line
+text: Use the textarea component when you need to let users enter text that is longer
+  than a single line.
+links:
+- target: UR-0032
+  type: implements
+attrs:
+  source_ref: textarea#when-multiline
+  kind: usage

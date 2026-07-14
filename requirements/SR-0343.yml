@@ -1,0 +1,12 @@
+uid: SR-0343
+type: system_requirement
+status: approved
+title: Label is not the page heading with multiple questions
+text: If asking more than one question on the page, do not set the label as the page
+  heading.
+links:
+- target: UR-0032
+  type: implements
+attrs:
+  source_ref: textarea#label-not-heading-multi-question
+  kind: usage

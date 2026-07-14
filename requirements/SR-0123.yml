@@ -1,0 +1,13 @@
+uid: SR-0123
+type: system_requirement
+status: approved
+title: Choose a safe redirect destination
+text: The button redirects to BBC Weather by default; if changed, avoid sites that
+  show personalised content such as frequently or last visited links, which could
+  put the user at risk.
+links:
+- target: UR-0012
+  type: implements
+attrs:
+  source_ref: exit-this-page#safe-destination
+  kind: usage

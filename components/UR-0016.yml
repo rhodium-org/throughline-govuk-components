@@ -1,0 +1,11 @@
+uid: UR-0016
+type: user_requirement
+status: approved
+title: GOV.UK header
+text: The GOV.UK header tells users they are using a service on GOV.UK and gives access
+  to GOV.UK-wide tools.
+links:
+- target: INT-0001
+  type: derives_from
+attrs:
+  source_ref: header

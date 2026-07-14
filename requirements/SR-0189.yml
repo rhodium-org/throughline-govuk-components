@@ -1,0 +1,11 @@
+uid: SR-0189
+type: system_requirement
+status: approved
+title: Place pagination after the page content
+text: Add the pagination component after the content on each page being paginated.
+links:
+- target: UR-0019
+  type: implements
+attrs:
+  source_ref: pagination#place-after-content
+  kind: usage

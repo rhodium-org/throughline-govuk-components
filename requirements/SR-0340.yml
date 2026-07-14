@@ -1,0 +1,12 @@
+uid: SR-0340
+type: system_requirement
+status: approved
+title: Align labels above and use sentence case
+text: Align labels above the textarea they refer to, keep them short and direct, write
+  them in sentence case, and do not end them with colons.
+links:
+- target: UR-0032
+  type: implements
+attrs:
+  source_ref: textarea#label-position-and-style
+  kind: usage

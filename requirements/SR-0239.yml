@@ -1,0 +1,12 @@
+uid: SR-0239
+type: system_requirement
+status: approved
+title: Only use inline radios for two short options
+text: Only use inline radios when the question has two options and both are short,
+  remembering they still stack vertically on small screens.
+links:
+- target: UR-0023
+  type: implements
+attrs:
+  source_ref: radios#inline-radios
+  kind: usage

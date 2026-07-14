@@ -1,0 +1,12 @@
+uid: SR-0328
+type: system_requirement
+status: approved
+title: Split tasks that are hard to name concisely
+text: If a task is difficult to name clearly and concisely, consider that it may be
+  too complex and split it into smaller tasks.
+links:
+- target: UR-0031
+  type: implements
+attrs:
+  source_ref: task-list#split-complex-tasks
+  kind: usage

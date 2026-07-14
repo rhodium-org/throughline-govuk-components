@@ -1,0 +1,12 @@
+uid: SR-0238
+type: system_requirement
+status: approved
+title: Do not set legend as heading with multiple questions
+text: If asking more than one question on the page, do not set the legend as the page
+  heading.
+links:
+- target: UR-0023
+  type: implements
+attrs:
+  source_ref: radios#no-legend-heading-multiple
+  kind: usage

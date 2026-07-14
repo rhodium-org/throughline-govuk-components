@@ -1,0 +1,13 @@
+uid: SR-0144
+type: system_requirement
+status: approved
+title: Keep required attributes on the original input
+text: In the improved component keep name, accept, capture, accesskey and multiple
+  on the original input, since they only work there and JavaScript hides the input
+  behind a button.
+links:
+- target: UR-0014
+  type: implements
+attrs:
+  source_ref: file-upload#html-attribute-placement
+  kind: accessibility

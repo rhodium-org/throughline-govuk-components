@@ -1,0 +1,14 @@
+uid: SR-0350
+type: system_requirement
+status: approved
+title: Avoid placeholder text
+text: Do not use placeholder text in place of a label, hint, or example, because it
+  vanishes on typing, is not always read by screen readers, and its default styling
+  often fails WCAG 2.2 success criterion 1.4.3 Contrast (minimum).
+links:
+- target: UR-0033
+  type: implements
+attrs:
+  source_ref: text-input#avoid-placeholder
+  kind: accessibility
+  wcag: 1.4.3

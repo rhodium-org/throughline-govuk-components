@@ -1,0 +1,12 @@
+uid: SR-0180
+type: system_requirement
+status: approved
+title: Add role=alert so focus shifts on load
+text: When reporting the outcome of a user action, add role="alert" so focus shifts
+  to the notification banner on page load.
+links:
+- target: UR-0018
+  type: implements
+attrs:
+  source_ref: notification-banner#success-role-alert
+  kind: accessibility

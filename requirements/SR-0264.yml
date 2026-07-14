@@ -1,0 +1,12 @@
+uid: SR-0264
+type: system_requirement
+status: approved
+title: Retest slots on each update
+text: Ensure slot content still works as intended after each update of GOV.UK Frontend,
+  because contents may look or work differently in a future release.
+links:
+- target: UR-0025
+  type: implements
+attrs:
+  source_ref: service-navigation#test-each-update
+  kind: usage

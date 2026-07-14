@@ -1,0 +1,12 @@
+uid: SR-0201
+type: system_requirement
+status: approved
+title: Based on proven government components
+text: This component is based on similar ones used successfully by GDS, the Ministry
+  of Justice and the Home Office, and on Design System backlog feedback.
+links:
+- target: UR-0019
+  type: implements
+attrs:
+  source_ref: pagination#research-basis
+  kind: research

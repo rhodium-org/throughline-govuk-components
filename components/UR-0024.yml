@@ -1,0 +1,12 @@
+uid: UR-0024
+type: user_requirement
+status: approved
+title: Select
+text: The select component helps users choose a single item from a long list, used
+  only as a last resort in public-facing services because some users find selects
+  hard to use.
+links:
+- target: INT-0001
+  type: derives_from
+attrs:
+  source_ref: select

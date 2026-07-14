@@ -1,0 +1,12 @@
+uid: SR-0354
+type: system_requirement
+status: approved
+title: Use hint text for widely relevant help
+text: Use hint text for help relevant to the majority of users, keeping it to a single
+  short sentence without full stops.
+links:
+- target: UR-0033
+  type: implements
+attrs:
+  source_ref: text-input#hint-text-use
+  kind: usage

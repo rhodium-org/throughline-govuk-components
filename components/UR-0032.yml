@@ -1,0 +1,11 @@
+uid: UR-0032
+type: user_requirement
+status: approved
+title: Textarea
+text: As a service, I use the textarea component to let users enter an amount of text
+  that is longer than a single line.
+links:
+- target: INT-0001
+  type: derives_from
+attrs:
+  source_ref: textarea

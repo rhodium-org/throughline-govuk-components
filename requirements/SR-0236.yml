@@ -1,0 +1,12 @@
+uid: SR-0236
+type: system_requirement
+status: approved
+title: Group radios in a fieldset with a describing legend
+text: Group radios in a <fieldset> with a <legend> that describes them, usually a
+  question such as 'Where do you live?'.
+links:
+- target: UR-0023
+  type: implements
+attrs:
+  source_ref: radios#fieldset-legend
+  kind: accessibility

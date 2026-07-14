@@ -1,0 +1,12 @@
+uid: SR-0306
+type: system_requirement
+status: approved
+title: Use when a thing can have more than one status
+text: Use a tag when something can have more than one status and it is useful for
+  the user to know which status applies.
+links:
+- target: UR-0030
+  type: implements
+attrs:
+  source_ref: tag#when-multiple-statuses-possible
+  kind: usage

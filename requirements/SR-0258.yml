@@ -1,0 +1,12 @@
+uid: SR-0258
+type: system_requirement
+status: approved
+title: Use to identify the service
+text: Use the service navigation to help users understand that they are using your
+  service.
+links:
+- target: UR-0025
+  type: implements
+attrs:
+  source_ref: service-navigation#use-to-show-service
+  kind: usage

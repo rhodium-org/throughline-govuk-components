@@ -1,0 +1,12 @@
+uid: SR-0217
+type: system_requirement
+status: approved
+title: Support all characters and avoid restricting input
+text: Support all characters users may need in a password, including numbers and symbols,
+  and avoid restricting input.
+links:
+- target: UR-0021
+  type: implements
+attrs:
+  source_ref: password-input#support-all-characters
+  kind: usage

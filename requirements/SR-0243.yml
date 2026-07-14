@@ -1,0 +1,12 @@
+uid: SR-0243
+type: system_requirement
+status: approved
+title: Restrict conditional reveal to questions only
+text: Do not conditionally reveal questions from inline radios, and only conditionally
+  reveal questions, never showing or hiding anything that is not a question.
+links:
+- target: UR-0023
+  type: implements
+attrs:
+  source_ref: radios#conditional-reveal-restrictions
+  kind: usage

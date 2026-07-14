@@ -1,0 +1,11 @@
+uid: SR-0348
+type: system_requirement
+status: approved
+title: All inputs must have labels
+text: Give every text input a label, and in most cases keep the label visible.
+links:
+- target: UR-0033
+  type: implements
+attrs:
+  source_ref: text-input#must-have-labels
+  kind: accessibility

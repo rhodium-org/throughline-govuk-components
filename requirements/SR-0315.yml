@@ -1,0 +1,12 @@
+uid: SR-0315
+type: system_requirement
+status: approved
+title: Tags no longer use uppercase text
+text: Tag text was changed away from uppercase bold because research showed uppercase
+  text can be harder to read, particularly for longer tag text.
+links:
+- target: UR-0030
+  type: implements
+attrs:
+  source_ref: tag#research-lowercase-text
+  kind: research

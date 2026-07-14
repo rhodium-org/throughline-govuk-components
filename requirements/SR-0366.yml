@@ -1,0 +1,13 @@
+uid: SR-0366
+type: system_requirement
+status: approved
+title: Disable spellcheck where inappropriate
+text: Set spellcheck to false for information not appropriate to spellcheck such as
+  reference numbers, names, email addresses, or National Insurance numbers, and to
+  true where spellcheck would help.
+links:
+- target: UR-0033
+  type: implements
+attrs:
+  source_ref: text-input#spellcheck-control
+  kind: usage

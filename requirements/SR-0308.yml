@@ -1,0 +1,12 @@
+uid: SR-0308
+type: system_requirement
+status: approved
+title: Do not make tags interactive
+text: Do not turn a tag into a link, button, or other interactive element, because
+  users cannot tell interactive tags from non-interactive ones.
+links:
+- target: UR-0030
+  type: implements
+attrs:
+  source_ref: tag#not-interactive
+  kind: usage

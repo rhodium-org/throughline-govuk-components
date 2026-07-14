@@ -1,0 +1,11 @@
+uid: UR-0023
+type: user_requirement
+status: approved
+title: Radios
+text: The radios component lets users select a single option from a list, and a service
+  uses it when only one option can be chosen.
+links:
+- target: INT-0001
+  type: derives_from
+attrs:
+  source_ref: radios

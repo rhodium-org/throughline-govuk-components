@@ -1,0 +1,12 @@
+uid: SR-0297
+type: system_requirement
+status: approved
+title: Test content without tabs first
+text: Test content without tabs first and consider simplifying it, splitting across
+  pages, separating with headings, or using a table of contents.
+links:
+- target: UR-0029
+  type: implements
+attrs:
+  source_ref: tabs#test-without-tabs
+  kind: usage

@@ -1,0 +1,13 @@
+uid: SR-0345
+type: system_requirement
+status: approved
+title: Use specific error messages per state
+text: Follow the Error message component guidance and provide specific error messages
+  for specific error states, such as 'Enter [thing]' when empty or '[thing] must be
+  [number] characters or less' when too long.
+links:
+- target: UR-0032
+  type: implements
+attrs:
+  source_ref: textarea#specific-error-messages
+  kind: usage

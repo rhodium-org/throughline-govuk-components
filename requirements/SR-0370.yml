@@ -1,0 +1,12 @@
+uid: SR-0370
+type: system_requirement
+status: approved
+title: Some users clicked on prefixes
+text: Although the prefix and suffix design tested well across services, some users
+  were observed clicking on prefixes assuming it would do something.
+links:
+- target: UR-0033
+  type: implements
+attrs:
+  source_ref: text-input#research-prefix-clicking
+  kind: research

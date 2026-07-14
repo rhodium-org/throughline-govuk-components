@@ -1,0 +1,12 @@
+uid: SR-0199
+type: system_requirement
+status: approved
+title: Apply filtering and sorting to the whole list
+text: If the user filters or sorts, apply it to the whole list rather than only the
+  current page and redirect them to the first page of the new results.
+links:
+- target: UR-0019
+  type: implements
+attrs:
+  source_ref: pagination#filtering-sorting
+  kind: usage

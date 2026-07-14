@@ -1,0 +1,13 @@
+uid: SR-0142
+type: system_requirement
+status: approved
+title: Opt in to the improved component
+text: Enable the improved File upload component via the javascript macro option or
+  extra markup, recommended for a better experience while noting it is a visual change
+  that may affect existing layouts.
+links:
+- target: UR-0014
+  type: implements
+attrs:
+  source_ref: file-upload#enable-improved
+  kind: usage

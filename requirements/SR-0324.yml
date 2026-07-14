@@ -1,0 +1,11 @@
+uid: SR-0324
+type: system_requirement
+status: approved
+title: Only allow moving on when all tasks are completed
+text: Only let users move on from the task list once all tasks are shown as 'Completed'.
+links:
+- target: UR-0031
+  type: implements
+attrs:
+  source_ref: task-list#complete-all-to-proceed
+  kind: usage

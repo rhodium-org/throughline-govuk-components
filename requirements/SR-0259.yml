@@ -1,0 +1,12 @@
+uid: SR-0259
+type: system_requirement
+status: approved
+title: Pair with the GOV.UK header
+text: Use the service navigation together with the GOV.UK header component to give
+  users a consistent experience and assure them GOV.UK functions as one website.
+links:
+- target: UR-0025
+  type: implements
+attrs:
+  source_ref: service-navigation#consistent-with-header
+  kind: usage

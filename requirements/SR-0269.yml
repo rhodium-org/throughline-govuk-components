@@ -1,0 +1,12 @@
+uid: SR-0269
+type: system_requirement
+status: approved
+title: Let users bypass navigation
+text: The skip link gives keyboard users the option to bypass the top-level navigation
+  links and jump to the main content on a page.
+links:
+- target: UR-0026
+  type: implements
+attrs:
+  source_ref: skip-link#bypass-navigation
+  kind: accessibility

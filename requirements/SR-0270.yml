@@ -1,0 +1,11 @@
+uid: SR-0270
+type: system_requirement
+status: approved
+title: Hidden until keyboard activation
+text: The skip link is visually hidden until a keyboard press activates it.
+links:
+- target: UR-0026
+  type: implements
+attrs:
+  source_ref: skip-link#visually-hidden-until-focus
+  kind: accessibility

@@ -1,0 +1,12 @@
+uid: SR-0127
+type: system_requirement
+status: approved
+title: Support shift-key activation
+text: Pressing the shift key three times within five seconds activates the component,
+  with three progress dots showing keypress progress and resetting after the timeout.
+links:
+- target: UR-0012
+  type: implements
+attrs:
+  source_ref: exit-this-page#shift-progress-dots
+  kind: accessibility

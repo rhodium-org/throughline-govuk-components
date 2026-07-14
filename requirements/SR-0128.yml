@@ -1,0 +1,12 @@
+uid: SR-0128
+type: system_requirement
+status: approved
+title: Offer discreet assistive-tech activation
+text: The keyboard shortcut and hidden secondary link in the tab order give keyboard-only
+  and assistive technology users discreet, reliable ways to activate the component.
+links:
+- target: UR-0012
+  type: implements
+attrs:
+  source_ref: exit-this-page#assistive-tech-options
+  kind: accessibility

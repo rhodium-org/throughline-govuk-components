@@ -1,0 +1,12 @@
+uid: SR-0359
+type: system_requirement
+status: approved
+title: Avoid input type number
+text: Do not use input type number unless user research shows a need, because users
+  can accidentally increment values and get no feedback on invalid entries.
+links:
+- target: UR-0033
+  type: implements
+attrs:
+  source_ref: text-input#avoid-type-number
+  kind: usage

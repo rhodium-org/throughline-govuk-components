@@ -1,0 +1,12 @@
+uid: SR-0234
+type: system_requirement
+status: approved
+title: Include a 'None of the above' option when valid
+text: Because users cannot return to no selection once one is made without refreshing,
+  include 'None of the above' or 'I do not know' when these are valid options.
+links:
+- target: UR-0023
+  type: implements
+attrs:
+  source_ref: radios#include-none-option
+  kind: usage

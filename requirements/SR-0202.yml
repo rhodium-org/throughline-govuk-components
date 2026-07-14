@@ -1,0 +1,13 @@
+uid: SR-0202
+type: system_requirement
+status: approved
+title: Use to display important information after a completed transaction
+text: Use the panel component to display important information when a transaction
+  has been completed, most often on confirmation pages telling the user they have
+  successfully completed it.
+links:
+- target: UR-0020
+  type: implements
+attrs:
+  source_ref: panel#use-for-completed-transaction
+  kind: usage

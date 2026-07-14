@@ -1,0 +1,12 @@
+uid: SR-0273
+type: system_requirement
+status: approved
+title: Do not use for tables or simple lists
+text: Do not use the summary list for tabular data or a simple list of information
+  or tasks; use a table, ul or ol instead.
+links:
+- target: UR-0027
+  type: implements
+attrs:
+  source_ref: summary-list#not-tabular-or-simple-list
+  kind: usage

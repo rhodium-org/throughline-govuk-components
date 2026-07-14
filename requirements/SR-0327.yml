@@ -1,0 +1,12 @@
+uid: SR-0327
+type: system_requirement
+status: approved
+title: Write clear, short task names in sentence case
+text: Write task names that clearly convey what the task is about, in sentence case
+  and kept short, because screen reader users find long task names hard to navigate.
+links:
+- target: UR-0031
+  type: implements
+attrs:
+  source_ref: task-list#clear-short-task-names
+  kind: accessibility

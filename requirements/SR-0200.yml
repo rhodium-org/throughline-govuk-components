@@ -1,0 +1,12 @@
+uid: SR-0200
+type: system_requirement
+status: approved
+title: Set defaults to reduce clicks
+text: Set defaults to minimise how many pages most users must click through to find
+  what they need.
+links:
+- target: UR-0019
+  type: implements
+attrs:
+  source_ref: pagination#set-defaults
+  kind: usage

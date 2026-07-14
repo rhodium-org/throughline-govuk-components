@@ -1,0 +1,13 @@
+uid: SR-0279
+type: system_requirement
+status: approved
+title: Think carefully before removing borders
+text: Only remove separating borders when the list has no actions, and think carefully
+  first because borders help users who zoom or magnify their screen find and read
+  rows.
+links:
+- target: UR-0027
+  type: implements
+attrs:
+  source_ref: summary-list#borders-caution
+  kind: accessibility

@@ -1,0 +1,13 @@
+uid: SR-0298
+type: system_requirement
+status: approved
+title: Choose tabs versus accordion or details
+text: Prefer tabs when the user views one section at a time or switches quickly between
+  sections without pushing content down the page, but accordions suit many sections
+  and details suits one or two short, less important pieces.
+links:
+- target: UR-0029
+  type: implements
+attrs:
+  source_ref: tabs#choose-over-accordion-details
+  kind: usage

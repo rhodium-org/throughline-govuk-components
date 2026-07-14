@@ -1,0 +1,14 @@
+uid: SR-0248
+type: system_requirement
+status: approved
+title: Research found simple conditional reveals workable
+text: Testing found screen reader users had no difficulty answering conditionally
+  revealed questions as long as they were kept simple, but got confused by complicated
+  or multi-part revealed questions, and the team continues to seek research on their
+  use.
+links:
+- target: UR-0023
+  type: implements
+attrs:
+  source_ref: radios#research-conditional-reveal
+  kind: research

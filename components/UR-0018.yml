@@ -1,0 +1,12 @@
+uid: UR-0018
+type: user_requirement
+status: approved
+title: Notification banner
+text: A notification banner tells the user about something they need to know that
+  is not directly related to the page content, and a service uses it for service-wide
+  problems, personal alerts, or the outcome of a completed action.
+links:
+- target: INT-0001
+  type: derives_from
+attrs:
+  source_ref: notification-banner

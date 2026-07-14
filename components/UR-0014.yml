@@ -1,0 +1,10 @@
+uid: UR-0014
+type: user_requirement
+status: approved
+title: File upload
+text: The file upload component helps users select and upload a file within a service.
+links:
+- target: INT-0001
+  type: derives_from
+attrs:
+  source_ref: file-upload

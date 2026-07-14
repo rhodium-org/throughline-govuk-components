@@ -1,0 +1,12 @@
+uid: SR-0330
+type: system_requirement
+status: approved
+title: Do not put links in hint text
+text: Do not include links within task hint text, because the whole row is already
+  linked to the task so hint-text links will not work.
+links:
+- target: UR-0031
+  type: implements
+attrs:
+  source_ref: task-list#no-links-in-hint
+  kind: usage

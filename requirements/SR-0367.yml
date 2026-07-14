@@ -1,0 +1,13 @@
+uid: SR-0367
+type: system_requirement
+status: approved
+title: Use specific error messages per state
+text: Follow the Error message component guidance and provide specific error messages
+  for specific states, such as 'Enter [thing]' when empty or '[thing] must be a number,
+  like 30' when not a number.
+links:
+- target: UR-0033
+  type: implements
+attrs:
+  source_ref: text-input#specific-error-messages
+  kind: usage

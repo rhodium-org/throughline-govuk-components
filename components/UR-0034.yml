@@ -1,0 +1,11 @@
+uid: UR-0034
+type: user_requirement
+status: approved
+title: Warning text
+text: As a service, I use the warning text component to warn users about something
+  important, such as legal consequences of an action or inaction.
+links:
+- target: INT-0001
+  type: derives_from
+attrs:
+  source_ref: warning-text

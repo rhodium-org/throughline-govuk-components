@@ -1,0 +1,12 @@
+uid: SR-0241
+type: system_requirement
+status: approved
+title: Separate a distinct option with a text divider
+text: If one or more options differ from the others, separate them with a text divider,
+  usually the word 'or'.
+links:
+- target: UR-0023
+  type: implements
+attrs:
+  source_ref: radios#text-divider
+  kind: usage

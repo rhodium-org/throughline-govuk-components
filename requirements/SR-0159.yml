@@ -1,0 +1,12 @@
+uid: SR-0159
+type: system_requirement
+status: approved
+title: Show on every page to maintain trust
+text: Show the GOV.UK header at the top of every page to maintain user trust as they
+  move around GOV.UK.
+links:
+- target: UR-0016
+  type: implements
+attrs:
+  source_ref: header#every-page-top
+  kind: usage

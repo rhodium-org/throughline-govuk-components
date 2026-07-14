@@ -1,0 +1,12 @@
+uid: SR-0133
+type: system_requirement
+status: approved
+title: Legend must come first and describe the group
+text: The first element inside a fieldset must be a legend describing the group of
+  inputs, either as a question or a statement.
+links:
+- target: UR-0013
+  type: implements
+attrs:
+  source_ref: fieldset#legend-first
+  kind: usage

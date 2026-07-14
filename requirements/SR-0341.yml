@@ -1,0 +1,12 @@
+uid: SR-0341
+type: system_requirement
+status: approved
+title: Size the textarea to expected input
+text: Make the height of a textarea proportional to the amount of text expected, setting
+  it via the rows attribute.
+links:
+- target: UR-0032
+  type: implements
+attrs:
+  source_ref: textarea#size-proportional
+  kind: usage

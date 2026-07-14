@@ -1,0 +1,12 @@
+uid: SR-0355
+type: system_requirement
+status: approved
+title: Do not put links in hint text
+text: Do not include links within hint text, because screen readers read the link
+  text without telling users it is a link.
+links:
+- target: UR-0033
+  type: implements
+attrs:
+  source_ref: text-input#no-links-in-hint
+  kind: accessibility

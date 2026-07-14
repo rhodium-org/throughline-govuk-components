@@ -1,0 +1,12 @@
+uid: SR-0347
+type: system_requirement
+status: approved
+title: Do not use for multi-line answers
+text: Do not use the text input for longer answers that might span multiple lines;
+  use the Textarea component instead.
+links:
+- target: UR-0033
+  type: implements
+attrs:
+  source_ref: text-input#not-for-multiline
+  kind: usage

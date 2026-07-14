@@ -1,0 +1,12 @@
+uid: SR-0251
+type: system_requirement
+status: approved
+title: Pre-select only for settings
+text: When the component is used for settings, an option may be pre-selected by default
+  when users first see it.
+links:
+- target: UR-0024
+  type: implements
+attrs:
+  source_ref: select#preselect-settings
+  kind: usage

@@ -1,0 +1,13 @@
+uid: SR-0335
+type: system_requirement
+status: approved
+title: Component still needs user testing
+text: This component still needs user testing of assumptions including whether linking
+  the whole row outweighs accidental-click risk, whether status contrast is sufficient,
+  and whether the status wording makes sense to users.
+links:
+- target: UR-0031
+  type: implements
+attrs:
+  source_ref: task-list#research-known-gaps
+  kind: research

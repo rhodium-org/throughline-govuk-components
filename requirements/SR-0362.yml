@@ -1,0 +1,13 @@
+uid: SR-0362
+type: system_requirement
+status: approved
+title: Position prefixes and suffixes outside the input
+text: Position prefixes and suffixes outside the input to avoid interfering with browser-inserted
+  icons, and allow for users who enter the prefix or suffix into the input without
+  showing an error.
+links:
+- target: UR-0033
+  type: implements
+attrs:
+  source_ref: text-input#prefix-suffix-outside
+  kind: usage

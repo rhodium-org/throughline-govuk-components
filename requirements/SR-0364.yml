@@ -1,0 +1,12 @@
+uid: SR-0364
+type: system_requirement
+status: approved
+title: Do not disable copy and paste
+text: Do not stop users copying and pasting into a text input, as they often need
+  to do so.
+links:
+- target: UR-0033
+  type: implements
+attrs:
+  source_ref: text-input#allow-copy-paste
+  kind: usage

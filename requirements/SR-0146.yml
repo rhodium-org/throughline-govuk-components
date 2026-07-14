@@ -1,0 +1,13 @@
+uid: SR-0146
+type: system_requirement
+status: approved
+title: Improved component supports speech recognition
+text: The improved component lets Dragon speech recognition users choose files with
+  web page control commands, though browser security may require an additional action
+  such as a mouse click first.
+links:
+- target: UR-0014
+  type: implements
+attrs:
+  source_ref: file-upload#dragon-support
+  kind: accessibility

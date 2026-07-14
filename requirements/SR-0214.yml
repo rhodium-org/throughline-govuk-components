@@ -1,0 +1,13 @@
+uid: SR-0214
+type: system_requirement
+status: approved
+title: Set input type to password on submit
+text: On form submission the password input should automatically change its type to
+  password if it has not already, to stop browsers offering it as an autofill value
+  on non-password inputs.
+links:
+- target: UR-0021
+  type: implements
+attrs:
+  source_ref: password-input#type-password-on-submit
+  kind: usage

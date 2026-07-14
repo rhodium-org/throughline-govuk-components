@@ -1,0 +1,12 @@
+uid: SR-0185
+type: system_requirement
+status: approved
+title: Use when a single page loads too slowly or most users need only early pages
+text: Consider pagination when showing all content on one page makes it load too slowly,
+  or when most users only need the first page or first few pages.
+links:
+- target: UR-0019
+  type: implements
+attrs:
+  source_ref: pagination#when-to-use
+  kind: usage

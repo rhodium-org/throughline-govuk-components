@@ -1,0 +1,11 @@
+uid: SR-0368
+type: system_requirement
+status: approved
+title: Support all characters the user needs
+text: Support all characters the user might need to enter, including numbers and symbols.
+links:
+- target: UR-0033
+  type: implements
+attrs:
+  source_ref: text-input#support-needed-characters
+  kind: usage

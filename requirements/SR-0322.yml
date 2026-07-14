@@ -1,0 +1,11 @@
+uid: SR-0322
+type: system_requirement
+status: approved
+title: Let users complete tasks in any order
+text: Allow users to complete tasks in whatever order they like.
+links:
+- target: UR-0031
+  type: implements
+attrs:
+  source_ref: task-list#any-order
+  kind: usage

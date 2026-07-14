@@ -1,0 +1,12 @@
+uid: SR-0186
+type: system_requirement
+status: approved
+title: Only paginate if it improves performance or usability
+text: Only break content onto separate pages if it improves the performance or usability
+  of the service.
+links:
+- target: UR-0019
+  type: implements
+attrs:
+  source_ref: pagination#only-if-improves
+  kind: usage

@@ -1,0 +1,13 @@
+uid: SR-0164
+type: system_requirement
+status: approved
+title: Use the refreshed branding
+text: Use the refreshed GOV.UK branding, removing the govukRebrand feature flag once
+  on GOV.UK Frontend v6.0.0 or later, and only use the header on GOV.UK-proposition
+  services.
+links:
+- target: UR-0016
+  type: implements
+attrs:
+  source_ref: header#brand-refresh
+  kind: usage

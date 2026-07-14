@@ -1,0 +1,12 @@
+uid: SR-0211
+type: system_requirement
+status: approved
+title: Hide passwords by default
+text: Hide passwords by default until the user chooses to show them, because users
+  may not be in a private space.
+links:
+- target: UR-0021
+  type: implements
+attrs:
+  source_ref: password-input#hide-by-default
+  kind: usage

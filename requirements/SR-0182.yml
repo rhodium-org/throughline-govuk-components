@@ -1,0 +1,13 @@
+uid: SR-0182
+type: system_requirement
+status: approved
+title: Convey success meaning with a heading, not colour alone
+text: Use a heading such as 'Success' on green banners so meaning is not conveyed
+  by colour alone.
+links:
+- target: UR-0018
+  type: implements
+attrs:
+  source_ref: notification-banner#success-heading-not-colour
+  kind: accessibility
+  wcag: 1.4.1

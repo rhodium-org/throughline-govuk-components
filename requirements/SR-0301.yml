@@ -1,0 +1,12 @@
+uid: SR-0301
+type: system_requirement
+status: approved
+title: Order tabs by user need
+text: Make the first tab the most commonly needed section and arrange the others in
+  the order that makes most sense for users.
+links:
+- target: UR-0029
+  type: implements
+attrs:
+  source_ref: tabs#order-by-user-needs
+  kind: usage

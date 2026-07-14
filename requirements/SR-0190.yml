@@ -1,0 +1,11 @@
+uid: SR-0190
+type: system_requirement
+status: approved
+title: Do not show pagination for a single page
+text: Do not show pagination if there is only one page of content.
+links:
+- target: UR-0019
+  type: implements
+attrs:
+  source_ref: pagination#hide-if-single-page
+  kind: usage

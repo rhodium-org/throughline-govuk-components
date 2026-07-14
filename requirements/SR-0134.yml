@@ -1,0 +1,12 @@
+uid: SR-0134
+type: system_requirement
+status: approved
+title: Set the legend as the page heading for single questions
+text: When asking one question per page, set the legend as the page heading so screen
+  reader users hear the content only once.
+links:
+- target: UR-0013
+  type: implements
+attrs:
+  source_ref: fieldset#legend-as-heading
+  kind: accessibility

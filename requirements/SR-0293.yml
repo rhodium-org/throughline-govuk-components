@@ -1,0 +1,12 @@
+uid: SR-0293
+type: system_requirement
+status: approved
+title: Only shrink text for lots of data
+text: Use govuk-table--small-text-until-tablet only when a table has a lot of data,
+  because a smaller amount of data is easier to read when the text is larger.
+links:
+- target: UR-0028
+  type: implements
+attrs:
+  source_ref: table#small-text-only-large-data
+  kind: usage

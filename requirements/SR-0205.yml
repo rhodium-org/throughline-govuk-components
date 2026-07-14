@@ -1,0 +1,12 @@
+uid: SR-0205
+type: system_requirement
+status: approved
+title: Use short words to stay readable at all sizes
+text: Use short words and phrases so highlighted information is easy to read across
+  screen sizes and less likely to wrap, including when zoomed on mobile.
+links:
+- target: UR-0020
+  type: implements
+attrs:
+  source_ref: panel#short-words
+  kind: usage

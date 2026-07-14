@@ -1,0 +1,12 @@
+uid: UR-0027
+type: user_requirement
+status: approved
+title: Summary list
+text: A summary list summarises information as a list of key facts, such as a user's
+  responses at the end of a form, with an optional summary card variant for grouping
+  multiple lists.
+links:
+- target: INT-0001
+  type: derives_from
+attrs:
+  source_ref: summary-list

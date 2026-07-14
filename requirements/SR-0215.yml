@@ -1,0 +1,12 @@
+uid: SR-0215
+type: system_requirement
+status: approved
+title: Use the autocomplete attribute
+text: Set the autocomplete attribute to new-password when the user is creating a password
+  and current-password otherwise, to help browsers and password managers.
+links:
+- target: UR-0021
+  type: implements
+attrs:
+  source_ref: password-input#autocomplete-attribute
+  kind: usage

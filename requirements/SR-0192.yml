@@ -1,0 +1,13 @@
+uid: SR-0192
+type: system_requirement
+status: approved
+title: Use block style for related content pages
+text: Use the 'block' style of pagination for navigating related content split across
+  multiple pages, stacking the links vertically so they are obvious to screen magnifier
+  users when zoomed in.
+links:
+- target: UR-0019
+  type: implements
+attrs:
+  source_ref: pagination#block-style-for-content
+  kind: usage

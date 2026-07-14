@@ -1,0 +1,13 @@
+uid: SR-0353
+type: system_requirement
+status: approved
+title: Size inputs to the expected content
+text: Make text inputs the right size for the content intended, using fixed-width
+  inputs for content of known length and width override classes for smaller fluid
+  inputs.
+links:
+- target: UR-0033
+  type: implements
+attrs:
+  source_ref: text-input#size-to-content
+  kind: usage

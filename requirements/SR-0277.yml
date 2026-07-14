@@ -1,0 +1,12 @@
+uid: SR-0277
+type: system_requirement
+status: approved
+title: Pre-populate when returning to answers
+text: When a user goes back to a previous answer through a card or row action, pre-populate
+  information they have already entered.
+links:
+- target: UR-0027
+  type: implements
+attrs:
+  source_ref: summary-list#prepopulate-on-return
+  kind: usage

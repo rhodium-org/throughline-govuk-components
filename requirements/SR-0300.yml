@@ -1,0 +1,12 @@
+uid: SR-0300
+type: system_requirement
+status: approved
+title: Use clear tab labels
+text: Make tab labels clearly describe what they link to, since tabs hide content
+  and unclear labels leave users unsure whether to click.
+links:
+- target: UR-0029
+  type: implements
+attrs:
+  source_ref: tabs#clear-labels
+  kind: usage

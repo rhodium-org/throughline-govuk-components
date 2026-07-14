@@ -1,0 +1,12 @@
+uid: SR-0235
+type: system_requirement
+status: approved
+title: Order options alphabetically by default
+text: Order radio options alphabetically by default; only order by most-to-least common
+  with extreme caution as it can reinforce bias, and order alphabetically if in doubt.
+links:
+- target: UR-0023
+  type: implements
+attrs:
+  source_ref: radios#order-alphabetically
+  kind: usage

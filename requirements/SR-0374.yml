@@ -1,0 +1,12 @@
+uid: SR-0374
+type: system_requirement
+status: approved
+title: Bring consistency across cross-government journeys
+text: Use the Generic header to bring consistency and maintain user trust in journeys
+  that move between the GOV.UK website and other government websites and services.
+links:
+- target: UR-0035
+  type: implements
+attrs:
+  source_ref: generic-header#maintain-trust-consistency
+  kind: usage

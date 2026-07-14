@@ -1,0 +1,11 @@
+uid: UR-0015
+type: user_requirement
+status: approved
+title: GOV.UK footer
+text: The GOV.UK footer provides copyright, licensing and other information about
+  a service and sits at the bottom of every page.
+links:
+- target: INT-0001
+  type: derives_from
+attrs:
+  source_ref: footer

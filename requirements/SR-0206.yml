@@ -1,0 +1,12 @@
+uid: SR-0206
+type: system_requirement
+status: approved
+title: Use description text for detail
+text: If you need to give detailed information or more context, use the description
+  text under the heading text.
+links:
+- target: UR-0020
+  type: implements
+attrs:
+  source_ref: panel#description-for-detail
+  kind: usage

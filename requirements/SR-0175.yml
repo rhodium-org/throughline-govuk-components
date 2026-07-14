@@ -1,0 +1,13 @@
+uid: SR-0175
+type: system_requirement
+status: approved
+title: Expose the banner as a labelled region
+text: Use role="region" and aria-labelledby="govuk-notification-banner-title" (with
+  a matching id on the title) so screen reader users can navigate to the notification
+  banner.
+links:
+- target: UR-0018
+  type: implements
+attrs:
+  source_ref: notification-banner#screen-reader-navigation
+  kind: accessibility

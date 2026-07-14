@@ -1,0 +1,12 @@
+uid: SR-0124
+type: system_requirement
+status: approved
+title: Add the secondary skip link
+text: Add the secondary link skip-link under the default skip link at the top of the
+  body, using the same href as the button, so the component works and is more accessible.
+links:
+- target: UR-0012
+  type: implements
+attrs:
+  source_ref: exit-this-page#secondary-link
+  kind: usage

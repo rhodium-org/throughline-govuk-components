@@ -1,0 +1,13 @@
+uid: SR-0318
+type: system_requirement
+status: approved
+title: Only use with supporting evidence
+text: Only use the task list if there is evidence that users cannot or do not want
+  to complete all tasks in one sitting, or need to choose the order they complete
+  tasks in.
+links:
+- target: UR-0031
+  type: implements
+attrs:
+  source_ref: task-list#evidence-required
+  kind: usage

@@ -1,0 +1,11 @@
+uid: UR-0031
+type: user_requirement
+status: approved
+title: Task list
+text: As a service, I use the task list component to display all the tasks a user
+  needs to do and let them see which are done and which remain.
+links:
+- target: INT-0001
+  type: derives_from
+attrs:
+  source_ref: task-list

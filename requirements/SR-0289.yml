@@ -1,0 +1,12 @@
+uid: SR-0289
+type: system_requirement
+status: approved
+title: Describe the table with a caption
+text: Use the caption element to describe a table like a heading, helping users find,
+  navigate and understand tables.
+links:
+- target: UR-0028
+  type: implements
+attrs:
+  source_ref: table#caption-describes-table
+  kind: accessibility

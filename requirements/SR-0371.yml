@@ -1,0 +1,12 @@
+uid: SR-0371
+type: system_requirement
+status: approved
+title: Use to warn about something important
+text: Use the warning text component when you need to warn users about something important,
+  such as the legal consequences of an action or lack of action they might take.
+links:
+- target: UR-0034
+  type: implements
+attrs:
+  source_ref: warning-text#when-important-warning
+  kind: usage

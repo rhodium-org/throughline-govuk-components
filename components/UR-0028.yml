@@ -1,0 +1,11 @@
+uid: UR-0028
+type: user_requirement
+status: approved
+title: Table
+text: The table component presents information in rows and columns to make it easier
+  for users to compare and scan.
+links:
+- target: INT-0001
+  type: derives_from
+attrs:
+  source_ref: table

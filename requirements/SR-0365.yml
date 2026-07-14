@@ -1,0 +1,13 @@
+uid: SR-0365
+type: system_requirement
+status: approved
+title: Avoid restricting input length
+text: Avoid using the maxlength attribute because it truncates without feedback and
+  is not reliably announced by assistive technologies; if a maximum is technically
+  required, state it in the hint, allow more input, and only error after normalisation.
+links:
+- target: UR-0033
+  type: implements
+attrs:
+  source_ref: text-input#avoid-maxlength
+  kind: accessibility

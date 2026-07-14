@@ -1,0 +1,12 @@
+uid: SR-0170
+type: system_requirement
+status: approved
+title: Use notification banners sparingly
+text: Use notification banners sparingly, because people often miss them and overusing
+  them worsens this.
+links:
+- target: UR-0018
+  type: implements
+attrs:
+  source_ref: notification-banner#use-sparingly
+  kind: usage

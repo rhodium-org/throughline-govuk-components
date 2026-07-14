@@ -1,0 +1,12 @@
+uid: SR-0230
+type: system_requirement
+status: approved
+title: Do not use when multiple selections are possible
+text: Do not use radios if users might need to select more than one option; use the
+  checkboxes component instead.
+links:
+- target: UR-0023
+  type: implements
+attrs:
+  source_ref: radios#not-for-multiple
+  kind: usage

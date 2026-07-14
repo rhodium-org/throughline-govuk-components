@@ -1,0 +1,12 @@
+uid: SR-0276
+type: system_requirement
+status: approved
+title: Add visually hidden text to row actions
+text: Add visually hidden text to row action links so screen reader users hear the
+  action and the key label it affects, such as 'Change name'.
+links:
+- target: UR-0027
+  type: implements
+attrs:
+  source_ref: summary-list#row-action-hidden-text
+  kind: accessibility

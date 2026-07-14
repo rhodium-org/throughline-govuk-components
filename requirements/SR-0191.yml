@@ -1,0 +1,12 @@
+uid: SR-0191
+type: system_requirement
+status: approved
+title: Redirect to the first page for dead URLs
+text: Redirect users to the first page if they enter a URL for a page that no longer
+  exists.
+links:
+- target: UR-0019
+  type: implements
+attrs:
+  source_ref: pagination#redirect-missing-page
+  kind: usage

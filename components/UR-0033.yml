@@ -1,0 +1,11 @@
+uid: UR-0033
+type: user_requirement
+status: approved
+title: Text input
+text: As a service, I use the text input component to let users enter text no longer
+  than a single line, such as their name or phone number.
+links:
+- target: INT-0001
+  type: derives_from
+attrs:
+  source_ref: text-input

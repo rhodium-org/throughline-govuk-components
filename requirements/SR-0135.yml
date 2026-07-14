@@ -1,0 +1,12 @@
+uid: SR-0135
+type: system_requirement
+status: approved
+title: Legend signals inputs are related
+text: Including the question as the legend on question pages helps screen reader users
+  understand that all the grouped inputs relate to that question.
+links:
+- target: UR-0013
+  type: implements
+attrs:
+  source_ref: fieldset#legend-conveys-relationship
+  kind: accessibility

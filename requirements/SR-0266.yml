@@ -1,0 +1,11 @@
+uid: SR-0266
+type: system_requirement
+status: approved
+title: Include on every GOV.UK page
+text: All GOV.UK pages must include a skip link.
+links:
+- target: UR-0026
+  type: implements
+attrs:
+  source_ref: skip-link#required-all-pages
+  kind: accessibility

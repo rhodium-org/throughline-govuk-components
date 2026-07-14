@@ -1,0 +1,12 @@
+uid: SR-0203
+type: system_requirement
+status: approved
+title: Never use to highlight information in body content
+text: Never use the panel component to highlight important information within body
+  content.
+links:
+- target: UR-0020
+  type: implements
+attrs:
+  source_ref: panel#not-in-body-content
+  kind: usage

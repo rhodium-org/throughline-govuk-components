@@ -1,0 +1,11 @@
+uid: SR-0255
+type: system_requirement
+status: approved
+title: Show error when no option selected
+text: Display a styled error message if the user has not selected an option.
+links:
+- target: UR-0024
+  type: implements
+attrs:
+  source_ref: select#error-on-no-selection
+  kind: usage

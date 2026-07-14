@@ -1,0 +1,12 @@
+uid: SR-0311
+type: system_requirement
+status: approved
+title: A single status can be enough
+text: Where the absence of a tag implies the opposite state, a single status tag such
+  as 'Completed' can be sufficient.
+links:
+- target: UR-0030
+  type: implements
+attrs:
+  source_ref: tag#single-status-sufficient
+  kind: usage

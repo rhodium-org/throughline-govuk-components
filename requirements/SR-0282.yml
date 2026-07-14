@@ -1,0 +1,12 @@
+uid: SR-0282
+type: system_requirement
+status: approved
+title: Do not use cards for small amounts
+text: Do not use summary cards for a small amount of related information; use summary
+  lists structured with headings instead.
+links:
+- target: UR-0027
+  type: implements
+attrs:
+  source_ref: summary-list#cards-not-for-small
+  kind: usage

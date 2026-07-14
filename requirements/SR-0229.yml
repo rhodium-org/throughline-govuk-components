@@ -1,0 +1,11 @@
+uid: SR-0229
+type: system_requirement
+status: approved
+title: Use when only one option can be selected
+text: Use the radios component when users can only select one option from a list.
+links:
+- target: UR-0023
+  type: implements
+attrs:
+  source_ref: radios#when-to-use
+  kind: usage

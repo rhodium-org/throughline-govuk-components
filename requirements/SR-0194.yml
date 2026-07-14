@@ -1,0 +1,12 @@
+uid: SR-0194
+type: system_requirement
+status: approved
+title: Use list style for pages of items
+text: Use a list-type layout when users navigate through pages of similar items, such
+  as search results or a list of cases.
+links:
+- target: UR-0019
+  type: implements
+attrs:
+  source_ref: pagination#list-style-for-items
+  kind: usage

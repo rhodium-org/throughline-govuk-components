@@ -1,0 +1,12 @@
+uid: SR-0261
+type: system_requirement
+status: approved
+title: Show navigation links
+text: Show navigation links to let users move to different parts of your service and
+  find useful links and tools.
+links:
+- target: UR-0025
+  type: implements
+attrs:
+  source_ref: service-navigation#navigation-links
+  kind: usage

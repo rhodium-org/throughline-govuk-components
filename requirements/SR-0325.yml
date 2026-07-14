@@ -1,0 +1,12 @@
+uid: SR-0325
+type: system_requirement
+status: approved
+title: Each task has a name and a status
+text: Give each task a task name and a status, and optionally hint text where evidence
+  shows it is needed.
+links:
+- target: UR-0031
+  type: implements
+attrs:
+  source_ref: task-list#task-has-name-and-status
+  kind: usage

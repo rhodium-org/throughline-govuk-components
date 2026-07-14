@@ -1,0 +1,11 @@
+uid: UR-0013
+type: user_requirement
+status: approved
+title: Fieldset
+text: The fieldset component groups related form inputs so users understand the relationship
+  between them.
+links:
+- target: INT-0001
+  type: derives_from
+attrs:
+  source_ref: fieldset

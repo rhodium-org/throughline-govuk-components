@@ -1,0 +1,12 @@
+uid: SR-0288
+type: system_requirement
+status: approved
+title: Never use for layout
+text: Never use the table component to lay out content on a page; use the grid system
+  instead.
+links:
+- target: UR-0028
+  type: implements
+attrs:
+  source_ref: table#not-for-layout
+  kind: usage

@@ -1,0 +1,14 @@
+uid: SR-0247
+type: system_requirement
+status: approved
+title: Word errors according to the option pattern
+text: 'Word errors by pattern: ''Select yes if...'' for yes/no questions, ''Select
+  if...'' for two non-yes/no options, and ''Select...'' for more than two options;
+  for a conditionally revealed question use an error message clearly related to the
+  initial question.'
+links:
+- target: UR-0023
+  type: implements
+attrs:
+  source_ref: radios#error-wording
+  kind: usage

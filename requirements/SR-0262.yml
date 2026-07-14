@@ -1,0 +1,12 @@
+uid: SR-0262
+type: system_requirement
+status: approved
+title: Use slots for custom elements
+text: Use slots to insert custom HTML such as language selectors, providing your own
+  styles and JavaScript and deciding on appropriate layout and positioning.
+links:
+- target: UR-0025
+  type: implements
+attrs:
+  source_ref: service-navigation#slots-custom-elements
+  kind: usage

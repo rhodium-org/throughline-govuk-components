@@ -1,0 +1,11 @@
+uid: SR-0207
+type: system_requirement
+status: approved
+title: Use whenever a password is created or entered
+text: Use this component whenever you need users to create or enter a password.
+links:
+- target: UR-0021
+  type: implements
+attrs:
+  source_ref: password-input#when-to-use
+  kind: usage

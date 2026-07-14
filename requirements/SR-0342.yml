@@ -1,0 +1,12 @@
+uid: SR-0342
+type: system_requirement
+status: approved
+title: Do not disable copy and paste
+text: Do not stop users copying and pasting into a textarea, as they often need to
+  do so.
+links:
+- target: UR-0032
+  type: implements
+attrs:
+  source_ref: textarea#allow-copy-paste
+  kind: usage

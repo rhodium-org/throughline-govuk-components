@@ -1,0 +1,12 @@
+uid: SR-0148
+type: system_requirement
+status: approved
+title: Interaction states refreshed for the brand
+text: In February 2026 the improved component's interaction states and colours were
+  updated so users can more easily and consistently see when a file has been added.
+links:
+- target: UR-0014
+  type: implements
+attrs:
+  source_ref: file-upload#brand-state-updates
+  kind: research

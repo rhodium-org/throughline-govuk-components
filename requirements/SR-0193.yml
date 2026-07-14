@@ -1,0 +1,11 @@
+uid: SR-0193
+type: system_requirement
+status: approved
+title: Use link labels for context
+text: Use link labels to give context on what the neighbouring pages are about.
+links:
+- target: UR-0019
+  type: implements
+attrs:
+  source_ref: pagination#link-labels-context
+  kind: usage

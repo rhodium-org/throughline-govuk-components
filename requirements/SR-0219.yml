@@ -1,0 +1,13 @@
+uid: SR-0219
+type: system_requirement
+status: approved
+title: Do not use maxlength to restrict length
+text: Do not use maxlength to restrict password length because users get no feedback
+  when truncated; if length must be limited, show an error message using the validation
+  pattern instead.
+links:
+- target: UR-0021
+  type: implements
+attrs:
+  source_ref: password-input#no-maxlength
+  kind: usage

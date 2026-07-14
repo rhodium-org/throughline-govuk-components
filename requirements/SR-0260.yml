@@ -1,0 +1,11 @@
+uid: SR-0260
+type: system_requirement
+status: approved
+title: Show the service name
+text: Use the service navigation to display your service name.
+links:
+- target: UR-0025
+  type: implements
+attrs:
+  source_ref: service-navigation#show-service-name
+  kind: usage

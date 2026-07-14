@@ -1,0 +1,12 @@
+uid: SR-0198
+type: system_requirement
+status: approved
+title: Hide previous on first page and next on last page
+text: Do not show the previous page link on the first page, and do not show the next
+  page link on the last page.
+links:
+- target: UR-0019
+  type: implements
+attrs:
+  source_ref: pagination#hide-prev-next-at-ends
+  kind: usage

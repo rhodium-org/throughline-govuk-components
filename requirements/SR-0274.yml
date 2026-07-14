@@ -1,0 +1,12 @@
+uid: SR-0274
+type: system_requirement
+status: approved
+title: Structure each row as key and value
+text: Make each row a key that labels a piece of information and a value that is the
+  information itself.
+links:
+- target: UR-0027
+  type: implements
+attrs:
+  source_ref: summary-list#row-key-value
+  kind: usage

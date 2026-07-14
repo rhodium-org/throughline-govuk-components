@@ -1,0 +1,11 @@
+uid: SR-0287
+type: system_requirement
+status: approved
+title: Use to compare information
+text: Use the table component to let users compare information in rows and columns.
+links:
+- target: UR-0028
+  type: implements
+attrs:
+  source_ref: table#use-to-compare
+  kind: usage

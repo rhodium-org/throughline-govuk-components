@@ -1,0 +1,12 @@
+uid: SR-0122
+type: system_requirement
+status: approved
+title: Position above the grid
+text: Position the component at the top of the page, above the grid row but still
+  within the width container.
+links:
+- target: UR-0012
+  type: implements
+attrs:
+  source_ref: exit-this-page#position-top
+  kind: usage

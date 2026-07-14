@@ -1,0 +1,12 @@
+uid: SR-0119
+type: system_requirement
+status: approved
+title: Use only for at-risk pages
+text: Use the component only on pages whose sensitive information could put someone
+  at risk of abuse or retaliation, or reveal their plans to escape harm.
+links:
+- target: UR-0012
+  type: implements
+attrs:
+  source_ref: exit-this-page#when-at-risk
+  kind: usage

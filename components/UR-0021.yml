@@ -1,0 +1,12 @@
+uid: UR-0021
+type: user_requirement
+status: approved
+title: Password input
+text: The password input component helps users accessibly create and enter passwords,
+  with an option to show what they have entered as plain text, and a service uses
+  it whenever a password must be created or entered.
+links:
+- target: INT-0001
+  type: derives_from
+attrs:
+  source_ref: password-input

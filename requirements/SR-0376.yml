@@ -1,0 +1,13 @@
+uid: SR-0376
+type: system_requirement
+status: approved
+title: Do not use on gov.uk domains
+text: Do not use the Generic header if your service is hosted on a gov.uk domain such
+  as gov.uk/[myservice], [myservice].service.gov.uk, or [myblog].blog.gov.uk; use
+  the GOV.UK header component instead.
+links:
+- target: UR-0035
+  type: implements
+attrs:
+  source_ref: generic-header#not-for-govuk-domains
+  kind: usage

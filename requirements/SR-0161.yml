@@ -1,0 +1,12 @@
+uid: SR-0161
+type: system_requirement
+status: approved
+title: Use the default header showing only logo and GOV.UK tools
+text: Most services should use the default header showing only the GOV.UK logo and
+  GOV.UK-wide links and tools, without adding the menu of GOV.UK topic links.
+links:
+- target: UR-0016
+  type: implements
+attrs:
+  source_ref: header#default-header
+  kind: usage

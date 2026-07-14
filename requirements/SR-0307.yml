@@ -1,0 +1,11 @@
+uid: SR-0307
+type: system_requirement
+status: approved
+title: Use tags only to indicate status
+text: Use tags solely to indicate a status; do not repurpose them for other content.
+links:
+- target: UR-0030
+  type: implements
+attrs:
+  source_ref: tag#status-only
+  kind: usage

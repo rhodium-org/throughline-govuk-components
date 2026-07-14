@@ -1,0 +1,12 @@
+uid: SR-0357
+type: system_requirement
+status: approved
+title: Set inputmode numeric for whole numbers
+text: When asking for a whole number, set the inputmode attribute to numeric so devices
+  with on-screen keyboards show the numeric keypad.
+links:
+- target: UR-0033
+  type: implements
+attrs:
+  source_ref: text-input#inputmode-numeric
+  kind: usage

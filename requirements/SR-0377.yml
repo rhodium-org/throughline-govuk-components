@@ -1,0 +1,13 @@
+uid: SR-0377
+type: system_requirement
+status: approved
+title: Replace the default header in the page template
+text: If using the page template, replace the default GOV.UK header with the Generic
+  header component, and follow the guidance to remove other GOV.UK brand elements
+  elsewhere in your service.
+links:
+- target: UR-0035
+  type: implements
+attrs:
+  source_ref: generic-header#replace-in-page-template
+  kind: usage

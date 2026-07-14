@@ -1,0 +1,12 @@
+uid: SR-0158
+type: system_requirement
+status: approved
+title: Use only on GOV.UK domains
+text: Use the GOV.UK header only when the service is hosted on a gov.uk, service.gov.uk
+  or blog.gov.uk domain.
+links:
+- target: UR-0016
+  type: implements
+attrs:
+  source_ref: header#govuk-domains-only
+  kind: usage

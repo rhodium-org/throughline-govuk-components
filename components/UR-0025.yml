@@ -1,0 +1,11 @@
+uid: UR-0025
+type: user_requirement
+status: approved
+title: Service navigation
+text: Service navigation helps users understand they are using your service and lets
+  them navigate around it, showing the service name and optional navigation links.
+links:
+- target: INT-0001
+  type: derives_from
+attrs:
+  source_ref: service-navigation

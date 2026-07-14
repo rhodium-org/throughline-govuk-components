@@ -1,0 +1,12 @@
+uid: SR-0263
+type: system_requirement
+status: approved
+title: Keep aria-label accurate
+text: When a service name is shown, the section is exposed as a region landmark, so
+  rename the aria-label as needed to accurately describe what slots add to the section.
+links:
+- target: UR-0025
+  type: implements
+attrs:
+  source_ref: service-navigation#accurate-aria-label
+  kind: accessibility

@@ -1,0 +1,12 @@
+uid: SR-0305
+type: system_requirement
+status: approved
+title: Not yet tested with users
+text: This component has not yet been tried in user research and is based on external
+  recommendations and examples from other services.
+links:
+- target: UR-0029
+  type: implements
+attrs:
+  source_ref: tabs#not-yet-user-tested
+  kind: research

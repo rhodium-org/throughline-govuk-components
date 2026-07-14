@@ -1,0 +1,12 @@
+uid: UR-0019
+type: user_requirement
+status: approved
+title: Pagination
+text: Pagination helps users navigate forwards and backwards through a series of numbered
+  pages, and a service uses it for collections such as search results or guidance
+  split across multiple pages.
+links:
+- target: INT-0001
+  type: derives_from
+attrs:
+  source_ref: pagination

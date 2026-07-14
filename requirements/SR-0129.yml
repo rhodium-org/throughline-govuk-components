@@ -1,0 +1,12 @@
+uid: SR-0129
+type: system_requirement
+status: approved
+title: Grounded in lived-experience research
+text: The design is based on research with people with lived experience of domestic
+  abuse and accessibility needs, in consultation with government departments.
+links:
+- target: UR-0012
+  type: implements
+attrs:
+  source_ref: exit-this-page#research-basis
+  kind: research

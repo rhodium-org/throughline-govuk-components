@@ -1,0 +1,12 @@
+uid: SR-0344
+type: system_requirement
+status: approved
+title: Limit character count with the right component
+text: If there is a good reason to limit the number of characters, use the Character
+  count component.
+links:
+- target: UR-0032
+  type: implements
+attrs:
+  source_ref: textarea#limit-via-character-count
+  kind: usage

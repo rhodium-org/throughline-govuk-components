@@ -1,0 +1,13 @@
+uid: SR-0209
+type: system_requirement
+status: approved
+title: Let users show their entry as plain text
+text: Allow users to show what they have entered as plain text so they can visually
+  check the password before submitting, reducing errors and helping them choose stronger
+  passwords.
+links:
+- target: UR-0021
+  type: implements
+attrs:
+  source_ref: password-input#show-plain-text-option
+  kind: usage
