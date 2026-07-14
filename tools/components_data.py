@@ -340,4 +340,313 @@ COMPONENTS = [
             },
         ],
     },
+    {
+        "slug": "accordion",
+        "title": "Accordion",
+        "ur_text": "The service uses the GOV.UK Accordion component to let users show "
+                   "and hide sections of related content, only where research shows "
+                   "hiding content helps, with clear headings and keyboard support.",
+        "clauses": [
+            {
+                "anchor": "only-with-evidence",
+                "kind": "usage",
+                "title": "Use only where research shows it helps",
+                "text": "Use an accordion only where there is evidence it helps users "
+                        "to see an overview of related sections and choose which to "
+                        "reveal; test with users before deciding to use one.",
+            },
+            {
+                "anchor": "not-for-essential-content",
+                "kind": "usage",
+                "title": "Do not hide content all users need",
+                "text": "Do not use an accordion for content that all users need to "
+                        "see, because accordions hide content and not all users notice "
+                        "or understand them.",
+            },
+            {
+                "anchor": "test-without-first",
+                "kind": "usage",
+                "title": "Test the content without an accordion first",
+                "text": "Test the content without an accordion first; well-written and "
+                        "structured content can remove the need for one.",
+            },
+            {
+                "anchor": "not-for-questions",
+                "kind": "usage",
+                "title": "Do not use to split up questions",
+                "text": "Do not use accordions to split up a series of questions; use "
+                        "separate pages instead.",
+            },
+            {
+                "anchor": "no-nesting",
+                "kind": "usage",
+                "title": "Do not nest accordions or hide-reveal components",
+                "text": "Do not put accordions within accordions, or nest the accordion, "
+                        "tabs and details components within one another.",
+            },
+            {
+                "anchor": "unique-id",
+                "kind": "usage",
+                "title": "Give the accordion a unique id",
+                "text": "When using HTML, give the govuk-accordion div a unique id "
+                        "across the service's domain so the expanded state persists.",
+            },
+            {
+                "anchor": "works-without-js",
+                "kind": "accessibility",
+                "title": "Show all content when JavaScript is unavailable",
+                "text": "When JavaScript is not available, show all the content with the "
+                        "section labels as headings.",
+            },
+            {
+                "anchor": "clear-button-text",
+                "kind": "accessibility",
+                "title": "Write clear, short heading button text",
+                "text": "Write each section heading button in sentence case, describing "
+                        "the content it reveals and keeping it short, because long "
+                        "button text is hard for screen reader users to navigate.",
+            },
+            {
+                "anchor": "short-summary-line",
+                "kind": "usage",
+                "title": "Keep any summary line as short as possible",
+                "text": "Add a summary line only if it is needed and keep it as short as "
+                        "possible, as it lengthens the button text.",
+            },
+            {
+                "anchor": "heading-level-fits",
+                "kind": "accessibility",
+                "title": "Fit section heading levels into the page",
+                "text": "Section headings render as h2; change their heading level where "
+                        "needed so they fit the other headings on the page.",
+            },
+            {
+                "anchor": "no-disabled-sections",
+                "kind": "usage",
+                "title": "Do not disable sections",
+                "text": "Do not disable sections; remove an empty section, or explain "
+                        "why there is no content when the section is opened.",
+            },
+            {
+                "anchor": "keyboard-accessible-research",
+                "kind": "research",
+                "title": "Reworked in 2021 for accessibility",
+                "text": "The component was updated in December 2021 so it is fully "
+                        "keyboard operable and its buttons and section labels are not "
+                        "mistaken for links.",
+            },
+        ],
+    },
+    {
+        "slug": "back-link",
+        "title": "Back link",
+        "ur_text": "The service uses the GOV.UK Back link component to help users return "
+                   "to the previous page in a multi-page transaction, placed above the "
+                   "main content with clear text and sufficient contrast.",
+        "clauses": [
+            {
+                "anchor": "multi-page-transaction",
+                "kind": "usage",
+                "title": "Use to go back in a multi-page transaction",
+                "text": "Use the back link to help users go back to the previous page in "
+                        "a multi-page transaction.",
+            },
+            {
+                "anchor": "always-on-question-pages",
+                "kind": "usage",
+                "title": "Always include on question pages",
+                "text": "Always include the back link on question pages in the service.",
+            },
+            {
+                "anchor": "not-with-breadcrumbs",
+                "kind": "usage",
+                "title": "Do not combine with breadcrumbs",
+                "text": "Never use the back link together with the breadcrumbs "
+                        "component.",
+            },
+            {
+                "anchor": "place-above-main",
+                "kind": "accessibility",
+                "title": "Place the back link before the main element",
+                "text": "Place the back link at the top of the page, before the main "
+                        "element, so the 'Skip to main content' link skips it along "
+                        "with other navigation links.",
+            },
+            {
+                "anchor": "returns-to-previous-state",
+                "kind": "usage",
+                "title": "Return users to the page as they last saw it",
+                "text": "Make sure the back link takes users to the previous page in the "
+                        "state they last saw it.",
+            },
+            {
+                "anchor": "works-without-js",
+                "kind": "usage",
+                "title": "Work without JavaScript, or hide it",
+                "text": "Where possible ensure the back link works without JavaScript; "
+                        "if that is not possible, hide it when JavaScript is "
+                        "unavailable.",
+            },
+            {
+                "anchor": "descriptive-text-when-complex",
+                "kind": "usage",
+                "title": "Use descriptive text for complex journeys",
+                "text": "Use the default 'Back' text for simple journeys, but use "
+                        "descriptive text such as 'Go back to [page]' where it would "
+                        "otherwise be unclear what the user is going back to.",
+            },
+            {
+                "anchor": "inverse-contrast",
+                "kind": "accessibility",
+                "title": "Back links on dark backgrounds meet contrast minimum",
+                "text": "When using the inverse back link on a dark background, ensure "
+                        "the background has a contrast ratio of at least 4.5:1 with "
+                        "white.",
+                "wcag": "1.4.3",
+            },
+        ],
+    },
+    {
+        "slug": "breadcrumbs",
+        "title": "Breadcrumbs",
+        "ur_text": "The service uses the GOV.UK Breadcrumbs component to help users "
+                   "understand where they are within a site's hierarchy and move "
+                   "between levels, placed above the main content.",
+        "clauses": [
+            {
+                "anchor": "for-hierarchy",
+                "kind": "usage",
+                "title": "Use to move between levels of a hierarchy",
+                "text": "Use breadcrumbs to help users understand where they are and "
+                        "move between the multiple levels of a website.",
+            },
+            {
+                "anchor": "not-for-flat-or-linear",
+                "kind": "usage",
+                "title": "Do not use for flat sites or linear journeys",
+                "text": "Do not use breadcrumbs on websites with a flat structure, or to "
+                        "show progress through a linear journey or transaction.",
+            },
+            {
+                "anchor": "place-above-main",
+                "kind": "accessibility",
+                "title": "Place breadcrumbs before the main element",
+                "text": "Place breadcrumbs at the top of the page, before the main "
+                        "element, so the 'Skip to main content' link skips them along "
+                        "with other navigation links.",
+            },
+            {
+                "anchor": "home-to-parent",
+                "kind": "usage",
+                "title": "Run from home to the current page's parent",
+                "text": "Start breadcrumbs with the home page and end with the parent "
+                        "section of the current page.",
+            },
+            {
+                "anchor": "collapse-on-mobile",
+                "kind": "usage",
+                "title": "Optionally collapse long breadcrumbs on mobile",
+                "text": "For long breadcrumbs, configure the component to show only the "
+                        "first and last items on mobile devices.",
+            },
+            {
+                "anchor": "inverse-contrast",
+                "kind": "accessibility",
+                "title": "Breadcrumbs on dark backgrounds meet contrast minimum",
+                "text": "When using the inverse breadcrumbs on a dark background, ensure "
+                        "the background has a contrast ratio of at least 4.5:1 with "
+                        "white.",
+                "wcag": "1.4.3",
+            },
+        ],
+    },
+    {
+        "slug": "character-count",
+        "title": "Character count",
+        "ur_text": "The service uses the GOV.UK Character count component to tell users "
+                   "how much text they can enter into a textarea with a limit, only "
+                   "where limiting is justified, with accessible live feedback.",
+        "clauses": [
+            {
+                "anchor": "test-without-first",
+                "kind": "usage",
+                "title": "Test the service without a character count first",
+                "text": "Test the service without a character count first, and use one "
+                        "only where there is a good reason to limit the number of "
+                        "characters, such as evidence of over-entry or a legal or "
+                        "technical limit.",
+            },
+            {
+                "anchor": "raise-limit-not-count",
+                "kind": "usage",
+                "title": "Raise a limit users keep hitting",
+                "text": "If users keep hitting the backend character limit, increase the "
+                        "limit rather than adding a character count.",
+            },
+            {
+                "anchor": "does-not-restrict",
+                "kind": "usage",
+                "title": "Do not block entry over the limit",
+                "text": "Do not stop users entering more than the limit; let them enter "
+                        "their full answer and tell them when they have entered too "
+                        "many characters so they can edit it down.",
+            },
+            {
+                "anchor": "message-below-textarea",
+                "kind": "usage",
+                "title": "Show the count message below the textarea",
+                "text": "Show the count message below the textarea so it is separate "
+                        "from hint text and error messages and remains visible on "
+                        "scroll.",
+            },
+            {
+                "anchor": "static-message-without-js",
+                "kind": "accessibility",
+                "title": "Show a static limit message without JavaScript",
+                "text": "When JavaScript is not available, show a static message telling "
+                        "users how many characters they can enter in place of the live "
+                        "count.",
+            },
+            {
+                "anchor": "label-not-heading-multiple",
+                "kind": "accessibility",
+                "title": "Do not set the label as the heading with multiple questions",
+                "text": "When asking more than one question on the page, do not set the "
+                        "textarea label as the page heading.",
+            },
+            {
+                "anchor": "consider-word-count",
+                "kind": "usage",
+                "title": "Consider a word count for longer answers",
+                "text": "Consider showing a word count instead of a character count "
+                        "where the question requires a longer answer.",
+            },
+            {
+                "anchor": "generous-limit",
+                "kind": "usage",
+                "title": "Set the limit higher than most users need",
+                "text": "Set the limit higher than most users will need, informed by "
+                        "user research and data analysis; use the threshold option to "
+                        "reveal the count only near a limit users are unlikely to "
+                        "reach.",
+            },
+            {
+                "anchor": "error-above-and-count-below",
+                "kind": "usage",
+                "title": "Show an error above the field and the count below",
+                "text": "When a user tries to send too many characters, show an error "
+                        "message above the field as well as the count message below it, "
+                        "with specific wording for each error state (for example 'Enter "
+                        "a summary', 'Summary must be 400 characters or less').",
+            },
+            {
+                "anchor": "tested-with-disabled-research",
+                "kind": "research",
+                "title": "Tested with disabled users; announcement fixed",
+                "text": "The component was developed and tested in 2017 with 17 users "
+                        "including people with disabilities, and updated in 2022 to stop "
+                        "some screen readers announcing the count twice.",
+            },
+        ],
+    },
 ]

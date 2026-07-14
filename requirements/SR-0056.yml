@@ -1,0 +1,12 @@
+uid: SR-0056
+type: system_requirement
+status: approved
+title: Work without JavaScript, or hide it
+text: Where possible ensure the back link works without JavaScript; if that is not
+  possible, hide it when JavaScript is unavailable.
+links:
+- target: UR-0005
+  type: implements
+attrs:
+  source_ref: back-link#works-without-js
+  kind: usage

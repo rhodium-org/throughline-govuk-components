@@ -1,0 +1,12 @@
+uid: SR-0047
+type: system_requirement
+status: approved
+title: Keep any summary line as short as possible
+text: Add a summary line only if it is needed and keep it as short as possible, as
+  it lengthens the button text.
+links:
+- target: UR-0004
+  type: implements
+attrs:
+  source_ref: accordion#short-summary-line
+  kind: usage

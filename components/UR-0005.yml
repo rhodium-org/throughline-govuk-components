@@ -1,0 +1,12 @@
+uid: UR-0005
+type: user_requirement
+status: approved
+title: Back link
+text: The service uses the GOV.UK Back link component to help users return to the
+  previous page in a multi-page transaction, placed above the main content with clear
+  text and sufficient contrast.
+links:
+- target: INT-0001
+  type: derives_from
+attrs:
+  source_ref: back-link

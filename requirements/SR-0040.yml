@@ -1,0 +1,12 @@
+uid: SR-0040
+type: system_requirement
+status: approved
+title: Do not hide content all users need
+text: Do not use an accordion for content that all users need to see, because accordions
+  hide content and not all users notice or understand them.
+links:
+- target: UR-0004
+  type: implements
+attrs:
+  source_ref: accordion#not-for-essential-content
+  kind: usage

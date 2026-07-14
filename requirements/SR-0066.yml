@@ -1,0 +1,12 @@
+uid: SR-0066
+type: system_requirement
+status: approved
+title: Raise a limit users keep hitting
+text: If users keep hitting the backend character limit, increase the limit rather
+  than adding a character count.
+links:
+- target: UR-0007
+  type: implements
+attrs:
+  source_ref: character-count#raise-limit-not-count
+  kind: usage

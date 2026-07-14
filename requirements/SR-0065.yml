@@ -1,0 +1,13 @@
+uid: SR-0065
+type: system_requirement
+status: approved
+title: Test the service without a character count first
+text: Test the service without a character count first, and use one only where there
+  is a good reason to limit the number of characters, such as evidence of over-entry
+  or a legal or technical limit.
+links:
+- target: UR-0007
+  type: implements
+attrs:
+  source_ref: character-count#test-without-first
+  kind: usage

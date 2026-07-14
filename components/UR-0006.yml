@@ -1,0 +1,12 @@
+uid: UR-0006
+type: user_requirement
+status: approved
+title: Breadcrumbs
+text: The service uses the GOV.UK Breadcrumbs component to help users understand where
+  they are within a site's hierarchy and move between levels, placed above the main
+  content.
+links:
+- target: INT-0001
+  type: derives_from
+attrs:
+  source_ref: breadcrumbs

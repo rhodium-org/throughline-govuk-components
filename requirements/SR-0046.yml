@@ -1,0 +1,13 @@
+uid: SR-0046
+type: system_requirement
+status: approved
+title: Write clear, short heading button text
+text: Write each section heading button in sentence case, describing the content it
+  reveals and keeping it short, because long button text is hard for screen reader
+  users to navigate.
+links:
+- target: UR-0004
+  type: implements
+attrs:
+  source_ref: accordion#clear-button-text
+  kind: accessibility

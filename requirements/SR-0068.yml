@@ -1,0 +1,12 @@
+uid: SR-0068
+type: system_requirement
+status: approved
+title: Show the count message below the textarea
+text: Show the count message below the textarea so it is separate from hint text and
+  error messages and remains visible on scroll.
+links:
+- target: UR-0007
+  type: implements
+attrs:
+  source_ref: character-count#message-below-textarea
+  kind: usage

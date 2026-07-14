@@ -1,0 +1,12 @@
+uid: UR-0007
+type: user_requirement
+status: approved
+title: Character count
+text: The service uses the GOV.UK Character count component to tell users how much
+  text they can enter into a textarea with a limit, only where limiting is justified,
+  with accessible live feedback.
+links:
+- target: INT-0001
+  type: derives_from
+attrs:
+  source_ref: character-count

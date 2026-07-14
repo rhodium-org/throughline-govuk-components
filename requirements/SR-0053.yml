@@ -1,0 +1,11 @@
+uid: SR-0053
+type: system_requirement
+status: approved
+title: Do not combine with breadcrumbs
+text: Never use the back link together with the breadcrumbs component.
+links:
+- target: UR-0005
+  type: implements
+attrs:
+  source_ref: back-link#not-with-breadcrumbs
+  kind: usage

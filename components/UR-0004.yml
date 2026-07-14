@@ -1,0 +1,12 @@
+uid: UR-0004
+type: user_requirement
+status: approved
+title: Accordion
+text: The service uses the GOV.UK Accordion component to let users show and hide sections
+  of related content, only where research shows hiding content helps, with clear headings
+  and keyboard support.
+links:
+- target: INT-0001
+  type: derives_from
+attrs:
+  source_ref: accordion

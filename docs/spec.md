@@ -102,3 +102,99 @@ accessibility acceptance criterion or do-and-don't is a `system_requirement` tha
 | SR-0038 | system_requirement | approved | Accepting month names reduced errors |
 <!-- tl:end -->
 
+## Accordion
+
+<!-- tl:item UR-0004 -->
+**UR-0004 — Accordion** — `user_requirement`, status `approved`
+
+> The service uses the GOV.UK Accordion component to let users show and hide sections of related content, only where research shows hiding content helps, with clear headings and keyboard support.
+
+**source_ref**: accordion
+<!-- tl:end -->
+
+<!-- tl:table type == 'system_requirement' and attrs.get('source_ref').startswith('accordion#') -->
+| UID | Type | Status | Title |
+|---|---|---|---|
+| SR-0039 | system_requirement | approved | Use only where research shows it helps |
+| SR-0040 | system_requirement | approved | Do not hide content all users need |
+| SR-0041 | system_requirement | approved | Test the content without an accordion first |
+| SR-0042 | system_requirement | approved | Do not use to split up questions |
+| SR-0043 | system_requirement | approved | Do not nest accordions or hide-reveal components |
+| SR-0044 | system_requirement | approved | Give the accordion a unique id |
+| SR-0045 | system_requirement | approved | Show all content when JavaScript is unavailable |
+| SR-0046 | system_requirement | approved | Write clear, short heading button text |
+| SR-0047 | system_requirement | approved | Keep any summary line as short as possible |
+| SR-0048 | system_requirement | approved | Fit section heading levels into the page |
+| SR-0049 | system_requirement | approved | Do not disable sections |
+| SR-0050 | system_requirement | approved | Reworked in 2021 for accessibility |
+<!-- tl:end -->
+
+## Back link
+
+<!-- tl:item UR-0005 -->
+**UR-0005 — Back link** — `user_requirement`, status `approved`
+
+> The service uses the GOV.UK Back link component to help users return to the previous page in a multi-page transaction, placed above the main content with clear text and sufficient contrast.
+
+**source_ref**: back-link
+<!-- tl:end -->
+
+<!-- tl:table type == 'system_requirement' and attrs.get('source_ref').startswith('back-link#') -->
+| UID | Type | Status | Title |
+|---|---|---|---|
+| SR-0051 | system_requirement | approved | Use to go back in a multi-page transaction |
+| SR-0052 | system_requirement | approved | Always include on question pages |
+| SR-0053 | system_requirement | approved | Do not combine with breadcrumbs |
+| SR-0054 | system_requirement | approved | Place the back link before the main element |
+| SR-0055 | system_requirement | approved | Return users to the page as they last saw it |
+| SR-0056 | system_requirement | approved | Work without JavaScript, or hide it |
+| SR-0057 | system_requirement | approved | Use descriptive text for complex journeys |
+| SR-0058 | system_requirement | approved | Back links on dark backgrounds meet contrast minimum |
+<!-- tl:end -->
+
+## Breadcrumbs
+
+<!-- tl:item UR-0006 -->
+**UR-0006 — Breadcrumbs** — `user_requirement`, status `approved`
+
+> The service uses the GOV.UK Breadcrumbs component to help users understand where they are within a site's hierarchy and move between levels, placed above the main content.
+
+**source_ref**: breadcrumbs
+<!-- tl:end -->
+
+<!-- tl:table type == 'system_requirement' and attrs.get('source_ref').startswith('breadcrumbs#') -->
+| UID | Type | Status | Title |
+|---|---|---|---|
+| SR-0059 | system_requirement | approved | Use to move between levels of a hierarchy |
+| SR-0060 | system_requirement | approved | Do not use for flat sites or linear journeys |
+| SR-0061 | system_requirement | approved | Place breadcrumbs before the main element |
+| SR-0062 | system_requirement | approved | Run from home to the current page's parent |
+| SR-0063 | system_requirement | approved | Optionally collapse long breadcrumbs on mobile |
+| SR-0064 | system_requirement | approved | Breadcrumbs on dark backgrounds meet contrast minimum |
+<!-- tl:end -->
+
+## Character count
+
+<!-- tl:item UR-0007 -->
+**UR-0007 — Character count** — `user_requirement`, status `approved`
+
+> The service uses the GOV.UK Character count component to tell users how much text they can enter into a textarea with a limit, only where limiting is justified, with accessible live feedback.
+
+**source_ref**: character-count
+<!-- tl:end -->
+
+<!-- tl:table type == 'system_requirement' and attrs.get('source_ref').startswith('character-count#') -->
+| UID | Type | Status | Title |
+|---|---|---|---|
+| SR-0065 | system_requirement | approved | Test the service without a character count first |
+| SR-0066 | system_requirement | approved | Raise a limit users keep hitting |
+| SR-0067 | system_requirement | approved | Do not block entry over the limit |
+| SR-0068 | system_requirement | approved | Show the count message below the textarea |
+| SR-0069 | system_requirement | approved | Show a static limit message without JavaScript |
+| SR-0070 | system_requirement | approved | Do not set the label as the heading with multiple questions |
+| SR-0071 | system_requirement | approved | Consider a word count for longer answers |
+| SR-0072 | system_requirement | approved | Set the limit higher than most users need |
+| SR-0073 | system_requirement | approved | Show an error above the field and the count below |
+| SR-0074 | system_requirement | approved | Tested with disabled users; announcement fixed |
+<!-- tl:end -->
+

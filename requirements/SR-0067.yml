@@ -1,0 +1,12 @@
+uid: SR-0067
+type: system_requirement
+status: approved
+title: Do not block entry over the limit
+text: Do not stop users entering more than the limit; let them enter their full answer
+  and tell them when they have entered too many characters so they can edit it down.
+links:
+- target: UR-0007
+  type: implements
+attrs:
+  source_ref: character-count#does-not-restrict
+  kind: usage

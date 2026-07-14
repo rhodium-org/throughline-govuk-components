@@ -1,0 +1,13 @@
+uid: SR-0072
+type: system_requirement
+status: approved
+title: Set the limit higher than most users need
+text: Set the limit higher than most users will need, informed by user research and
+  data analysis; use the threshold option to reveal the count only near a limit users
+  are unlikely to reach.
+links:
+- target: UR-0007
+  type: implements
+attrs:
+  source_ref: character-count#generous-limit
+  kind: usage

@@ -1,0 +1,12 @@
+uid: SR-0042
+type: system_requirement
+status: approved
+title: Do not use to split up questions
+text: Do not use accordions to split up a series of questions; use separate pages
+  instead.
+links:
+- target: UR-0004
+  type: implements
+attrs:
+  source_ref: accordion#not-for-questions
+  kind: usage

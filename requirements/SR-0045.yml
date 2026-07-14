@@ -1,0 +1,12 @@
+uid: SR-0045
+type: system_requirement
+status: approved
+title: Show all content when JavaScript is unavailable
+text: When JavaScript is not available, show all the content with the section labels
+  as headings.
+links:
+- target: UR-0004
+  type: implements
+attrs:
+  source_ref: accordion#works-without-js
+  kind: accessibility

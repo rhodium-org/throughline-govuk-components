@@ -1,0 +1,12 @@
+uid: SR-0060
+type: system_requirement
+status: approved
+title: Do not use for flat sites or linear journeys
+text: Do not use breadcrumbs on websites with a flat structure, or to show progress
+  through a linear journey or transaction.
+links:
+- target: UR-0006
+  type: implements
+attrs:
+  source_ref: breadcrumbs#not-for-flat-or-linear
+  kind: usage

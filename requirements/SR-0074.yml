@@ -1,0 +1,13 @@
+uid: SR-0074
+type: system_requirement
+status: approved
+title: Tested with disabled users; announcement fixed
+text: The component was developed and tested in 2017 with 17 users including people
+  with disabilities, and updated in 2022 to stop some screen readers announcing the
+  count twice.
+links:
+- target: UR-0007
+  type: implements
+attrs:
+  source_ref: character-count#tested-with-disabled-research
+  kind: research

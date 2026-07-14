@@ -1,0 +1,12 @@
+uid: SR-0054
+type: system_requirement
+status: approved
+title: Place the back link before the main element
+text: Place the back link at the top of the page, before the main element, so the
+  'Skip to main content' link skips it along with other navigation links.
+links:
+- target: UR-0005
+  type: implements
+attrs:
+  source_ref: back-link#place-above-main
+  kind: accessibility

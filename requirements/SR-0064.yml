@@ -1,0 +1,13 @@
+uid: SR-0064
+type: system_requirement
+status: approved
+title: Breadcrumbs on dark backgrounds meet contrast minimum
+text: When using the inverse breadcrumbs on a dark background, ensure the background
+  has a contrast ratio of at least 4.5:1 with white.
+links:
+- target: UR-0006
+  type: implements
+attrs:
+  source_ref: breadcrumbs#inverse-contrast
+  kind: accessibility
+  wcag: 1.4.3

@@ -1,0 +1,13 @@
+uid: SR-0057
+type: system_requirement
+status: approved
+title: Use descriptive text for complex journeys
+text: Use the default 'Back' text for simple journeys, but use descriptive text such
+  as 'Go back to [page]' where it would otherwise be unclear what the user is going
+  back to.
+links:
+- target: UR-0005
+  type: implements
+attrs:
+  source_ref: back-link#descriptive-text-when-complex
+  kind: usage

@@ -1,0 +1,12 @@
+uid: SR-0063
+type: system_requirement
+status: approved
+title: Optionally collapse long breadcrumbs on mobile
+text: For long breadcrumbs, configure the component to show only the first and last
+  items on mobile devices.
+links:
+- target: UR-0006
+  type: implements
+attrs:
+  source_ref: breadcrumbs#collapse-on-mobile
+  kind: usage

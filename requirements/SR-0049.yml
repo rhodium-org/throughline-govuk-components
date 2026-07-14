@@ -1,0 +1,12 @@
+uid: SR-0049
+type: system_requirement
+status: approved
+title: Do not disable sections
+text: Do not disable sections; remove an empty section, or explain why there is no
+  content when the section is opened.
+links:
+- target: UR-0004
+  type: implements
+attrs:
+  source_ref: accordion#no-disabled-sections
+  kind: usage

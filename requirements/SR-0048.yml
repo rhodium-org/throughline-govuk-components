@@ -1,0 +1,12 @@
+uid: SR-0048
+type: system_requirement
+status: approved
+title: Fit section heading levels into the page
+text: Section headings render as h2; change their heading level where needed so they
+  fit the other headings on the page.
+links:
+- target: UR-0004
+  type: implements
+attrs:
+  source_ref: accordion#heading-level-fits
+  kind: accessibility

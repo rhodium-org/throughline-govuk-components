@@ -1,0 +1,13 @@
+uid: SR-0039
+type: system_requirement
+status: approved
+title: Use only where research shows it helps
+text: Use an accordion only where there is evidence it helps users to see an overview
+  of related sections and choose which to reveal; test with users before deciding
+  to use one.
+links:
+- target: UR-0004
+  type: implements
+attrs:
+  source_ref: accordion#only-with-evidence
+  kind: usage

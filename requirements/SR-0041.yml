@@ -1,0 +1,12 @@
+uid: SR-0041
+type: system_requirement
+status: approved
+title: Test the content without an accordion first
+text: Test the content without an accordion first; well-written and structured content
+  can remove the need for one.
+links:
+- target: UR-0004
+  type: implements
+attrs:
+  source_ref: accordion#test-without-first
+  kind: usage

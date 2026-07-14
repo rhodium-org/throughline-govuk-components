@@ -1,0 +1,12 @@
+uid: SR-0043
+type: system_requirement
+status: approved
+title: Do not nest accordions or hide-reveal components
+text: Do not put accordions within accordions, or nest the accordion, tabs and details
+  components within one another.
+links:
+- target: UR-0004
+  type: implements
+attrs:
+  source_ref: accordion#no-nesting
+  kind: usage

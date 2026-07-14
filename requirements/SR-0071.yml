@@ -1,0 +1,12 @@
+uid: SR-0071
+type: system_requirement
+status: approved
+title: Consider a word count for longer answers
+text: Consider showing a word count instead of a character count where the question
+  requires a longer answer.
+links:
+- target: UR-0007
+  type: implements
+attrs:
+  source_ref: character-count#consider-word-count
+  kind: usage
