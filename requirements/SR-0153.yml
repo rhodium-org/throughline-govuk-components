@@ -7,6 +7,8 @@ text: Use 'Privacy', 'Accessibility', 'Cookies' and 'Terms and conditions' as th
 links:
 - target: UR-0015
   type: implements
+- target: INT-0003
+  type: serves
 attrs:
   source_ref: footer#standard-link-text
   kind: usage

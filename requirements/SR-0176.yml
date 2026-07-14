@@ -7,6 +7,8 @@ text: Avoid showing more than one notification banner on a page; combine message
 links:
 - target: UR-0018
   type: implements
+- target: INT-0003
+  type: serves
 attrs:
   source_ref: notification-banner#single-banner-per-page
   kind: usage

@@ -8,6 +8,8 @@ text: Do not use placeholder text in place of a label, hint, or example, because
 links:
 - target: UR-0033
   type: implements
+- target: INT-0002
+  type: serves
 attrs:
   source_ref: text-input#avoid-placeholder
   kind: accessibility

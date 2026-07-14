@@ -5,8 +5,15 @@ title: Accordion
 text: The service uses the GOV.UK Accordion component to let users show and hide sections
   of related content, only where research shows hiding content helps, with clear headings
   and keyboard support.
+rationale: When users benefit from an overview of related sections and want to reveal,
+  hide, and compare only the parts relevant to them, this lets them control long or
+  repeat-use content instead of scrolling through everything at once.
 links:
-- target: INT-0001
+- target: INT-0002
+  type: derives_from
+- target: INT-0003
+  type: derives_from
+- target: INT-0004
   type: derives_from
 attrs:
   source_ref: accordion

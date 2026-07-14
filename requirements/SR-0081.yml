@@ -7,6 +7,8 @@ text: Group checkboxes in a fieldset with a legend that describes them, usually 
 links:
 - target: UR-0008
   type: implements
+- target: INT-0002
+  type: serves
 attrs:
   source_ref: checkboxes#fieldset-legend
   kind: accessibility

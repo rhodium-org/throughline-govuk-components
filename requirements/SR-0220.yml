@@ -8,6 +8,8 @@ text: Set the spellcheck attribute to false and the autocapitalize attribute to 
 links:
 - target: UR-0021
   type: implements
+- target: INT-0003
+  type: serves
 attrs:
   source_ref: password-input#no-spellcheck-autocapitalise
   kind: usage

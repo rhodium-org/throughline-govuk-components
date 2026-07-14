@@ -7,6 +7,8 @@ text: If asking more than one question on the page, do not set the label as the 
 links:
 - target: UR-0032
   type: implements
+- target: INT-0003
+  type: serves
 attrs:
   source_ref: textarea#label-not-heading-multi-question
   kind: usage

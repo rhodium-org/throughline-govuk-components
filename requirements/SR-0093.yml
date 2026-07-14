@@ -7,6 +7,8 @@ text: Do not fix the cookie banner to the top of the page, so it cannot cover or
 links:
 - target: UR-0009
   type: implements
+- target: INT-0002
+  type: serves
 attrs:
   source_ref: cookie-banner#not-sticky
   kind: accessibility

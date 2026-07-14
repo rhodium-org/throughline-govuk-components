@@ -8,6 +8,8 @@ text: Use the refreshed GOV.UK branding, removing the govukRebrand feature flag 
 links:
 - target: UR-0016
   type: implements
+- target: INT-0003
+  type: serves
 attrs:
   source_ref: header#brand-refresh
   kind: usage

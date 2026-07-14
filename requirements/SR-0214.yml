@@ -8,6 +8,8 @@ text: On form submission the password input should automatically change its type
 links:
 - target: UR-0021
   type: implements
+- target: INT-0003
+  type: serves
 attrs:
   source_ref: password-input#type-password-on-submit
   kind: usage

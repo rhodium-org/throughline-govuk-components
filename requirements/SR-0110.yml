@@ -6,6 +6,8 @@ text: Summarise all errors at the top of the page in an error summary component.
 links:
 - target: UR-0011
   type: implements
+- target: INT-0003
+  type: serves
 attrs:
   source_ref: error-message#summarise-at-top
   kind: usage

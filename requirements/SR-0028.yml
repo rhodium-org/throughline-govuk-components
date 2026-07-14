@@ -7,6 +7,8 @@ text: Group the day, month and year fields in a fieldset with a legend that desc
 links:
 - target: UR-0003
   type: implements
+- target: INT-0002
+  type: serves
 attrs:
   source_ref: date-input#fieldset-legend
   kind: accessibility

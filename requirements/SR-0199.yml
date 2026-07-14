@@ -7,6 +7,8 @@ text: If the user filters or sorts, apply it to the whole list rather than only 
 links:
 - target: UR-0019
   type: implements
+- target: INT-0003
+  type: serves
 attrs:
   source_ref: pagination#filtering-sorting
   kind: usage

@@ -8,6 +8,8 @@ text: Use instructions for some errors and descriptions for others, consistently
 links:
 - target: UR-0011
   type: implements
+- target: INT-0003
+  type: serves
 attrs:
   source_ref: error-message#instructions-and-descriptions
   kind: usage

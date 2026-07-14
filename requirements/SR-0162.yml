@@ -7,6 +7,8 @@ text: Do not show a service name or navigation links in the GOV.UK header; use t
 links:
 - target: UR-0016
   type: implements
+- target: INT-0003
+  type: serves
 attrs:
   source_ref: header#no-service-name
   kind: usage

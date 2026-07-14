@@ -6,6 +6,8 @@ text: When comparing columns of numbers, align the numbers to the right in table
 links:
 - target: UR-0028
   type: implements
+- target: INT-0003
+  type: serves
 attrs:
   source_ref: table#right-align-numbers
   kind: usage

@@ -6,6 +6,8 @@ text: Use the footer at the bottom of every page of the service.
 links:
 - target: UR-0015
   type: implements
+- target: INT-0003
+  type: serves
 attrs:
   source_ref: footer#every-page
   kind: usage

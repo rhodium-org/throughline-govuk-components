@@ -6,6 +6,8 @@ text: If the same tag is used in more than one place, keep its colour consistent
 links:
 - target: UR-0030
   type: implements
+- target: INT-0002
+  type: serves
 attrs:
   source_ref: tag#consistent-colour
   kind: accessibility

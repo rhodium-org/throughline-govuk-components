@@ -4,8 +4,13 @@ status: approved
 title: Warning text
 text: As a service, I use the warning text component to warn users about something
   important, such as legal consequences of an action or inaction.
+rationale: Draws users' attention to something genuinely important, such as the legal
+  consequences of an action or inaction, so they do not overlook a critical warning
+  before deciding what to do.
 links:
-- target: INT-0001
+- target: INT-0002
+  type: derives_from
+- target: INT-0003
   type: derives_from
 attrs:
   source_ref: warning-text

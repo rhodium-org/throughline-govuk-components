@@ -5,8 +5,13 @@ title: Breadcrumbs
 text: The service uses the GOV.UK Breadcrumbs component to help users understand where
   they are within a site's hierarchy and move between levels, placed above the main
   content.
+rationale: Users navigating a site with multiple hierarchical levels need to understand
+  where they are and move up between levels, so they can orient themselves within
+  the wider structure.
 links:
-- target: INT-0001
+- target: INT-0002
+  type: derives_from
+- target: INT-0003
   type: derives_from
 attrs:
   source_ref: breadcrumbs

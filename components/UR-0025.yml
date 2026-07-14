@@ -4,8 +4,13 @@ status: approved
 title: Service navigation
 text: Service navigation helps users understand they are using your service and lets
   them navigate around it, showing the service name and optional navigation links.
+rationale: Reassures users that they are in the right place within a specific service
+  and lets them move between its parts, giving a consistent experience that shows
+  GOV.UK functions as one coherent website.
 links:
-- target: INT-0001
+- target: INT-0002
+  type: derives_from
+- target: INT-0003
   type: derives_from
 attrs:
   source_ref: service-navigation

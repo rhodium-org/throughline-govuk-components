@@ -8,6 +8,8 @@ text: Avoid generic messages such as 'An error occurred' or 'This field is requi
 links:
 - target: UR-0011
   type: implements
+- target: INT-0003
+  type: serves
 attrs:
   source_ref: error-message#be-specific
   kind: usage

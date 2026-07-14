@@ -7,6 +7,8 @@ text: Do not disable sections; remove an empty section, or explain why there is 
 links:
 - target: UR-0004
   type: implements
+- target: INT-0003
+  type: serves
 attrs:
   source_ref: accordion#no-disabled-sections
   kind: usage

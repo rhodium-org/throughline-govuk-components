@@ -8,6 +8,8 @@ text: Although the button and 'No file chosen' text can be changed for translati
 links:
 - target: UR-0014
   type: implements
+- target: INT-0002
+  type: serves
 attrs:
   source_ref: file-upload#keep-text-short
   kind: accessibility

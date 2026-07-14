@@ -8,6 +8,8 @@ text: Describe what happened and how to fix it in plain, positive English; avoid
 links:
 - target: UR-0011
   type: implements
+- target: INT-0003
+  type: serves
 attrs:
   source_ref: error-message#clear-and-concise
   kind: usage

@@ -6,6 +6,8 @@ text: Give every text input a label, and in most cases keep the label visible.
 links:
 - target: UR-0033
   type: implements
+- target: INT-0002
+  type: serves
 attrs:
   source_ref: text-input#must-have-labels
   kind: accessibility

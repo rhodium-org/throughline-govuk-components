@@ -7,6 +7,8 @@ text: When JavaScript is not available, show a static message telling users how 
 links:
 - target: UR-0007
   type: implements
+- target: INT-0002
+  type: serves
 attrs:
   source_ref: character-count#static-message-without-js
   kind: accessibility

@@ -4,8 +4,13 @@ status: approved
 title: Textarea
 text: As a service, I use the textarea component to let users enter an amount of text
   that is longer than a single line.
+rationale: Lets users provide answers longer than a single line, giving space for
+  detailed free-text information that would not fit in a standard single-line input
+  field.
 links:
-- target: INT-0001
+- target: INT-0002
+  type: derives_from
+- target: INT-0003
   type: derives_from
 attrs:
   source_ref: textarea

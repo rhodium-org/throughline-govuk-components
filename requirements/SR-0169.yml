@@ -8,6 +8,8 @@ text: Use a notification banner to tell the user about something not directly re
 links:
 - target: UR-0018
   type: implements
+- target: INT-0003
+  type: serves
 attrs:
   source_ref: notification-banner#when-to-use
   kind: usage

@@ -7,6 +7,8 @@ text: Put the error summary at the top of the main container; if the page has br
 links:
 - target: UR-0002
   type: implements
+- target: INT-0003
+  type: serves
 attrs:
   source_ref: error-summary#placement
   kind: usage

@@ -8,6 +8,8 @@ text: 'Show an appropriate number of pages for the horizontal space: on smaller 
 links:
 - target: UR-0019
   type: implements
+- target: INT-0003
+  type: serves
 attrs:
   source_ref: pagination#responsive-page-count
   kind: usage

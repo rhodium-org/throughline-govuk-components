@@ -8,6 +8,8 @@ text: The button redirects to BBC Weather by default; if changed, avoid sites th
 links:
 - target: UR-0012
   type: implements
+- target: INT-0003
+  type: serves
 attrs:
   source_ref: exit-this-page#safe-destination
   kind: usage

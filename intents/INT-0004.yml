@@ -1,0 +1,10 @@
+uid: INT-0004
+type: intent
+status: approved
+title: Components are proven by user research
+text: Each component is shaped and validated by user research and testing, so services
+  adopt solutions already shown to help people complete their task first time with fewer
+  errors, rather than untested designs.
+normative: false
+attrs:
+  source_ref: proven-by-research

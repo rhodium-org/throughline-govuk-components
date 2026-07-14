@@ -8,6 +8,8 @@ text: Use the panel component to display important information when a transactio
 links:
 - target: UR-0020
   type: implements
+- target: INT-0003
+  type: serves
 attrs:
   source_ref: panel#use-for-completed-transaction
   kind: usage

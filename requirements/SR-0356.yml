@@ -7,6 +7,8 @@ text: Do not use hint text for anything longer than a short simple sentence, bec
 links:
 - target: UR-0033
   type: implements
+- target: INT-0002
+  type: serves
 attrs:
   source_ref: text-input#hint-not-for-long-text
   kind: accessibility

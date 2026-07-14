@@ -8,6 +8,8 @@ text: 'When there is more than one error, show the highest-priority message, in 
 links:
 - target: UR-0003
   type: implements
+- target: INT-0003
+  type: serves
 attrs:
   source_ref: date-input#error-priority
   kind: usage

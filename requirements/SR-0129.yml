@@ -7,6 +7,8 @@ text: The design is based on research with people with lived experience of domes
 links:
 - target: UR-0012
   type: implements
+- target: INT-0004
+  type: serves
 attrs:
   source_ref: exit-this-page#research-basis
   kind: research

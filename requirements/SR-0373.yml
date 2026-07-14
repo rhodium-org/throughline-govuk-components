@@ -7,6 +7,8 @@ text: Use the Generic header component only if your service is both a public-fac
 links:
 - target: UR-0035
   type: implements
+- target: INT-0003
+  type: serves
 attrs:
   source_ref: generic-header#when-non-govuk-public-service
   kind: usage

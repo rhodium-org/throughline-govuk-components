@@ -7,6 +7,8 @@ text: When asking more than one question on the page, do not set the legend as t
 links:
 - target: UR-0003
   type: implements
+- target: INT-0002
+  type: serves
 attrs:
   source_ref: date-input#legend-not-heading-multiple
   kind: accessibility

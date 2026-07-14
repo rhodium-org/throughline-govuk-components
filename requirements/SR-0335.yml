@@ -8,6 +8,8 @@ text: This component still needs user testing of assumptions including whether l
 links:
 - target: UR-0031
   type: implements
+- target: INT-0004
+  type: serves
 attrs:
   source_ref: task-list#research-known-gaps
   kind: research

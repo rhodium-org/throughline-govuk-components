@@ -6,6 +6,8 @@ text: Only ask users to upload a file when it is critical to the delivery of the
 links:
 - target: UR-0014
   type: implements
+- target: INT-0003
+  type: serves
 attrs:
   source_ref: file-upload#only-when-critical
   kind: usage

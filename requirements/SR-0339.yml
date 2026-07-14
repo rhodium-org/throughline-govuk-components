@@ -7,6 +7,8 @@ text: Label every textarea; placeholder text is not a suitable substitute for a 
 links:
 - target: UR-0032
   type: implements
+- target: INT-0002
+  type: serves
 attrs:
   source_ref: textarea#must-label
   kind: accessibility

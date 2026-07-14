@@ -7,6 +7,8 @@ text: Do not use tabs if the content would make the page slow to load, and do no
 links:
 - target: UR-0029
   type: implements
+- target: INT-0003
+  type: serves
 attrs:
   source_ref: tabs#not-for-slow-content
   kind: usage

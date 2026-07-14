@@ -7,6 +7,8 @@ text: Move keyboard focus to the error summary when it appears so assistive tech
 links:
 - target: UR-0002
   type: implements
+- target: INT-0002
+  type: serves
 attrs:
   source_ref: error-summary#move-focus
   kind: accessibility

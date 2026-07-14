@@ -7,6 +7,8 @@ text: For service journeys, the component must be used together with the Exit a 
 links:
 - target: UR-0012
   type: implements
+- target: INT-0003
+  type: serves
 attrs:
   source_ref: exit-this-page#use-with-pattern
   kind: usage

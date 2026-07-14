@@ -7,6 +7,8 @@ text: Do not clear any form fields when showing an error; keep both passing and 
 links:
 - target: UR-0011
   type: implements
+- target: INT-0003
+  type: serves
 attrs:
   source_ref: error-message#keep-field-values
   kind: usage

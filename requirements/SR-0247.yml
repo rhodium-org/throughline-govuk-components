@@ -9,6 +9,8 @@ text: 'Word errors by pattern: ''Select yes if...'' for yes/no questions, ''Sele
 links:
 - target: UR-0023
   type: implements
+- target: INT-0003
+  type: serves
 attrs:
   source_ref: radios#error-wording
   kind: usage

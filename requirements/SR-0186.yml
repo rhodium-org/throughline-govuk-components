@@ -7,6 +7,8 @@ text: Only break content onto separate pages if it improves the performance or u
 links:
 - target: UR-0019
   type: implements
+- target: INT-0003
+  type: serves
 attrs:
   source_ref: pagination#only-if-improves
   kind: usage

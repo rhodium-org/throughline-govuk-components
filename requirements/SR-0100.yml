@@ -7,6 +7,8 @@ text: Use the details component to make a page easier to scan when it contains i
 links:
 - target: UR-0010
   type: implements
+- target: INT-0003
+  type: serves
 attrs:
   source_ref: details#for-some-users
   kind: usage

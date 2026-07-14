@@ -4,8 +4,15 @@ status: approved
 title: Task list
 text: As a service, I use the task list component to display all the tasks a user
   needs to do and let them see which are done and which remain.
+rationale: Gives users control over long, complex services they cannot or do not want
+  to finish in one sitting, letting them choose their own order and clearly see which
+  tasks are done and which remain.
 links:
-- target: INT-0001
+- target: INT-0002
+  type: derives_from
+- target: INT-0003
+  type: derives_from
+- target: INT-0004
   type: derives_from
 attrs:
   source_ref: task-list

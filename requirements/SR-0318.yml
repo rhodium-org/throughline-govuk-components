@@ -8,6 +8,8 @@ text: Only use the task list if there is evidence that users cannot or do not wa
 links:
 - target: UR-0031
   type: implements
+- target: INT-0003
+  type: serves
 attrs:
   source_ref: task-list#evidence-required
   kind: usage

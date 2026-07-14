@@ -6,6 +6,8 @@ text: All GOV.UK pages must include a skip link.
 links:
 - target: UR-0026
   type: implements
+- target: INT-0002
+  type: serves
 attrs:
   source_ref: skip-link#required-all-pages
   kind: accessibility

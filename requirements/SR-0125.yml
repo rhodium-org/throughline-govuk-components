@@ -8,6 +8,8 @@ text: Decide whether the service stores or clears the user's session data after 
 links:
 - target: UR-0012
   type: implements
+- target: INT-0003
+  type: serves
 attrs:
   source_ref: exit-this-page#session-data
   kind: usage

@@ -6,6 +6,8 @@ text: Align the primary action button to the left edge of the form.
 links:
 - target: UR-0001
   type: implements
+- target: INT-0003
+  type: serves
 attrs:
   source_ref: button#align-left
   kind: usage

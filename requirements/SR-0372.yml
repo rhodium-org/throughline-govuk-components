@@ -7,6 +7,8 @@ text: Rewrite the visually hidden text (for example 'Warning') where needed to m
 links:
 - target: UR-0034
   type: implements
+- target: INT-0002
+  type: serves
 attrs:
   source_ref: warning-text#rewrite-hidden-text
   kind: accessibility

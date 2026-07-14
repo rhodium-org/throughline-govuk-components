@@ -8,6 +8,8 @@ text: When a user tries to send too many characters, show an error message above
 links:
 - target: UR-0007
   type: implements
+- target: INT-0003
+  type: serves
 attrs:
   source_ref: character-count#error-above-and-count-below
   kind: usage

@@ -9,6 +9,8 @@ text: Testing found screen reader users had no difficulty answering conditionall
 links:
 - target: UR-0023
   type: implements
+- target: INT-0004
+  type: serves
 attrs:
   source_ref: radios#research-conditional-reveal
   kind: research

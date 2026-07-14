@@ -9,6 +9,8 @@ text: Give specific error messages for specific error states — for example 'En
 links:
 - target: UR-0003
   type: implements
+- target: INT-0003
+  type: serves
 attrs:
   source_ref: date-input#error-specific-wording
   kind: usage

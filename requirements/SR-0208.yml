@@ -8,6 +8,8 @@ text: Do not use this component to ask for anything other than a password; use a
 links:
 - target: UR-0021
   type: implements
+- target: INT-0003
+  type: serves
 attrs:
   source_ref: password-input#not-for-other-info
   kind: usage

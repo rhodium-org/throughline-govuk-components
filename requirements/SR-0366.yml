@@ -8,6 +8,8 @@ text: Set spellcheck to false for information not appropriate to spellcheck such
 links:
 - target: UR-0033
   type: implements
+- target: INT-0003
+  type: serves
 attrs:
   source_ref: text-input#spellcheck-control
   kind: usage

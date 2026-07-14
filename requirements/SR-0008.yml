@@ -8,6 +8,8 @@ text: When an action needs a warning button, include an additional step that ask
 links:
 - target: UR-0001
   type: implements
+- target: INT-0003
+  type: serves
 attrs:
   source_ref: button#warning-confirmation-step
   kind: usage

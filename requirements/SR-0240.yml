@@ -8,6 +8,8 @@ text: Keep each radio item hint to a single short sentence without full stops an
 links:
 - target: UR-0023
   type: implements
+- target: INT-0002
+  type: serves
 attrs:
   source_ref: radios#hint-text-format
   kind: accessibility

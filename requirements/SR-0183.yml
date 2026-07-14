@@ -7,6 +7,8 @@ text: Use the same heading for green notification banners across a service to id
 links:
 - target: UR-0018
   type: implements
+- target: INT-0002
+  type: serves
 attrs:
   source_ref: notification-banner#consistent-success-heading
   kind: accessibility

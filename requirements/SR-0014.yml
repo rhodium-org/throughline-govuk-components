@@ -7,6 +7,8 @@ text: Testing on GOV.UK showed that using green as the colour of start buttons i
 links:
 - target: UR-0001
   type: implements
+- target: INT-0004
+  type: serves
 attrs:
   source_ref: button#green-start-buttons
   kind: research

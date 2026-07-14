@@ -8,6 +8,8 @@ text: Statuses were redesigned to look less like buttons and the whole row was l
 links:
 - target: UR-0031
   type: implements
+- target: INT-0004
+  type: serves
 attrs:
   source_ref: task-list#research-whole-row-linked
   kind: research

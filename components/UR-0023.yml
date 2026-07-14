@@ -4,8 +4,15 @@ status: approved
 title: Radios
 text: The radios component lets users select a single option from a list, and a service
   uses it when only one option can be chosen.
+rationale: Lets users select exactly one option from a list when the choices are mutually
+  exclusive, making the single-answer constraint clear and preventing the confusion
+  of allowing multiple selections.
 links:
-- target: INT-0001
+- target: INT-0002
+  type: derives_from
+- target: INT-0003
+  type: derives_from
+- target: INT-0004
   type: derives_from
 attrs:
   source_ref: radios

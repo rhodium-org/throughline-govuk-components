@@ -8,16 +8,26 @@ clauses — lives in ``tools/components_data.py`` (one structured record per com
 This script is pure mechanics: it turns that data into throughline items and the
 published spec skeleton.
 
-Two invariants make re-running safe and faithful (mirroring the ASVS generator):
+One invariant makes re-running safe and faithful (mirroring the ASVS generator):
 
 * **UIDs are permanent.** The mapping from a component/clause to a throughline UID is
   derived from the items already on disk, keyed by ``attrs.source_ref`` (which is unique
   per item: ``"button"`` for a component UR, ``"button#sentence-case"`` for a clause SR).
-  Existing items are never rewritten; only components/clauses that have no item yet get a
-  freshly allocated UID, in data-file order, continuing from the highest number in use.
-* **Additive only.** Editing a clause's text in the data file does not rewrite an item
-  that already exists (it is matched and skipped). To revise published text, edit the
-  item YAML directly; to retire a clause, tombstone the item with ``tl delete``.
+  A component/clause that has no item yet gets a freshly allocated UID, in data-file
+  order, continuing from the highest number in use; a UID, once allocated, never moves.
+
+Item *bodies* are regenerated from ``components_data.py`` on every run — the data file is
+the single source of truth. To revise a clause, edit the data file and re-run; to retire
+one, remove it from the data file and tombstone its item with ``tl delete``.
+
+The **"why" spine** has three co-equal **root** intents — the outcomes the Design System
+claims: accessibility (``INT-0002``), consistent use (``INT-0003``) and proven-by-research
+(``INT-0004``). There is no single umbrella (``INT-0001`` was retired as a tombstone).
+Each component ``user_requirement`` ``derives_from`` the outcome roots its clauses serve
+and carries a ``rationale`` (the component's real *why*). Each clause
+``system_requirement`` ``implements`` its component and ``serves`` the outcome root
+matching its ``attrs.kind`` — so a clause's *why* is a first-class, traversable edge
+rather than a flat tag.
 
 The docs skeleton (``docs/spec.md``) is regenerated in full each run — a header plus, per
 component, a ``tl:item`` block for its UR and a ``tl:table`` referencing its clauses.
@@ -37,7 +47,16 @@ REPO = Path(__file__).resolve().parent.parent
 COMPONENTS_DIR = REPO / "components"      # user_requirement, prefix UR
 REQS_DIR = REPO / "requirements"          # system_requirement, prefix SR
 SPEC = REPO / "docs" / "spec.md"
-INTENT = "INT-0001"
+
+# The three co-equal root intents (the outcomes the Design System claims). A clause's
+# `attrs.kind` maps 1:1 to the outcome it serves; a component derives_from the union of
+# the outcomes its clauses cover. KIND_ORDER fixes a stable link order.
+OUTCOMES = {
+    "accessibility": "INT-0002",   # works for everyone
+    "usage": "INT-0003",           # consistent, correct use
+    "research": "INT-0004",        # proven by user research
+}
+KIND_ORDER = ["accessibility", "usage", "research"]
 
 
 def _scan_existing(dir_: Path) -> dict[str, str]:
@@ -64,42 +83,48 @@ def _dump(path: Path, item: dict) -> None:
 
 
 def generate_items() -> tuple[dict[str, str], int, int]:
-    """Create any missing UR/SR items. Returns (slug->ur_uid, urs_written, srs_written)."""
+    """Allocate UIDs for any new components/clauses, then (re)write every item body from
+    the data file. Returns (slug->ur_uid, urs_new, srs_new)."""
     ur_ref2uid = _scan_existing(COMPONENTS_DIR)
     sr_ref2uid = _scan_existing(REQS_DIR)
     next_ur = _max_num(ur_ref2uid, "UR") + 1
     next_sr = _max_num(sr_ref2uid, "SR") + 1
 
     slug2ur: dict[str, str] = {}
-    urs_written = srs_written = 0
+    urs_new = srs_new = 0
 
     for comp in COMPONENTS:
         slug = comp["slug"]
-        if slug in ur_ref2uid:
-            ur_uid = ur_ref2uid[slug]
-        else:
+        ur_uid = ur_ref2uid.get(slug)
+        if ur_uid is None:
             ur_uid = f"UR-{next_ur:04d}"
             next_ur += 1
             ur_ref2uid[slug] = ur_uid
-            _dump(COMPONENTS_DIR / f"{ur_uid}.yml", {
-                "uid": ur_uid,
-                "type": "user_requirement",
-                "status": "approved",
-                "title": comp["title"],
-                "text": comp["ur_text"],
-                "links": [{"target": INTENT, "type": "derives_from"}],
-                "attrs": {"source_ref": slug},
-            })
-            urs_written += 1
+            urs_new += 1
         slug2ur[slug] = ur_uid
+
+        # A component derives_from the outcome roots its clauses serve (stable order).
+        kinds = {c["kind"] for c in comp["clauses"]}
+        outcomes = [OUTCOMES[k] for k in KIND_ORDER if k in kinds]
+        _dump(COMPONENTS_DIR / f"{ur_uid}.yml", {
+            "uid": ur_uid,
+            "type": "user_requirement",
+            "status": "approved",
+            "title": comp["title"],
+            "text": comp["ur_text"],
+            "rationale": comp["rationale"],
+            "links": [{"target": o, "type": "derives_from"} for o in outcomes],
+            "attrs": {"source_ref": slug},
+        })
 
         for clause in comp["clauses"]:
             ref = f"{slug}#{clause['anchor']}"
-            if ref in sr_ref2uid:
-                continue
-            sr_uid = f"SR-{next_sr:04d}"
-            next_sr += 1
-            sr_ref2uid[ref] = sr_uid
+            sr_uid = sr_ref2uid.get(ref)
+            if sr_uid is None:
+                sr_uid = f"SR-{next_sr:04d}"
+                next_sr += 1
+                sr_ref2uid[ref] = sr_uid
+                srs_new += 1
             attrs = {"source_ref": ref, "kind": clause["kind"]}
             if clause.get("wcag"):
                 attrs["wcag"] = clause["wcag"]
@@ -109,12 +134,14 @@ def generate_items() -> tuple[dict[str, str], int, int]:
                 "status": "approved",
                 "title": clause["title"],
                 "text": clause["text"],
-                "links": [{"target": ur_uid, "type": "implements"}],
+                "links": [
+                    {"target": ur_uid, "type": "implements"},
+                    {"target": OUTCOMES[clause["kind"]], "type": "serves"},
+                ],
                 "attrs": attrs,
             })
-            srs_written += 1
 
-    return slug2ur, urs_written, srs_written
+    return slug2ur, urs_new, srs_new
 
 
 SPEC_HEADER = """\
@@ -123,15 +150,24 @@ SPEC_HEADER = """\
 This document is generated from the graph. The prose between `tl:item` / `tl:table`
 markers is injected by `tl docs` — edit the YAML items, not the injected regions.
 
-Each component is a `user_requirement` grouping the standard; each usage rule,
+The "why" spine has three co-equal **root** intents — the outcomes the Design System
+claims. Each component is a `user_requirement` that `derives_from` the outcome roots its
+clauses serve, carrying a `rationale` for its own existence; each usage rule,
 accessibility acceptance criterion or do-and-don't is a `system_requirement` that
-`implements` its component. The component's native anchor lives in `attrs.source_ref`
-(`"button"`, `"button#sentence-case"`); the facet in `attrs.kind`
-(`usage` / `accessibility` / `research`); any WCAG success criterion in `attrs.wcag`.
+`implements` its component and `serves` the outcome root matching its `attrs.kind`
+(`accessibility` → INT-0002, `usage` → INT-0003, `research` → INT-0004). The component's
+native anchor lives in `attrs.source_ref` (`"button"`, `"button#sentence-case"`); any
+WCAG success criterion in `attrs.wcag`.
 
-## Purpose
+## Outcomes — the roots
 
-<!-- tl:item INT-0001 -->
+<!-- tl:item INT-0002 -->
+<!-- tl:end -->
+
+<!-- tl:item INT-0003 -->
+<!-- tl:end -->
+
+<!-- tl:item INT-0004 -->
 <!-- tl:end -->
 """
 

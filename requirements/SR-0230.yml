@@ -7,6 +7,8 @@ text: Do not use radios if users might need to select more than one option; use 
 links:
 - target: UR-0023
   type: implements
+- target: INT-0003
+  type: serves
 attrs:
   source_ref: radios#not-for-multiple
   kind: usage

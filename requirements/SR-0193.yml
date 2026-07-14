@@ -6,6 +6,8 @@ text: Use link labels to give context on what the neighbouring pages are about.
 links:
 - target: UR-0019
   type: implements
+- target: INT-0003
+  type: serves
 attrs:
   source_ref: pagination#link-labels-context
   kind: usage

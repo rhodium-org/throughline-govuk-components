@@ -6,6 +6,8 @@ text: Use tags solely to indicate a status; do not repurpose them for other cont
 links:
 - target: UR-0030
   type: implements
+- target: INT-0003
+  type: serves
 attrs:
   source_ref: tag#status-only
   kind: usage

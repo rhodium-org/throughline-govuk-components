@@ -7,6 +7,8 @@ text: Only use the summary list for information that has a key and at least one 
 links:
 - target: UR-0027
   type: implements
+- target: INT-0003
+  type: serves
 attrs:
   source_ref: summary-list#key-value-only
   kind: usage

@@ -10,6 +10,8 @@ text: Use the standard wording for each error state, for example 'Select a [thin
 links:
 - target: UR-0014
   type: implements
+- target: INT-0003
+  type: serves
 attrs:
   source_ref: file-upload#error-wording
   kind: usage

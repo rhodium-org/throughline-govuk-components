@@ -8,6 +8,8 @@ text: Put the message in red after the question and hint text, use a red border 
 links:
 - target: UR-0011
   type: implements
+- target: INT-0003
+  type: serves
 attrs:
   source_ref: error-message#red-message-and-border
   kind: usage

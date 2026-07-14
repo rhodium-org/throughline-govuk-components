@@ -7,6 +7,8 @@ text: Use colour to help distinguish between different tags or to draw attention
 links:
 - target: UR-0030
   type: implements
+- target: INT-0003
+  type: serves
 attrs:
   source_ref: tag#colour-to-emphasise
   kind: usage

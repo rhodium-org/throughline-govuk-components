@@ -7,6 +7,8 @@ text: Use a heading such as 'Success' on green banners so meaning is not conveye
 links:
 - target: UR-0018
   type: implements
+- target: INT-0002
+  type: serves
 attrs:
   source_ref: notification-banner#success-heading-not-colour
   kind: accessibility

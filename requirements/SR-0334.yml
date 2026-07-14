@@ -8,6 +8,8 @@ text: Statuses were changed to sentence case and 'Completed' to black text with 
 links:
 - target: UR-0031
   type: implements
+- target: INT-0004
+  type: serves
 attrs:
   source_ref: task-list#research-sentence-case-statuses
   kind: research

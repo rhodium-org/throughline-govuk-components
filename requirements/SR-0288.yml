@@ -7,6 +7,8 @@ text: Never use the table component to lay out content on a page; use the grid s
 links:
 - target: UR-0028
   type: implements
+- target: INT-0003
+  type: serves
 attrs:
   source_ref: table#not-for-layout
   kind: usage

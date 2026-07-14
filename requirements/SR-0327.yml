@@ -7,6 +7,8 @@ text: Write task names that clearly convey what the task is about, in sentence c
 links:
 - target: UR-0031
   type: implements
+- target: INT-0002
+  type: serves
 attrs:
   source_ref: task-list#clear-short-task-names
   kind: accessibility

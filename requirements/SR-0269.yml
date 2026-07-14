@@ -7,6 +7,8 @@ text: The skip link gives keyboard users the option to bypass the top-level navi
 links:
 - target: UR-0026
   type: implements
+- target: INT-0002
+  type: serves
 attrs:
   source_ref: skip-link#bypass-navigation
   kind: accessibility

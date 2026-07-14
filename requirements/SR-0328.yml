@@ -7,6 +7,8 @@ text: If a task is difficult to name clearly and concisely, consider that it may
 links:
 - target: UR-0031
   type: implements
+- target: INT-0003
+  type: serves
 attrs:
   source_ref: task-list#split-complex-tasks
   kind: usage

@@ -7,6 +7,8 @@ text: For a question answered in a single field (file upload, select, textarea, 
 links:
 - target: UR-0002
   type: implements
+- target: INT-0002
+  type: serves
 attrs:
   source_ref: error-summary#link-single-field
   kind: accessibility

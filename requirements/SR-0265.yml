@@ -7,6 +7,8 @@ text: Use the refreshed GOV.UK branding; on GOV.UK Frontend v6.0.0 or later remo
 links:
 - target: UR-0025
   type: implements
+- target: INT-0003
+  type: serves
 attrs:
   source_ref: service-navigation#use-refreshed-branding
   kind: usage

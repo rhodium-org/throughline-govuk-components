@@ -6,6 +6,8 @@ text: Add the pagination component after the content on each page being paginate
 links:
 - target: UR-0019
   type: implements
+- target: INT-0003
+  type: serves
 attrs:
   source_ref: pagination#place-after-content
   kind: usage

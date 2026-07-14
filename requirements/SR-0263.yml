@@ -7,6 +7,8 @@ text: When a service name is shown, the section is exposed as a region landmark,
 links:
 - target: UR-0025
   type: implements
+- target: INT-0002
+  type: serves
 attrs:
   source_ref: service-navigation#accurate-aria-label
   kind: accessibility

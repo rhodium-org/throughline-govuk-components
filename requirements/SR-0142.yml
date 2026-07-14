@@ -8,6 +8,8 @@ text: Enable the improved File upload component via the javascript macro option 
 links:
 - target: UR-0014
   type: implements
+- target: INT-0003
+  type: serves
 attrs:
   source_ref: file-upload#enable-improved
   kind: usage

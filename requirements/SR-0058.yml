@@ -7,6 +7,8 @@ text: When using the inverse back link on a dark background, ensure the backgrou
 links:
 - target: UR-0005
   type: implements
+- target: INT-0002
+  type: serves
 attrs:
   source_ref: back-link#inverse-contrast
   kind: accessibility

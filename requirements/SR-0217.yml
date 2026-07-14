@@ -7,6 +7,8 @@ text: Support all characters users may need in a password, including numbers and
 links:
 - target: UR-0021
   type: implements
+- target: INT-0003
+  type: serves
 attrs:
   source_ref: password-input#support-all-characters
   kind: usage

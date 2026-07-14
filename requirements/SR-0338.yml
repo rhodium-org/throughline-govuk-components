@@ -7,6 +7,8 @@ text: Do not use the textarea for answers no longer than a single line such as a
 links:
 - target: UR-0032
   type: implements
+- target: INT-0003
+  type: serves
 attrs:
   source_ref: textarea#not-for-short-answers
   kind: usage

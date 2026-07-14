@@ -7,6 +7,8 @@ text: When the component is used for questions, do not pre-select any option in 
 links:
 - target: UR-0024
   type: implements
+- target: INT-0003
+  type: serves
 attrs:
   source_ref: select#no-preselect-questions
   kind: usage

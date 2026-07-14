@@ -8,6 +8,8 @@ text: Keep each checkbox item hint to a single short sentence without full stops
 links:
 - target: UR-0008
   type: implements
+- target: INT-0002
+  type: serves
 attrs:
   source_ref: checkboxes#hint-single-sentence
   kind: accessibility

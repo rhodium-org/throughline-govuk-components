@@ -4,8 +4,15 @@ status: approved
 title: Exit this page
 text: Exit this page gives users a way to quickly and safely leave a service, website
   or application when a page holds sensitive information that could put them at risk.
+rationale: So users who could be put at risk of abuse or retaliation by someone seeing
+  sensitive pages, such as a victim escaping domestic abuse, can leave the service
+  quickly and cover their tracks.
 links:
-- target: INT-0001
+- target: INT-0002
+  type: derives_from
+- target: INT-0003
+  type: derives_from
+- target: INT-0004
   type: derives_from
 attrs:
   source_ref: exit-this-page

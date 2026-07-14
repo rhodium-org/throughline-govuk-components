@@ -7,6 +7,8 @@ text: Do not show a notification banner and an error summary on the same page; s
 links:
 - target: UR-0018
   type: implements
+- target: INT-0003
+  type: serves
 attrs:
   source_ref: notification-banner#not-with-error-summary
   kind: usage

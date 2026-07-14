@@ -7,6 +7,8 @@ text: Never use the panel component to highlight important information within bo
 links:
 - target: UR-0020
   type: implements
+- target: INT-0003
+  type: serves
 attrs:
   source_ref: panel#not-in-body-content
   kind: usage

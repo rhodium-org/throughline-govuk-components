@@ -8,6 +8,8 @@ text: On the Apply for teacher training service, hundreds of users entered month
 links:
 - target: UR-0003
   type: implements
+- target: INT-0004
+  type: serves
 attrs:
   source_ref: date-input#accept-month-names-research
   kind: research

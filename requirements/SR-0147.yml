@@ -8,6 +8,8 @@ text: The improved drop zone is bigger, visible at all times and more responsive
 links:
 - target: UR-0014
   type: implements
+- target: INT-0002
+  type: serves
 attrs:
   source_ref: file-upload#visible-drop-zone
   kind: accessibility

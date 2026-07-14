@@ -8,6 +8,8 @@ text: If using the page template, replace the default GOV.UK header with the Gen
 links:
 - target: UR-0035
   type: implements
+- target: INT-0003
+  type: serves
 attrs:
   source_ref: generic-header#replace-in-page-template
   kind: usage

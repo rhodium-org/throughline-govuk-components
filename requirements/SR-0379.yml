@@ -7,6 +7,8 @@ text: Follow your organisation's guidelines and the Design System image guidance
 links:
 - target: UR-0035
   type: implements
+- target: INT-0002
+  type: serves
 attrs:
   source_ref: generic-header#accessible-logo
   kind: accessibility

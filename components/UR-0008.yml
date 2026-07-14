@@ -5,8 +5,13 @@ title: Checkboxes
 text: The service uses the GOV.UK Checkboxes component to let users select one or
   more options, grouped in a fieldset with an accessible legend, ordered and labelled
   to guidance.
+rationale: Users need to select one or more options from a list, or toggle a single
+  option on or off, when a question genuinely allows multiple answers rather than
+  a single mutually-exclusive choice.
 links:
-- target: INT-0001
+- target: INT-0002
+  type: derives_from
+- target: INT-0003
   type: derives_from
 attrs:
   source_ref: checkboxes

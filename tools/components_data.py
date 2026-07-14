@@ -20,6 +20,7 @@ Open Government Licence v3.0). Distilled faithfully; not copied verbatim.
 COMPONENTS = [
     {
         "slug": "button",
+        "rationale": "Users need an unambiguous, prominent way to carry out an action such as starting an application, signing in, or paying, so the main call to action stands out and they always know what to do next.",
         "title": "Button",
         "ur_text": "The service uses the GOV.UK Button component to let users carry "
                    "out an action, following its guidance on button text, variants, "
@@ -138,6 +139,7 @@ COMPONENTS = [
     },
     {
         "slug": "error-summary",
+        "rationale": "When a user submits answers containing validation errors, they need every problem gathered and focused at the top of the page so they can find, understand, and fix each mistake rather than hunting for what went wrong.",
         "title": "Error summary",
         "ur_text": "The service uses the GOV.UK Error summary component at the top of a "
                    "page to summarise validation errors, moving focus to it, linking "
@@ -229,6 +231,7 @@ COMPONENTS = [
     },
     {
         "slug": "date-input",
+        "rationale": "Users entering a date they already know or can look up need to type the day, month and year directly, avoiding the friction of a calendar picker for dates that are memorable rather than chosen.",
         "title": "Date input",
         "ur_text": "The service uses the GOV.UK Date input component to help users enter "
                    "a memorable date across day, month and year fields, grouped in a "
@@ -342,6 +345,7 @@ COMPONENTS = [
     },
     {
         "slug": "accordion",
+        "rationale": "When users benefit from an overview of related sections and want to reveal, hide, and compare only the parts relevant to them, this lets them control long or repeat-use content instead of scrolling through everything at once.",
         "title": "Accordion",
         "ur_text": "The service uses the GOV.UK Accordion component to let users show "
                    "and hide sections of related content, only where research shows "
@@ -439,6 +443,7 @@ COMPONENTS = [
     },
     {
         "slug": "back-link",
+        "rationale": "Because browser back buttons can break services or go unnoticed, users in a multi-page transaction need a reliable in-page way to return to the previous step without losing their progress.",
         "title": "Back link",
         "ur_text": "The service uses the GOV.UK Back link component to help users return "
                    "to the previous page in a multi-page transaction, placed above the "
@@ -508,6 +513,7 @@ COMPONENTS = [
     },
     {
         "slug": "breadcrumbs",
+        "rationale": "Users navigating a site with multiple hierarchical levels need to understand where they are and move up between levels, so they can orient themselves within the wider structure.",
         "title": "Breadcrumbs",
         "ur_text": "The service uses the GOV.UK Breadcrumbs component to help users "
                    "understand where they are within a site's hierarchy and move "
@@ -562,6 +568,7 @@ COMPONENTS = [
     },
     {
         "slug": "character-count",
+        "rationale": "When a genuine legal or technical limit caps how much a user can enter, they need live feedback on characters or words remaining so they can write their full answer and then edit it down without being cut off unexpectedly.",
         "title": "Character count",
         "ur_text": "The service uses the GOV.UK Character count component to tell users "
                    "how much text they can enter into a textarea with a limit, only "
@@ -651,6 +658,7 @@ COMPONENTS = [
     },
     {
         "slug": "checkboxes",
+        "rationale": "Users need to select one or more options from a list, or toggle a single option on or off, when a question genuinely allows multiple answers rather than a single mutually-exclusive choice.",
         "title": "Checkboxes",
         "ur_text": "The service uses the GOV.UK Checkboxes component to let users select "
                    "one or more options, grouped in a fieldset with an accessible "
@@ -759,6 +767,7 @@ COMPONENTS = [
     },
     {
         "slug": "cookie-banner",
+        "rationale": "When a service sets non-essential cookies, users must be told about them and given a clear choice to accept or reject, so the service meets its data-protection obligations before storing anything on their device.",
         "title": "Cookie banner",
         "ur_text": "The service uses the GOV.UK Cookie banner component to let users "
                    "accept or reject non-essential cookies, shown until a choice is "
@@ -866,6 +875,7 @@ COMPONENTS = [
     },
     {
         "slug": "details",
+        "rationale": "Users need a page to stay easy to scan when it holds information only some of them require, so less-important detail can be tucked away and revealed on demand rather than cluttering the page.",
         "title": "Details",
         "ur_text": "The service uses the GOV.UK Details component to let users reveal "
                    "more detailed information only if they need it, with short "
@@ -912,6 +922,7 @@ COMPONENTS = [
     },
     {
         "slug": "error-message",
+        "rationale": "When a user's answer fails validation, they need a clear, specific message beside the field explaining what went wrong and how to fix it, so they can recover and correct their own input rather than being blocked.",
         "title": "Error message",
         "ur_text": "The service uses the GOV.UK Error message component to explain, next "
                    "to each field, what went wrong and how to fix it, worded to match "
@@ -1026,6 +1037,7 @@ COMPONENTS = [
     },
     {
         "slug": "exit-this-page",
+        "rationale": "So users who could be put at risk of abuse or retaliation by someone seeing sensitive pages, such as a victim escaping domestic abuse, can leave the service quickly and cover their tracks.",
         "title": "Exit this page",
         "ur_text": "Exit this page gives users a way to quickly and safely leave a service, website or application when a page holds sensitive information that could put them at risk.",
         "clauses": [
@@ -1111,6 +1123,7 @@ COMPONENTS = [
     },
     {
         "slug": "fieldset",
+        "rationale": "So users, especially screen reader users, understand that several separate form inputs are related and belong to a single question, such as the multiple text boxes making up an address.",
         "title": "Fieldset",
         "ur_text": "The fieldset component groups related form inputs so users understand the relationship between them.",
         "clauses": [
@@ -1154,6 +1167,7 @@ COMPONENTS = [
     },
     {
         "slug": "file-upload",
+        "rationale": "So users can reliably select and upload a file when providing that document is critical to delivering the service, with clear errors and drag-and-drop support that also works for assistive technology.",
         "title": "File upload",
         "ur_text": "The file upload component helps users select and upload a file within a service.",
         "clauses": [
@@ -1239,6 +1253,7 @@ COMPONENTS = [
     },
     {
         "slug": "footer",
+        "rationale": "So every page of a service clearly states who owns the copyright and under what licence content may be reused, and links users to privacy, accessibility, cookies and terms information.",
         "title": "GOV.UK footer",
         "ur_text": "The GOV.UK footer provides copyright, licensing and other information about a service and sits at the bottom of every page.",
         "clauses": [
@@ -1295,6 +1310,7 @@ COMPONENTS = [
     },
     {
         "slug": "header",
+        "rationale": "So users trust they are in the right place on an official gov.uk service as they move around government websites, giving a consistent GOV.UK experience and access to GOV.UK-wide tools.",
         "title": "GOV.UK header",
         "ur_text": "The GOV.UK header tells users they are using a service on GOV.UK and gives access to GOV.UK-wide tools.",
         "clauses": [
@@ -1344,6 +1360,7 @@ COMPONENTS = [
     },
     {
         "slug": "inset-text",
+        "rationale": "So a block of supporting text like a quote, example or extra note is visually differentiated from surrounding content, used sparingly since it is not reliable enough for very important information.",
         "title": "Inset text",
         "ur_text": "The inset text component differentiates a block of text from the surrounding content, such as quotes, examples or additional information.",
         "clauses": [
@@ -1375,6 +1392,7 @@ COMPONENTS = [
     },
     {
         "slug": "notification-banner",
+        "rationale": "Alerts users to something they need to know but that is not directly tied to the current task, such as a service-wide problem, an approaching deadline, or the outcome of a prior action, without cluttering the main content.",
         "title": "Notification banner",
         "ur_text": "A notification banner tells the user about something they need to know that is not directly related to the page content, and a service uses it for service-wide problems, personal alerts, or the outcome of a completed action.",
         "clauses": [
@@ -1480,6 +1498,7 @@ COMPONENTS = [
     },
     {
         "slug": "pagination",
+        "rationale": "Lets users navigate forwards and backwards through a series of numbered pages so that content split for performance or usability, like search results or multi-page guidance, stays fast to load and easy to move through.",
         "title": "Pagination",
         "ur_text": "Pagination helps users navigate forwards and backwards through a series of numbered pages, and a service uses it for collections such as search results or guidance split across multiple pages.",
         "clauses": [
@@ -1589,6 +1608,7 @@ COMPONENTS = [
     },
     {
         "slug": "panel",
+        "rationale": "Highlights that a transaction has been completed successfully on a confirmation or results page, giving users clear high-level reassurance and any reference they need once they finish.",
         "title": "Panel",
         "ur_text": "The panel component is a visible container used on confirmation or results pages to highlight important content, and a service uses it to confirm a completed transaction.",
         "clauses": [
@@ -1626,6 +1646,7 @@ COMPONENTS = [
     },
     {
         "slug": "password-input",
+        "rationale": "Helps users create and enter passwords accessibly, letting them reveal what they typed to reduce errors and choose stronger, more unique passwords before submitting.",
         "title": "Password input",
         "ur_text": "The password input component helps users accessibly create and enter passwords, with an option to show what they have entered as plain text, and a service uses it whenever a password must be created or entered.",
         "clauses": [
@@ -1729,6 +1750,7 @@ COMPONENTS = [
     },
     {
         "slug": "phase-banner",
+        "rationale": "Signals to users that a service is still being worked on in alpha or beta and invites feedback, as required for service.gov.uk domains until they pass a live assessment.",
         "title": "Phase banner",
         "ur_text": "The phase banner shows users a service is still being worked on, and a service.gov.uk service uses it to display its alpha or beta status until it passes a live assessment.",
         "clauses": [
@@ -1772,6 +1794,7 @@ COMPONENTS = [
     },
     {
         "slug": "radios",
+        "rationale": "Lets users select exactly one option from a list when the choices are mutually exclusive, making the single-answer constraint clear and preventing the confusion of allowing multiple selections.",
         "title": "Radios",
         "ur_text": "The radios component lets users select a single option from a list, and a service uses it when only one option can be chosen.",
         "clauses": [
@@ -1900,6 +1923,7 @@ COMPONENTS = [
     },
     {
         "slug": "select",
+        "rationale": "Offers a last-resort way to pick one option from a long list in public services, but should be avoided because research shows many users struggle to open, scroll, and choose within selects, so ask narrowing questions or use radios instead.",
         "title": "Select",
         "ur_text": "The select component helps users choose a single item from a long list, used only as a last resort in public-facing services because some users find selects hard to use.",
         "clauses": [
@@ -1961,6 +1985,7 @@ COMPONENTS = [
     },
     {
         "slug": "service-navigation",
+        "rationale": "Reassures users that they are in the right place within a specific service and lets them move between its parts, giving a consistent experience that shows GOV.UK functions as one coherent website.",
         "title": "Service navigation",
         "ur_text": "Service navigation helps users understand they are using your service and lets them navigate around it, showing the service name and optional navigation links.",
         "clauses": [
@@ -2016,6 +2041,7 @@ COMPONENTS = [
     },
     {
         "slug": "skip-link",
+        "rationale": "Lets keyboard-only users bypass repetitive top-level navigation links and jump straight to a page's main content, removing the burden of tabbing through the header on every page.",
         "title": "Skip link",
         "ur_text": "The skip link component helps keyboard-only users skip the top-level navigation and jump straight to the main content on a page.",
         "clauses": [
@@ -2053,6 +2079,7 @@ COMPONENTS = [
     },
     {
         "slug": "summary-list",
+        "rationale": "Presents information as key-and-value facts, such as metadata or a user's form answers at the end of a journey, so people can review and correct their responses before submitting.",
         "title": "Summary list",
         "ur_text": "A summary list summarises information as a list of key facts, such as a user's responses at the end of a form, with an optional summary card variant for grouping multiple lists.",
         "clauses": [
@@ -2156,6 +2183,7 @@ COMPONENTS = [
     },
     {
         "slug": "table",
+        "rationale": "Makes information easier to compare and scan by arranging related data into rows and columns, so users can read across shared attributes rather than hunting through prose.",
         "title": "Table",
         "ur_text": "The table component presents information in rows and columns to make it easier for users to compare and scan.",
         "clauses": [
@@ -2205,6 +2233,7 @@ COMPONENTS = [
     },
     {
         "slug": "tabs",
+        "rationale": "Lets regular or expert users quickly switch between clearly labelled related sections without viewing all at once, but is avoided when users must read in order or compare content, since tabs hide information many people miss.",
         "title": "Tabs",
         "ur_text": "The tabs component lets users quickly switch between related sections of content, displaying one clearly labelled section at a time.",
         "clauses": [
@@ -2284,6 +2313,7 @@ COMPONENTS = [
     },
     {
         "slug": "tag",
+        "rationale": "Lets users see at a glance the current status of something that can hold more than one state, such as whether a task-list item is completed or a user is active, so they know where things stand without reading further.",
         "title": "Tag",
         "ur_text": "As a service, I use the Tag component to show users the status of something, such as an item on a task list or a phase banner.",
         "clauses": [
@@ -2358,6 +2388,7 @@ COMPONENTS = [
     },
     {
         "slug": "task-list",
+        "rationale": "Gives users control over long, complex services they cannot or do not want to finish in one sitting, letting them choose their own order and clearly see which tasks are done and which remain.",
         "title": "Task list",
         "ur_text": "As a service, I use the task list component to display all the tasks a user needs to do and let them see which are done and which remain.",
         "clauses": [
@@ -2479,6 +2510,7 @@ COMPONENTS = [
     },
     {
         "slug": "textarea",
+        "rationale": "Lets users provide answers longer than a single line, giving space for detailed free-text information that would not fit in a standard single-line input field.",
         "title": "Textarea",
         "ur_text": "As a service, I use the textarea component to let users enter an amount of text that is longer than a single line.",
         "clauses": [
@@ -2546,6 +2578,7 @@ COMPONENTS = [
     },
     {
         "slug": "text-input",
+        "rationale": "Lets users enter short, single-line information such as a name or phone number, providing an appropriately sized field so they understand what is expected without spanning multiple lines.",
         "title": "Text input",
         "ur_text": "As a service, I use the text input component to let users enter text no longer than a single line, such as their name or phone number.",
         "clauses": [
@@ -2705,6 +2738,7 @@ COMPONENTS = [
     },
     {
         "slug": "warning-text",
+        "rationale": "Draws users' attention to something genuinely important, such as the legal consequences of an action or inaction, so they do not overlook a critical warning before deciding what to do.",
         "title": "Warning text",
         "ur_text": "As a service, I use the warning text component to warn users about something important, such as legal consequences of an action or inaction.",
         "clauses": [
@@ -2724,6 +2758,7 @@ COMPONENTS = [
     },
     {
         "slug": "generic-header",
+        "rationale": "Signals to users that a public-facing government service sits outside the GOV.UK website, maintaining trust and consistency across journeys while ensuring non-GOV.UK services do not misuse GOV.UK branding.",
         "title": "Generic header",
         "ur_text": "As a service, I use the Generic header component to tell users they are using a government service that is not part of the GOV.UK website.",
         "clauses": [

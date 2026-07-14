@@ -7,6 +7,8 @@ text: When using the Radios, Checkboxes or Date input components, rely on the fi
 links:
 - target: UR-0013
   type: implements
+- target: INT-0003
+  type: serves
 attrs:
   source_ref: fieldset#already-included
   kind: usage

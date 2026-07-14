@@ -7,6 +7,8 @@ text: Do not use accordions to split up a series of questions; use separate page
 links:
 - target: UR-0004
   type: implements
+- target: INT-0003
+  type: serves
 attrs:
   source_ref: accordion#not-for-questions
   kind: usage

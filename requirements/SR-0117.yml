@@ -7,6 +7,8 @@ text: Use the standard error message templates for common errors on components a
 links:
 - target: UR-0011
   type: implements
+- target: INT-0003
+  type: serves
 attrs:
   source_ref: error-message#use-templates
   kind: usage

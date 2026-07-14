@@ -7,6 +7,8 @@ text: Include general help text in the legend only when it aids form completion 
 links:
 - target: UR-0013
   type: implements
+- target: INT-0003
+  type: serves
 attrs:
   source_ref: fieldset#help-text-in-legend
   kind: usage

@@ -7,6 +7,8 @@ text: Place the back link at the top of the page, before the main element, so th
 links:
 - target: UR-0005
   type: implements
+- target: INT-0002
+  type: serves
 attrs:
   source_ref: back-link#place-above-main
   kind: accessibility

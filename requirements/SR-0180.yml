@@ -7,6 +7,8 @@ text: When reporting the outcome of a user action, add role="alert" so focus shi
 links:
 - target: UR-0018
   type: implements
+- target: INT-0002
+  type: serves
 attrs:
   source_ref: notification-banner#success-role-alert
   kind: accessibility

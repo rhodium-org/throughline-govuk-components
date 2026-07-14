@@ -4,8 +4,15 @@ status: approved
 title: Text input
 text: As a service, I use the text input component to let users enter text no longer
   than a single line, such as their name or phone number.
+rationale: Lets users enter short, single-line information such as a name or phone
+  number, providing an appropriately sized field so they understand what is expected
+  without spanning multiple lines.
 links:
-- target: INT-0001
+- target: INT-0002
+  type: derives_from
+- target: INT-0003
+  type: derives_from
+- target: INT-0004
   type: derives_from
 attrs:
   source_ref: text-input

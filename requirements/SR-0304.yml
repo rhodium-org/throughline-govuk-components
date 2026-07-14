@@ -7,6 +7,8 @@ text: Include a heading at the start of each tab that duplicates the tab label t
 links:
 - target: UR-0029
   type: implements
+- target: INT-0002
+  type: serves
 attrs:
   source_ref: tabs#add-headings
   kind: accessibility

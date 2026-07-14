@@ -8,6 +8,8 @@ text: Follow the Error message component guidance and provide specific error mes
 links:
 - target: UR-0032
   type: implements
+- target: INT-0003
+  type: serves
 attrs:
   source_ref: textarea#specific-error-messages
   kind: usage

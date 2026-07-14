@@ -7,6 +7,8 @@ text: Do not assume users know only one option can be selected from the visual s
 links:
 - target: UR-0023
   type: implements
+- target: INT-0003
+  type: serves
 attrs:
   source_ref: radios#hint-single-select
   kind: usage

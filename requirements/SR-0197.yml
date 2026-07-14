@@ -6,6 +6,8 @@ text: Use ellipses to replace any skipped page numbers.
 links:
 - target: UR-0019
   type: implements
+- target: INT-0003
+  type: serves
 attrs:
   source_ref: pagination#ellipses-for-skipped
   kind: usage

@@ -8,6 +8,8 @@ text: Tags were changed from white text on a dark background to darker text on a
 links:
 - target: UR-0030
   type: implements
+- target: INT-0004
+  type: serves
 attrs:
   source_ref: tag#research-lighter-background
   kind: research

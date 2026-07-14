@@ -7,6 +7,8 @@ text: Keep task hint text to a single short sentence without full stops, because
 links:
 - target: UR-0031
   type: implements
+- target: INT-0002
+  type: serves
 attrs:
   source_ref: task-list#hint-text-single-sentence
   kind: accessibility

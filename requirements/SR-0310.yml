@@ -7,6 +7,8 @@ text: Start with the smallest number of statuses that might work and add more on
 links:
 - target: UR-0030
   type: implements
+- target: INT-0003
+  type: serves
 attrs:
   source_ref: tag#minimise-status-count
   kind: usage

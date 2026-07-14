@@ -8,6 +8,8 @@ text: Do not use maxlength to restrict password length because users get no feed
 links:
 - target: UR-0021
   type: implements
+- target: INT-0003
+  type: serves
 attrs:
   source_ref: password-input#no-maxlength
   kind: usage

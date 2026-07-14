@@ -8,6 +8,8 @@ text: Do not rely on the red colour of a warning button to convey the seriousnes
 links:
 - target: UR-0001
   type: implements
+- target: INT-0002
+  type: serves
 attrs:
   source_ref: button#warning-not-colour-alone
   kind: accessibility

@@ -7,6 +7,8 @@ text: Do not pre-select checkbox options, as users may then miss the question or
 links:
 - target: UR-0008
   type: implements
+- target: INT-0003
+  type: serves
 attrs:
   source_ref: checkboxes#no-preselection
   kind: usage

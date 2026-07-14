@@ -7,6 +7,8 @@ text: When asking one question per page, set the legend as the page heading so s
 links:
 - target: UR-0003
   type: implements
+- target: INT-0002
+  type: serves
 attrs:
   source_ref: date-input#legend-as-heading-single
   kind: accessibility

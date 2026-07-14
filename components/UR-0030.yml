@@ -4,8 +4,15 @@ status: approved
 title: Tag
 text: As a service, I use the Tag component to show users the status of something,
   such as an item on a task list or a phase banner.
+rationale: Lets users see at a glance the current status of something that can hold
+  more than one state, such as whether a task-list item is completed or a user is
+  active, so they know where things stand without reading further.
 links:
-- target: INT-0001
+- target: INT-0002
+  type: derives_from
+- target: INT-0003
+  type: derives_from
+- target: INT-0004
   type: derives_from
 attrs:
   source_ref: tag

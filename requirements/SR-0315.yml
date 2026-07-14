@@ -7,6 +7,8 @@ text: Tag text was changed away from uppercase bold because research showed uppe
 links:
 - target: UR-0030
   type: implements
+- target: INT-0004
+  type: serves
 attrs:
   source_ref: tag#research-lowercase-text
   kind: research

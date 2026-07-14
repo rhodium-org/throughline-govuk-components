@@ -7,6 +7,8 @@ text: Services hosted on a service.gov.uk domain must use the phase banner until
 links:
 - target: UR-0022
   type: implements
+- target: INT-0003
+  type: serves
 attrs:
   source_ref: phase-banner#required-until-live
   kind: usage

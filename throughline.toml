@@ -14,9 +14,17 @@ delivery_roots = ["intent"]
 ground_link_types = ["derives_from", "implements"]
 ai_origins = ["ai", "hybrid"]
 
-# Each component is a user_requirement grouping the standard ("the service provides a
-# compliant {component}"); each usage rule / accessibility criterion / do-and-don't is a
-# system_requirement implementing its component UR.
+# The "why" spine has as many roots as the Design System has genuine purposes — not one
+# forced umbrella. There are three co-equal **root** intents, the outcomes it claims:
+#   INT-0002  Accessibility        (works for everyone; WCAG 2.2 AA + the 2018 regs)
+#   INT-0003  Consistent use       (recognisable, reused correctly across services)
+#   INT-0004  Proven by research   (validated by user testing)
+# Each component is a user_requirement grouping the standard; it `derives_from` the
+# specific outcome roots its clauses serve. Each usage rule / accessibility criterion /
+# do-and-don't is a system_requirement that `implements` its component UR and `serves`
+# the outcome root matching its `kind` (accessibility → INT-0002, usage → INT-0003,
+# research → INT-0004), so a clause's *why* is a first-class, traversable edge rather
+# than a flat tag. Each item also carries a `rationale` — its own reason for being.
 [types.user_requirement]
 attrs.source_ref = { required = true }
 
@@ -25,11 +33,12 @@ attrs.source_ref = { required = true }
 attrs.kind = { required = true, values = ["usage", "accessibility", "research"] }
 
 [links]
-types = ["derives_from", "implements", "relates"]
+types = ["derives_from", "implements", "serves", "relates"]
 
 [link_rules]
 derives_from = { from = ["user_requirement"], to = ["intent"] }
 implements   = { from = ["system_requirement"], to = ["user_requirement"] }
+serves       = { from = ["system_requirement"], to = ["intent"] }
 
 [status]
 values = ["proposed", "draft", "deferred", "approved", "ratified", "implemented",

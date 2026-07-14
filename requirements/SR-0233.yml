@@ -7,6 +7,8 @@ text: Do not pre-select radio options, as users are more likely to miss the ques
 links:
 - target: UR-0023
   type: implements
+- target: INT-0003
+  type: serves
 attrs:
   source_ref: radios#no-preselect
   kind: usage

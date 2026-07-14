@@ -7,6 +7,8 @@ text: Use hint text for help relevant to the majority of users, keeping it to a 
 links:
 - target: UR-0033
   type: implements
+- target: INT-0003
+  type: serves
 attrs:
   source_ref: text-input#hint-text-use
   kind: usage

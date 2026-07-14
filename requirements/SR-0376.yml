@@ -8,6 +8,8 @@ text: Do not use the Generic header if your service is hosted on a gov.uk domain
 links:
 - target: UR-0035
   type: implements
+- target: INT-0003
+  type: serves
 attrs:
   source_ref: generic-header#not-for-govuk-domains
   kind: usage

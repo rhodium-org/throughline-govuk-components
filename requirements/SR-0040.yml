@@ -7,6 +7,8 @@ text: Do not use an accordion for content that all users need to see, because ac
 links:
 - target: UR-0004
   type: implements
+- target: INT-0003
+  type: serves
 attrs:
   source_ref: accordion#not-for-essential-content
   kind: usage

@@ -5,8 +5,15 @@ title: Pagination
 text: Pagination helps users navigate forwards and backwards through a series of numbered
   pages, and a service uses it for collections such as search results or guidance
   split across multiple pages.
+rationale: Lets users navigate forwards and backwards through a series of numbered
+  pages so that content split for performance or usability, like search results or
+  multi-page guidance, stays fast to load and easy to move through.
 links:
-- target: INT-0001
+- target: INT-0002
+  type: derives_from
+- target: INT-0003
+  type: derives_from
+- target: INT-0004
   type: derives_from
 attrs:
   source_ref: pagination

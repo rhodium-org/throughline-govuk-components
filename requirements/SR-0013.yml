@@ -8,6 +8,8 @@ text: Where research shows users send information twice, set data-prevent-double
 links:
 - target: UR-0001
   type: implements
+- target: INT-0003
+  type: serves
 attrs:
   source_ref: button#prevent-double-click
   kind: usage

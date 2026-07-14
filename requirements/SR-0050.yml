@@ -7,6 +7,8 @@ text: The component was updated in December 2021 so it is fully keyboard operabl
 links:
 - target: UR-0004
   type: implements
+- target: INT-0004
+  type: serves
 attrs:
   source_ref: accordion#keyboard-accessible-research
   kind: research

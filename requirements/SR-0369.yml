@@ -7,6 +7,8 @@ text: Research documented in a blog post surfaced the problems the team discover
 links:
 - target: UR-0033
   type: implements
+- target: INT-0004
+  type: serves
 attrs:
   source_ref: text-input#research-input-type-number
   kind: research

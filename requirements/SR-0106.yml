@@ -8,6 +8,8 @@ text: Do not use an error message to tell users they are ineligible, lack permis
 links:
 - target: UR-0011
   type: implements
+- target: INT-0003
+  type: serves
 attrs:
   source_ref: error-message#not-for-service-problems
   kind: usage

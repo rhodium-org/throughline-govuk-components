@@ -7,6 +7,8 @@ text: When there are many tasks, group them into separate task lists on a page a
 links:
 - target: UR-0031
   type: implements
+- target: INT-0003
+  type: serves
 attrs:
   source_ref: task-list#group-with-headings
   kind: usage

@@ -8,6 +8,8 @@ text: There is evidence some users avoid clicking the details link because they 
 links:
 - target: UR-0010
   type: implements
+- target: INT-0004
+  type: serves
 attrs:
   source_ref: details#avoidance-research
   kind: research

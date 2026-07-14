@@ -8,6 +8,8 @@ text: Place any help links consistently within the footer and ensure they functi
 links:
 - target: UR-0015
   type: implements
+- target: INT-0002
+  type: serves
 attrs:
   source_ref: footer#consistent-help-links
   kind: accessibility

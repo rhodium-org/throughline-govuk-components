@@ -7,6 +7,8 @@ text: When the component is used for settings, an option may be pre-selected by 
 links:
 - target: UR-0024
   type: implements
+- target: INT-0003
+  type: serves
 attrs:
   source_ref: select#preselect-settings
   kind: usage

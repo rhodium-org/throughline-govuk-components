@@ -6,6 +6,8 @@ text: Always include the back link on question pages in the service.
 links:
 - target: UR-0005
   type: implements
+- target: INT-0003
+  type: serves
 attrs:
   source_ref: back-link#always-on-question-pages
   kind: usage

@@ -7,6 +7,8 @@ text: Set the autocomplete attribute to new-password when the user is creating a
 links:
 - target: UR-0021
   type: implements
+- target: INT-0003
+  type: serves
 attrs:
   source_ref: password-input#autocomplete-attribute
   kind: usage

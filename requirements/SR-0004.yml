@@ -7,6 +7,8 @@ text: Use a default button for the main call to action, and avoid more than one 
 links:
 - target: UR-0001
   type: implements
+- target: INT-0003
+  type: serves
 attrs:
   source_ref: button#one-default-per-page
   kind: usage

@@ -7,6 +7,8 @@ text: Users are not always notified when a conditionally revealed question is sh
 links:
 - target: UR-0008
   type: implements
+- target: INT-0002
+  type: serves
 attrs:
   source_ref: checkboxes#conditional-reveal-notify
   kind: accessibility

@@ -7,6 +7,8 @@ text: Make the details link text short and descriptive so users can quickly work
 links:
 - target: UR-0010
   type: implements
+- target: INT-0002
+  type: serves
 attrs:
   source_ref: details#clear-link-text
   kind: accessibility

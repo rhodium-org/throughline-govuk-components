@@ -7,6 +7,8 @@ text: When using the inverse button on a dark background, ensure the button and 
 links:
 - target: UR-0001
   type: implements
+- target: INT-0002
+  type: serves
 attrs:
   source_ref: button#inverse-contrast
   kind: accessibility

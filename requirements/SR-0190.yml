@@ -6,6 +6,8 @@ text: Do not show pagination if there is only one page of content.
 links:
 - target: UR-0019
   type: implements
+- target: INT-0003
+  type: serves
 attrs:
   source_ref: pagination#hide-if-single-page
   kind: usage

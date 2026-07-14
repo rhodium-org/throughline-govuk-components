@@ -8,6 +8,8 @@ text: More research is needed on how often users miss important information in n
 links:
 - target: UR-0018
   type: implements
+- target: INT-0004
+  type: serves
 attrs:
   source_ref: notification-banner#research-gaps
   kind: research

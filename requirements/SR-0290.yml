@@ -7,6 +7,8 @@ text: Use table headers to tell users what rows and columns represent, and use t
 links:
 - target: UR-0028
   type: implements
+- target: INT-0002
+  type: serves
 attrs:
   source_ref: table#headers-with-scope
   kind: accessibility

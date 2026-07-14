@@ -5,8 +5,15 @@ title: Select
 text: The select component helps users choose a single item from a long list, used
   only as a last resort in public-facing services because some users find selects
   hard to use.
+rationale: Offers a last-resort way to pick one option from a long list in public
+  services, but should be avoided because research shows many users struggle to open,
+  scroll, and choose within selects, so ask narrowing questions or use radios instead.
 links:
-- target: INT-0001
+- target: INT-0002
+  type: derives_from
+- target: INT-0003
+  type: derives_from
+- target: INT-0004
   type: derives_from
 attrs:
   source_ref: select

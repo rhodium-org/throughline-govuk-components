@@ -8,6 +8,8 @@ text: Follow the validation pattern and, when there is a validation error, show 
 links:
 - target: UR-0011
   type: implements
+- target: INT-0003
+  type: serves
 attrs:
   source_ref: error-message#show-on-validation-error
   kind: usage

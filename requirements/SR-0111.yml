@@ -7,6 +7,8 @@ text: Word the error message using language from the question or fieldset label 
 links:
 - target: UR-0011
   type: implements
+- target: INT-0003
+  type: serves
 attrs:
   source_ref: error-message#match-label-language
   kind: usage

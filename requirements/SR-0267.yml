@@ -7,6 +7,8 @@ text: Place the skip link immediately after the opening body tag, or immediately
 links:
 - target: UR-0026
   type: implements
+- target: INT-0003
+  type: serves
 attrs:
   source_ref: skip-link#placement
   kind: usage

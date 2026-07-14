@@ -3,20 +3,39 @@
 This document is generated from the graph. The prose between `tl:item` / `tl:table`
 markers is injected by `tl docs` — edit the YAML items, not the injected regions.
 
-Each component is a `user_requirement` grouping the standard; each usage rule,
+The "why" spine has three co-equal **root** intents — the outcomes the Design System
+claims. Each component is a `user_requirement` that `derives_from` the outcome roots its
+clauses serve, carrying a `rationale` for its own existence; each usage rule,
 accessibility acceptance criterion or do-and-don't is a `system_requirement` that
-`implements` its component. The component's native anchor lives in `attrs.source_ref`
-(`"button"`, `"button#sentence-case"`); the facet in `attrs.kind`
-(`usage` / `accessibility` / `research`); any WCAG success criterion in `attrs.wcag`.
+`implements` its component and `serves` the outcome root matching its `attrs.kind`
+(`accessibility` → INT-0002, `usage` → INT-0003, `research` → INT-0004). The component's
+native anchor lives in `attrs.source_ref` (`"button"`, `"button#sentence-case"`); any
+WCAG success criterion in `attrs.wcag`.
 
-## Purpose
+## Outcomes — the roots
 
-<!-- tl:item INT-0001 -->
-**INT-0001 — GOV.UK services are consistent, accessible and usable by everyone** — `intent`, status `approved`
+<!-- tl:item INT-0002 -->
+**INT-0002 — Government services are accessible to everyone** — `intent`, status `approved`
 
-> The GOV.UK Design System exists so that government services are built from components and patterns that are proven to be consistent, accessible and usable — letting teams reuse tested solutions with documented usage and accessibility guidance rather than reinventing interface elements service by service.
+> Services built from the Design System work for everyone, including disabled people and people using assistive technology such as screen readers, keyboards and voice control, meeting WCAG 2.2 level AA and the Public Sector Bodies (Websites and Mobile Applications) Accessibility Regulations 2018.
 
-**source_ref**: GOV.UK Design System
+**source_ref**: accessibility
+<!-- tl:end -->
+
+<!-- tl:item INT-0003 -->
+**INT-0003 — Components are used consistently and correctly across services** — `intent`, status `approved`
+
+> Teams reuse each component as intended, with consistent structure, content and wording, so users recognise and trust government services and can transfer what they learn from one service to the next instead of teams reinventing interface elements service by service.
+
+**source_ref**: consistent-use
+<!-- tl:end -->
+
+<!-- tl:item INT-0004 -->
+**INT-0004 — Components are proven by user research** — `intent`, status `approved`
+
+> Each component is shaped and validated by user research and testing, so services adopt solutions already shown to help people complete their task first time with fewer errors, rather than untested designs.
+
+**source_ref**: proven-by-research
 <!-- tl:end -->
 
 ## Button
@@ -25,6 +44,8 @@ accessibility acceptance criterion or do-and-don't is a `system_requirement` tha
 **UR-0001 — Button** — `user_requirement`, status `approved`
 
 > The service uses the GOV.UK Button component to let users carry out an action, following its guidance on button text, variants, grouping, contrast and double-click prevention.
+
+*Rationale:* Users need an unambiguous, prominent way to carry out an action such as starting an application, signing in, or paying, so the main call to action stands out and they always know what to do next.
 
 **source_ref**: button
 <!-- tl:end -->
@@ -55,6 +76,8 @@ accessibility acceptance criterion or do-and-don't is a `system_requirement` tha
 
 > The service uses the GOV.UK Error summary component at the top of a page to summarise validation errors, moving focus to it, linking each error to its answer and mirroring the inline error messages.
 
+*Rationale:* When a user submits answers containing validation errors, they need every problem gathered and focused at the top of the page so they can find, understand, and fix each mistake rather than hunting for what went wrong.
+
 **source_ref**: error-summary
 <!-- tl:end -->
 
@@ -80,6 +103,8 @@ accessibility acceptance criterion or do-and-don't is a `system_requirement` tha
 **UR-0003 — Date input** — `user_requirement`, status `approved`
 
 > The service uses the GOV.UK Date input component to help users enter a memorable date across day, month and year fields, grouped in a fieldset, with accessible labelling, autocomplete and specific error messages.
+
+*Rationale:* Users entering a date they already know or can look up need to type the day, month and year directly, avoiding the friction of a calendar picker for dates that are memorable rather than chosen.
 
 **source_ref**: date-input
 <!-- tl:end -->
@@ -109,6 +134,8 @@ accessibility acceptance criterion or do-and-don't is a `system_requirement` tha
 
 > The service uses the GOV.UK Accordion component to let users show and hide sections of related content, only where research shows hiding content helps, with clear headings and keyboard support.
 
+*Rationale:* When users benefit from an overview of related sections and want to reveal, hide, and compare only the parts relevant to them, this lets them control long or repeat-use content instead of scrolling through everything at once.
+
 **source_ref**: accordion
 <!-- tl:end -->
 
@@ -136,6 +163,8 @@ accessibility acceptance criterion or do-and-don't is a `system_requirement` tha
 
 > The service uses the GOV.UK Back link component to help users return to the previous page in a multi-page transaction, placed above the main content with clear text and sufficient contrast.
 
+*Rationale:* Because browser back buttons can break services or go unnoticed, users in a multi-page transaction need a reliable in-page way to return to the previous step without losing their progress.
+
 **source_ref**: back-link
 <!-- tl:end -->
 
@@ -159,6 +188,8 @@ accessibility acceptance criterion or do-and-don't is a `system_requirement` tha
 
 > The service uses the GOV.UK Breadcrumbs component to help users understand where they are within a site's hierarchy and move between levels, placed above the main content.
 
+*Rationale:* Users navigating a site with multiple hierarchical levels need to understand where they are and move up between levels, so they can orient themselves within the wider structure.
+
 **source_ref**: breadcrumbs
 <!-- tl:end -->
 
@@ -179,6 +210,8 @@ accessibility acceptance criterion or do-and-don't is a `system_requirement` tha
 **UR-0007 — Character count** — `user_requirement`, status `approved`
 
 > The service uses the GOV.UK Character count component to tell users how much text they can enter into a textarea with a limit, only where limiting is justified, with accessible live feedback.
+
+*Rationale:* When a genuine legal or technical limit caps how much a user can enter, they need live feedback on characters or words remaining so they can write their full answer and then edit it down without being cut off unexpectedly.
 
 **source_ref**: character-count
 <!-- tl:end -->
@@ -204,6 +237,8 @@ accessibility acceptance criterion or do-and-don't is a `system_requirement` tha
 **UR-0008 — Checkboxes** — `user_requirement`, status `approved`
 
 > The service uses the GOV.UK Checkboxes component to let users select one or more options, grouped in a fieldset with an accessible legend, ordered and labelled to guidance.
+
+*Rationale:* Users need to select one or more options from a list, or toggle a single option on or off, when a question genuinely allows multiple answers rather than a single mutually-exclusive choice.
 
 **source_ref**: checkboxes
 <!-- tl:end -->
@@ -233,6 +268,8 @@ accessibility acceptance criterion or do-and-don't is a `system_requirement` tha
 
 > The service uses the GOV.UK Cookie banner component to let users accept or reject non-essential cookies, shown until a choice is made, with an accessible confirmation and a supporting cookies page.
 
+*Rationale:* When a service sets non-essential cookies, users must be told about them and given a clear choice to accept or reject, so the service meets its data-protection obligations before storing anything on their device.
+
 **source_ref**: cookie-banner
 <!-- tl:end -->
 
@@ -260,6 +297,8 @@ accessibility acceptance criterion or do-and-don't is a `system_requirement` tha
 
 > The service uses the GOV.UK Details component to let users reveal more detailed information only if they need it, with short descriptive link text, for content only some users need.
 
+*Rationale:* Users need a page to stay easy to scan when it holds information only some of them require, so less-important detail can be tucked away and revealed on demand rather than cluttering the page.
+
 **source_ref**: details
 <!-- tl:end -->
 
@@ -279,6 +318,8 @@ accessibility acceptance criterion or do-and-don't is a `system_requirement` tha
 **UR-0011 — Error message** — `user_requirement`, status `approved`
 
 > The service uses the GOV.UK Error message component to explain, next to each field, what went wrong and how to fix it, worded to match the error summary and following the plain-English error guidance.
+
+*Rationale:* When a user's answer fails validation, they need a clear, specific message beside the field explaining what went wrong and how to fix it, so they can recover and correct their own input rather than being blocked.
 
 **source_ref**: error-message
 <!-- tl:end -->
@@ -308,6 +349,8 @@ accessibility acceptance criterion or do-and-don't is a `system_requirement` tha
 
 > Exit this page gives users a way to quickly and safely leave a service, website or application when a page holds sensitive information that could put them at risk.
 
+*Rationale:* So users who could be put at risk of abuse or retaliation by someone seeing sensitive pages, such as a victim escaping domestic abuse, can leave the service quickly and cover their tracks.
+
 **source_ref**: exit-this-page
 <!-- tl:end -->
 
@@ -336,6 +379,8 @@ accessibility acceptance criterion or do-and-don't is a `system_requirement` tha
 
 > The fieldset component groups related form inputs so users understand the relationship between them.
 
+*Rationale:* So users, especially screen reader users, understand that several separate form inputs are related and belong to a single question, such as the multiple text boxes making up an address.
+
 **source_ref**: fieldset
 <!-- tl:end -->
 
@@ -356,6 +401,8 @@ accessibility acceptance criterion or do-and-don't is a `system_requirement` tha
 **UR-0014 — File upload** — `user_requirement`, status `approved`
 
 > The file upload component helps users select and upload a file within a service.
+
+*Rationale:* So users can reliably select and upload a file when providing that document is critical to delivering the service, with clear errors and drag-and-drop support that also works for assistive technology.
 
 **source_ref**: file-upload
 <!-- tl:end -->
@@ -385,6 +432,8 @@ accessibility acceptance criterion or do-and-don't is a `system_requirement` tha
 
 > The GOV.UK footer provides copyright, licensing and other information about a service and sits at the bottom of every page.
 
+*Rationale:* So every page of a service clearly states who owns the copyright and under what licence content may be reused, and links users to privacy, accessibility, cookies and terms information.
+
 **source_ref**: footer
 <!-- tl:end -->
 
@@ -408,6 +457,8 @@ accessibility acceptance criterion or do-and-don't is a `system_requirement` tha
 
 > The GOV.UK header tells users they are using a service on GOV.UK and gives access to GOV.UK-wide tools.
 
+*Rationale:* So users trust they are in the right place on an official gov.uk service as they move around government websites, giving a consistent GOV.UK experience and access to GOV.UK-wide tools.
+
 **source_ref**: header
 <!-- tl:end -->
 
@@ -430,6 +481,8 @@ accessibility acceptance criterion or do-and-don't is a `system_requirement` tha
 
 > The inset text component differentiates a block of text from the surrounding content, such as quotes, examples or additional information.
 
+*Rationale:* So a block of supporting text like a quote, example or extra note is visually differentiated from surrounding content, used sparingly since it is not reliable enough for very important information.
+
 **source_ref**: inset-text
 <!-- tl:end -->
 
@@ -448,6 +501,8 @@ accessibility acceptance criterion or do-and-don't is a `system_requirement` tha
 **UR-0018 — Notification banner** — `user_requirement`, status `approved`
 
 > A notification banner tells the user about something they need to know that is not directly related to the page content, and a service uses it for service-wide problems, personal alerts, or the outcome of a completed action.
+
+*Rationale:* Alerts users to something they need to know but that is not directly tied to the current task, such as a service-wide problem, an approaching deadline, or the outcome of a prior action, without cluttering the main content.
 
 **source_ref**: notification-banner
 <!-- tl:end -->
@@ -479,6 +534,8 @@ accessibility acceptance criterion or do-and-don't is a `system_requirement` tha
 **UR-0019 — Pagination** — `user_requirement`, status `approved`
 
 > Pagination helps users navigate forwards and backwards through a series of numbered pages, and a service uses it for collections such as search results or guidance split across multiple pages.
+
+*Rationale:* Lets users navigate forwards and backwards through a series of numbered pages so that content split for performance or usability, like search results or multi-page guidance, stays fast to load and easy to move through.
 
 **source_ref**: pagination
 <!-- tl:end -->
@@ -512,6 +569,8 @@ accessibility acceptance criterion or do-and-don't is a `system_requirement` tha
 
 > The panel component is a visible container used on confirmation or results pages to highlight important content, and a service uses it to confirm a completed transaction.
 
+*Rationale:* Highlights that a transaction has been completed successfully on a confirmation or results page, giving users clear high-level reassurance and any reference they need once they finish.
+
 **source_ref**: panel
 <!-- tl:end -->
 
@@ -531,6 +590,8 @@ accessibility acceptance criterion or do-and-don't is a `system_requirement` tha
 **UR-0021 — Password input** — `user_requirement`, status `approved`
 
 > The password input component helps users accessibly create and enter passwords, with an option to show what they have entered as plain text, and a service uses it whenever a password must be created or entered.
+
+*Rationale:* Helps users create and enter passwords accessibly, letting them reveal what they typed to reduce errors and choose stronger, more unique passwords before submitting.
 
 **source_ref**: password-input
 <!-- tl:end -->
@@ -563,6 +624,8 @@ accessibility acceptance criterion or do-and-don't is a `system_requirement` tha
 
 > The phase banner shows users a service is still being worked on, and a service.gov.uk service uses it to display its alpha or beta status until it passes a live assessment.
 
+*Rationale:* Signals to users that a service is still being worked on in alpha or beta and invites feedback, as required for service.gov.uk domains until they pass a live assessment.
+
 **source_ref**: phase-banner
 <!-- tl:end -->
 
@@ -583,6 +646,8 @@ accessibility acceptance criterion or do-and-don't is a `system_requirement` tha
 **UR-0023 — Radios** — `user_requirement`, status `approved`
 
 > The radios component lets users select a single option from a list, and a service uses it when only one option can be chosen.
+
+*Rationale:* Lets users select exactly one option from a list when the choices are mutually exclusive, making the single-answer constraint clear and preventing the confusion of allowing multiple selections.
 
 **source_ref**: radios
 <!-- tl:end -->
@@ -619,6 +684,8 @@ accessibility acceptance criterion or do-and-don't is a `system_requirement` tha
 
 > The select component helps users choose a single item from a long list, used only as a last resort in public-facing services because some users find selects hard to use.
 
+*Rationale:* Offers a last-resort way to pick one option from a long list in public services, but should be avoided because research shows many users struggle to open, scroll, and choose within selects, so ask narrowing questions or use radios instead.
+
 **source_ref**: select
 <!-- tl:end -->
 
@@ -643,6 +710,8 @@ accessibility acceptance criterion or do-and-don't is a `system_requirement` tha
 
 > Service navigation helps users understand they are using your service and lets them navigate around it, showing the service name and optional navigation links.
 
+*Rationale:* Reassures users that they are in the right place within a specific service and lets them move between its parts, giving a consistent experience that shows GOV.UK functions as one coherent website.
+
 **source_ref**: service-navigation
 <!-- tl:end -->
 
@@ -666,6 +735,8 @@ accessibility acceptance criterion or do-and-don't is a `system_requirement` tha
 
 > The skip link component helps keyboard-only users skip the top-level navigation and jump straight to the main content on a page.
 
+*Rationale:* Lets keyboard-only users bypass repetitive top-level navigation links and jump straight to a page's main content, removing the burden of tabbing through the header on every page.
+
 **source_ref**: skip-link
 <!-- tl:end -->
 
@@ -685,6 +756,8 @@ accessibility acceptance criterion or do-and-don't is a `system_requirement` tha
 **UR-0027 — Summary list** — `user_requirement`, status `approved`
 
 > A summary list summarises information as a list of key facts, such as a user's responses at the end of a form, with an optional summary card variant for grouping multiple lists.
+
+*Rationale:* Presents information as key-and-value facts, such as metadata or a user's form answers at the end of a journey, so people can review and correct their responses before submitting.
 
 **source_ref**: summary-list
 <!-- tl:end -->
@@ -717,6 +790,8 @@ accessibility acceptance criterion or do-and-don't is a `system_requirement` tha
 
 > The table component presents information in rows and columns to make it easier for users to compare and scan.
 
+*Rationale:* Makes information easier to compare and scan by arranging related data into rows and columns, so users can read across shared attributes rather than hunting through prose.
+
 **source_ref**: table
 <!-- tl:end -->
 
@@ -738,6 +813,8 @@ accessibility acceptance criterion or do-and-don't is a `system_requirement` tha
 **UR-0029 — Tabs** — `user_requirement`, status `approved`
 
 > The tabs component lets users quickly switch between related sections of content, displaying one clearly labelled section at a time.
+
+*Rationale:* Lets regular or expert users quickly switch between clearly labelled related sections without viewing all at once, but is avoided when users must read in order or compare content, since tabs hide information many people miss.
 
 **source_ref**: tabs
 <!-- tl:end -->
@@ -766,6 +843,8 @@ accessibility acceptance criterion or do-and-don't is a `system_requirement` tha
 
 > As a service, I use the Tag component to show users the status of something, such as an item on a task list or a phase banner.
 
+*Rationale:* Lets users see at a glance the current status of something that can hold more than one state, such as whether a task-list item is completed or a user is active, so they know where things stand without reading further.
+
 **source_ref**: tag
 <!-- tl:end -->
 
@@ -791,6 +870,8 @@ accessibility acceptance criterion or do-and-don't is a `system_requirement` tha
 **UR-0031 — Task list** — `user_requirement`, status `approved`
 
 > As a service, I use the task list component to display all the tasks a user needs to do and let them see which are done and which remain.
+
+*Rationale:* Gives users control over long, complex services they cannot or do not want to finish in one sitting, letting them choose their own order and clearly see which tasks are done and which remain.
 
 **source_ref**: task-list
 <!-- tl:end -->
@@ -826,6 +907,8 @@ accessibility acceptance criterion or do-and-don't is a `system_requirement` tha
 
 > As a service, I use the textarea component to let users enter an amount of text that is longer than a single line.
 
+*Rationale:* Lets users provide answers longer than a single line, giving space for detailed free-text information that would not fit in a standard single-line input field.
+
 **source_ref**: textarea
 <!-- tl:end -->
 
@@ -850,6 +933,8 @@ accessibility acceptance criterion or do-and-don't is a `system_requirement` tha
 **UR-0033 — Text input** — `user_requirement`, status `approved`
 
 > As a service, I use the text input component to let users enter text no longer than a single line, such as their name or phone number.
+
+*Rationale:* Lets users enter short, single-line information such as a name or phone number, providing an appropriately sized field so they understand what is expected without spanning multiple lines.
 
 **source_ref**: text-input
 <!-- tl:end -->
@@ -891,6 +976,8 @@ accessibility acceptance criterion or do-and-don't is a `system_requirement` tha
 
 > As a service, I use the warning text component to warn users about something important, such as legal consequences of an action or inaction.
 
+*Rationale:* Draws users' attention to something genuinely important, such as the legal consequences of an action or inaction, so they do not overlook a critical warning before deciding what to do.
+
 **source_ref**: warning-text
 <!-- tl:end -->
 
@@ -907,6 +994,8 @@ accessibility acceptance criterion or do-and-don't is a `system_requirement` tha
 **UR-0035 — Generic header** — `user_requirement`, status `approved`
 
 > As a service, I use the Generic header component to tell users they are using a government service that is not part of the GOV.UK website.
+
+*Rationale:* Signals to users that a public-facing government service sits outside the GOV.UK website, maintaining trust and consistency across journeys while ensuring non-GOV.UK services do not misuse GOV.UK branding.
 
 **source_ref**: generic-header
 <!-- tl:end -->

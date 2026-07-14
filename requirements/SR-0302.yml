@@ -7,6 +7,8 @@ text: Do not disable tabs; if there is no content, either remove the tab or expl
 links:
 - target: UR-0029
   type: implements
+- target: INT-0003
+  type: serves
 attrs:
   source_ref: tabs#do-not-disable
   kind: usage

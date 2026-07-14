@@ -8,6 +8,8 @@ text: Use the autocomplete attribute to specify an input's purpose so browsers c
 links:
 - target: UR-0033
   type: implements
+- target: INT-0002
+  type: serves
 attrs:
   source_ref: text-input#autocomplete-attribute
   kind: accessibility

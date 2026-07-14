@@ -8,6 +8,8 @@ text: The improved component lets Dragon speech recognition users choose files w
 links:
 - target: UR-0014
   type: implements
+- target: INT-0002
+  type: serves
 attrs:
   source_ref: file-upload#dragon-support
   kind: accessibility

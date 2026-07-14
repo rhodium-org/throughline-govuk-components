@@ -5,8 +5,15 @@ title: Button
 text: The service uses the GOV.UK Button component to let users carry out an action,
   following its guidance on button text, variants, grouping, contrast and double-click
   prevention.
+rationale: Users need an unambiguous, prominent way to carry out an action such as
+  starting an application, signing in, or paying, so the main call to action stands
+  out and they always know what to do next.
 links:
-- target: INT-0001
+- target: INT-0002
+  type: derives_from
+- target: INT-0003
+  type: derives_from
+- target: INT-0004
   type: derives_from
 attrs:
   source_ref: button

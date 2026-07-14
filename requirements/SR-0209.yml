@@ -8,6 +8,8 @@ text: Allow users to show what they have entered as plain text so they can visua
 links:
 - target: UR-0021
   type: implements
+- target: INT-0003
+  type: serves
 attrs:
   source_ref: password-input#show-plain-text-option
   kind: usage

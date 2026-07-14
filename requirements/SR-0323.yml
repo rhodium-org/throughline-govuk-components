@@ -7,6 +7,8 @@ text: Show a status alongside each task that indicates whether the user can star
 links:
 - target: UR-0031
   type: implements
+- target: INT-0003
+  type: serves
 attrs:
   source_ref: task-list#status-shows-startability
   kind: usage

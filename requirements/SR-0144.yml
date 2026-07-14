@@ -8,6 +8,8 @@ text: In the improved component keep name, accept, capture, accesskey and multip
 links:
 - target: UR-0014
   type: implements
+- target: INT-0002
+  type: serves
 attrs:
   source_ref: file-upload#html-attribute-placement
   kind: accessibility

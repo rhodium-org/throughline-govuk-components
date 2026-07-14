@@ -6,6 +6,8 @@ text: Display a styled error message if the user has not selected an option.
 links:
 - target: UR-0024
   type: implements
+- target: INT-0003
+  type: serves
 attrs:
   source_ref: select#error-on-no-selection
   kind: usage

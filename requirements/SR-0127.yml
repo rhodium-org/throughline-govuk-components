@@ -7,6 +7,8 @@ text: Pressing the shift key three times within five seconds activates the compo
 links:
 - target: UR-0012
   type: implements
+- target: INT-0002
+  type: serves
 attrs:
   source_ref: exit-this-page#shift-progress-dots
   kind: accessibility

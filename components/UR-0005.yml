@@ -5,8 +5,13 @@ title: Back link
 text: The service uses the GOV.UK Back link component to help users return to the
   previous page in a multi-page transaction, placed above the main content with clear
   text and sufficient contrast.
+rationale: Because browser back buttons can break services or go unnoticed, users
+  in a multi-page transaction need a reliable in-page way to return to the previous
+  step without losing their progress.
 links:
-- target: INT-0001
+- target: INT-0002
+  type: derives_from
+- target: INT-0003
   type: derives_from
 attrs:
   source_ref: back-link

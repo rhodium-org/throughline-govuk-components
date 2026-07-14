@@ -7,6 +7,8 @@ text: Most services should use the default header showing only the GOV.UK logo a
 links:
 - target: UR-0016
   type: implements
+- target: INT-0003
+  type: serves
 attrs:
   source_ref: header#default-header
   kind: usage

@@ -8,6 +8,8 @@ text: The component was developed and tested in 2017 with 17 users including peo
 links:
 - target: UR-0007
   type: implements
+- target: INT-0004
+  type: serves
 attrs:
   source_ref: character-count#tested-with-disabled-research
   kind: research

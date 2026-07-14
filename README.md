@@ -19,10 +19,15 @@ A grounded graph of
 381
 <!-- tl:end --> distilled clauses, published to [`docs/spec.md`](docs/spec.md):
 
-- `INT-0001` — the root intent (why the Design System exists), `normative: false`.
-- Each **component** as a `user_requirement` that `derives_from` the intent.
-- Each **usage rule / accessibility acceptance criterion / do-and-don't** for a
-  component as a `system_requirement` that `implements` its component UR.
+- **Three co-equal root intents** — the outcomes the Design System actually claims:
+  `INT-0002` accessibility, `INT-0003` consistent use, `INT-0004` proven by research
+  (all `normative: false`). There is no single umbrella intent — a source gets as many
+  roots as it has genuine *why*s.
+- Each **component** is a `user_requirement` that `derives_from` the specific outcome
+  roots its clauses serve, and carries a `rationale` — its own reason for existing.
+- Each **usage rule / accessibility acceptance criterion / do-and-don't** is a
+  `system_requirement` that `implements` its component UR **and** `serves` the outcome
+  root matching its `kind` — so a clause's *why* is a traversable edge, not a flat tag.
 
 The counts above are rendered from the live graph by the `tl:count` directive, so they
 cannot drift.
@@ -33,8 +38,13 @@ cannot drift.
   component's name. The component's native anchor lives in `attrs.source_ref`
   (`"date-input"`, or `"date-input#accessibility"` for a facet).
 - **Every clause carries a `kind`** — `usage`, `accessibility`, or `research` — so the
-  facets of a component's guidance stay separable. Where a rule cites a WCAG success
-  criterion, it is recorded in `attrs.wcag`.
+  facets of a component's guidance stay separable. `kind` also selects the outcome root
+  the clause `serves` (`accessibility` → `INT-0002`, `usage` → `INT-0003`, `research` →
+  `INT-0004`). Where a rule cites a WCAG success criterion, it is recorded in `attrs.wcag`.
+- **The *why* is first-class, not a tag.** Rather than every component hanging off one
+  bland root, components ground to the outcome roots they serve and every item carries a
+  `rationale`. Queries like "which clauses serve accessibility?" become graph traversals
+  that roll up through composition, instead of attribute filters.
 - **Guidance is re-expressed as testable clauses**, not copied verbatim. Prescriptive
   guidance ("associate each input with a visible label") becomes a clause; pure
   rationale prose ("why this matters") does not, unless it encodes a testable

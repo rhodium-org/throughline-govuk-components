@@ -5,8 +5,13 @@ title: Summary list
 text: A summary list summarises information as a list of key facts, such as a user's
   responses at the end of a form, with an optional summary card variant for grouping
   multiple lists.
+rationale: Presents information as key-and-value facts, such as metadata or a user's
+  form answers at the end of a journey, so people can review and correct their responses
+  before submitting.
 links:
-- target: INT-0001
+- target: INT-0002
+  type: derives_from
+- target: INT-0003
   type: derives_from
 attrs:
   source_ref: summary-list

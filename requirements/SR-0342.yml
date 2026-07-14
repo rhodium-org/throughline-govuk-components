@@ -7,6 +7,8 @@ text: Do not stop users copying and pasting into a textarea, as they often need 
 links:
 - target: UR-0032
   type: implements
+- target: INT-0003
+  type: serves
 attrs:
   source_ref: textarea#allow-copy-paste
   kind: usage

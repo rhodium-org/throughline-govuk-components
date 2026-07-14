@@ -8,6 +8,8 @@ text: Allow users to easily reuse a previously uploaded file within a single jou
 links:
 - target: UR-0014
   type: implements
+- target: INT-0003
+  type: serves
 attrs:
   source_ref: file-upload#reuse-files
   kind: usage

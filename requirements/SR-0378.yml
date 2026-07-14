@@ -7,6 +7,8 @@ text: Use the Generic header to display your own brand logo, homepage link, and 
 links:
 - target: UR-0035
   type: implements
+- target: INT-0003
+  type: serves
 attrs:
   source_ref: generic-header#own-brand-elements
   kind: usage

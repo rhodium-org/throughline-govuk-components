@@ -8,6 +8,8 @@ text: Write each section heading button in sentence case, describing the content
 links:
 - target: UR-0004
   type: implements
+- target: INT-0002
+  type: serves
 attrs:
   source_ref: accordion#clear-button-text
   kind: accessibility

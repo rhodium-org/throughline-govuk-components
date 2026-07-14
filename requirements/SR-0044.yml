@@ -7,6 +7,8 @@ text: When using HTML, give the govuk-accordion div a unique id across the servi
 links:
 - target: UR-0004
   type: implements
+- target: INT-0003
+  type: serves
 attrs:
   source_ref: accordion#unique-id
   kind: usage

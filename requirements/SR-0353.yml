@@ -8,6 +8,8 @@ text: Make text inputs the right size for the content intended, using fixed-widt
 links:
 - target: UR-0033
   type: implements
+- target: INT-0003
+  type: serves
 attrs:
   source_ref: text-input#size-to-content
   kind: usage

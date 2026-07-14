@@ -1,11 +1,14 @@
 uid: INT-0001
 type: intent
-status: approved
+status: deleted
 title: GOV.UK services are consistent, accessible and usable by everyone
 text: The GOV.UK Design System exists so that government services are built from
-  components and patterns that are proven to be consistent, accessible and usable —
-  letting teams reuse tested solutions with documented usage and accessibility
+  components and patterns that are proven to be consistent, accessible and usable
+  — letting teams reuse tested solutions with documented usage and accessibility
   guidance rather than reinventing interface elements service by service.
 normative: false
 attrs:
-  source_ref: "GOV.UK Design System"
+  source_ref: GOV.UK Design System
+deleted:
+  reason: 'Retired: the why-spine moved from a single umbrella intent to three co-equal
+    outcome roots (INT-0002/0003/0004) per the multi-root modelling rule.'

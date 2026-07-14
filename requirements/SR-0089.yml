@@ -7,6 +7,8 @@ text: Treat HTML5 local storage, service workers and any other technology that s
 links:
 - target: UR-0009
   type: implements
+- target: INT-0003
+  type: serves
 attrs:
   source_ref: cookie-banner#non-essential-scope
   kind: usage

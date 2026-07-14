@@ -7,6 +7,8 @@ text: Use a fieldset when you need to show a relationship between multiple form 
 links:
 - target: UR-0013
   type: implements
+- target: INT-0003
+  type: serves
 attrs:
   source_ref: fieldset#group-related-inputs
   kind: usage

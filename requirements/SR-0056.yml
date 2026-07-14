@@ -7,6 +7,8 @@ text: Where possible ensure the back link works without JavaScript; if that is n
 links:
 - target: UR-0005
   type: implements
+- target: INT-0003
+  type: serves
 attrs:
   source_ref: back-link#works-without-js
   kind: usage

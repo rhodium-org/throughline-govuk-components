@@ -7,6 +7,8 @@ text: Always position radios to the left of their labels to make them easier to 
 links:
 - target: UR-0023
   type: implements
+- target: INT-0002
+  type: serves
 attrs:
   source_ref: radios#position-left-of-labels
   kind: accessibility

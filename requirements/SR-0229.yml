@@ -6,6 +6,8 @@ text: Use the radios component when users can only select one option from a list
 links:
 - target: UR-0023
   type: implements
+- target: INT-0003
+  type: serves
 attrs:
   source_ref: radios#when-to-use
   kind: usage

@@ -7,6 +7,8 @@ text: Use the GOV.UK header only when the service is hosted on a gov.uk, service
 links:
 - target: UR-0016
   type: implements
+- target: INT-0003
+  type: serves
 attrs:
   source_ref: header#govuk-domains-only
   kind: usage

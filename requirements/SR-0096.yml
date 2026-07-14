@@ -8,6 +8,8 @@ text: For a JavaScript-only banner, reveal the confirmation message by removing 
 links:
 - target: UR-0009
   type: implements
+- target: INT-0002
+  type: serves
 attrs:
   source_ref: cookie-banner#client-side-focus
   kind: accessibility

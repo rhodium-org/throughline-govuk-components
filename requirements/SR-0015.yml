@@ -7,6 +7,8 @@ text: Show the error summary at the top of the page to summarise any errors the 
 links:
 - target: UR-0002
   type: implements
+- target: INT-0003
+  type: serves
 attrs:
   source_ref: error-summary#top-of-page
   kind: usage

@@ -8,6 +8,8 @@ text: Style the input to visually separate each character when asking for an unm
 links:
 - target: UR-0033
   type: implements
+- target: INT-0003
+  type: serves
 attrs:
   source_ref: text-input#separate-code-characters
   kind: usage

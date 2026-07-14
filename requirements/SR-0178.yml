@@ -7,6 +7,8 @@ text: Use the neutral blue notification banner to tell the user about a problem 
 links:
 - target: UR-0018
   type: implements
+- target: INT-0003
+  type: serves
 attrs:
   source_ref: notification-banner#neutral-blue-for-problems
   kind: usage

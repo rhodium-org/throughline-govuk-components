@@ -7,6 +7,8 @@ text: Avoid too many tabs or long labels that wrap over more than one line, beca
 links:
 - target: UR-0029
   type: implements
+- target: INT-0003
+  type: serves
 attrs:
   source_ref: tabs#avoid-wrapping
   kind: usage

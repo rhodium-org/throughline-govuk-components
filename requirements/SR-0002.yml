@@ -7,6 +7,8 @@ text: Write button text in sentence case, describing the action it performs (for
 links:
 - target: UR-0001
   type: implements
+- target: INT-0003
+  type: serves
 attrs:
   source_ref: button#sentence-case-text
   kind: usage

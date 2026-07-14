@@ -6,6 +6,8 @@ text: Use the table component to let users compare information in rows and colum
 links:
 - target: UR-0028
   type: implements
+- target: INT-0003
+  type: serves
 attrs:
   source_ref: table#use-to-compare
   kind: usage

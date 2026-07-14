@@ -7,6 +7,8 @@ text: Use short words and phrases so highlighted information is easy to read acr
 links:
 - target: UR-0020
   type: implements
+- target: INT-0003
+  type: serves
 attrs:
   source_ref: panel#short-words
   kind: usage

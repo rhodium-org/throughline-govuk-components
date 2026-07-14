@@ -6,6 +6,8 @@ text: Use this component whenever you need users to create or enter a password.
 links:
 - target: UR-0021
   type: implements
+- target: INT-0003
+  type: serves
 attrs:
   source_ref: password-input#when-to-use
   kind: usage

@@ -7,6 +7,8 @@ text: Always show an error summary when there is a validation error, even if the
 links:
 - target: UR-0002
   type: implements
+- target: INT-0003
+  type: serves
 attrs:
   source_ref: error-summary#always-when-error
   kind: usage

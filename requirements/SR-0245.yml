@@ -8,6 +8,8 @@ text: Use standard-sized radios in nearly all cases; use smaller versions only w
 links:
 - target: UR-0023
   type: implements
+- target: INT-0003
+  type: serves
 attrs:
   source_ref: radios#smaller-radios
   kind: usage

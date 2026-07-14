@@ -8,6 +8,8 @@ text: Use an accordion only where there is evidence it helps users to see an ove
 links:
 - target: UR-0004
   type: implements
+- target: INT-0003
+  type: serves
 attrs:
   source_ref: accordion#only-with-evidence
   kind: usage

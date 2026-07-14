@@ -7,6 +7,8 @@ text: Use an alpha banner when the service is in alpha, and a beta banner when i
 links:
 - target: UR-0022
   type: implements
+- target: INT-0003
+  type: serves
 attrs:
   source_ref: phase-banner#alpha-vs-beta
   kind: usage

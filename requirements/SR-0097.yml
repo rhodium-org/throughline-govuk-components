@@ -7,6 +7,8 @@ text: Include the service name in the banner heading so users understand these c
 links:
 - target: UR-0009
   type: implements
+- target: INT-0003
+  type: serves
 attrs:
   source_ref: cookie-banner#name-the-service
   kind: usage

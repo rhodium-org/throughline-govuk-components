@@ -8,6 +8,8 @@ text: Do not add functionality for selecting multiple options; use another metho
 links:
 - target: UR-0024
   type: implements
+- target: INT-0002
+  type: serves
 attrs:
   source_ref: select#no-multiple-select
   kind: accessibility

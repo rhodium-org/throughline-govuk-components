@@ -7,6 +7,8 @@ text: Add a summary line only if it is needed and keep it as short as possible, 
 links:
 - target: UR-0004
   type: implements
+- target: INT-0003
+  type: serves
 attrs:
   source_ref: accordion#short-summary-line
   kind: usage

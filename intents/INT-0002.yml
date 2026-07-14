@@ -1,0 +1,11 @@
+uid: INT-0002
+type: intent
+status: approved
+title: Government services are accessible to everyone
+text: Services built from the Design System work for everyone, including disabled people
+  and people using assistive technology such as screen readers, keyboards and voice
+  control, meeting WCAG 2.2 level AA and the Public Sector Bodies (Websites and Mobile
+  Applications) Accessibility Regulations 2018.
+normative: false
+attrs:
+  source_ref: accessibility

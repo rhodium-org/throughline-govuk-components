@@ -6,6 +6,8 @@ text: Do not add more than two to three actions in a summary card header.
 links:
 - target: UR-0027
   type: implements
+- target: INT-0003
+  type: serves
 attrs:
   source_ref: summary-list#limit-card-actions
   kind: usage

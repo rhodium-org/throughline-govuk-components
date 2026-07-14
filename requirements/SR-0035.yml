@@ -8,6 +8,8 @@ text: When the whole date is in error, style all three fields; when only one fie
 links:
 - target: UR-0003
   type: implements
+- target: INT-0003
+  type: serves
 attrs:
   source_ref: date-input#error-highlight-scope
   kind: usage

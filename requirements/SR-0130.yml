@@ -8,6 +8,8 @@ text: Testing has focused mainly on users at risk of domestic abuse, so teams sh
 links:
 - target: UR-0012
   type: implements
+- target: INT-0004
+  type: serves
 attrs:
   source_ref: exit-this-page#test-with-users
   kind: research

@@ -6,6 +6,8 @@ text: Provide a cookies page in the service as well as the cookie banner.
 links:
 - target: UR-0009
   type: implements
+- target: INT-0003
+  type: serves
 attrs:
   source_ref: cookie-banner#needs-cookies-page
   kind: usage

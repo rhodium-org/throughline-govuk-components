@@ -7,6 +7,8 @@ text: Do not use the task list to show users their answers; use the Summary list
 links:
 - target: UR-0031
   type: implements
+- target: INT-0003
+  type: serves
 attrs:
   source_ref: task-list#not-for-answers
   kind: usage

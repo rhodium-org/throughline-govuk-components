@@ -8,6 +8,8 @@ text: When asking for a date of birth, set the autocomplete attribute on the thr
 links:
 - target: UR-0003
   type: implements
+- target: INT-0002
+  type: serves
 attrs:
   source_ref: date-input#autocomplete-dob
   kind: accessibility

@@ -7,6 +7,8 @@ text: This component has not yet been tried in user research and is based on ext
 links:
 - target: UR-0029
   type: implements
+- target: INT-0004
+  type: serves
 attrs:
   source_ref: tabs#not-yet-user-tested
   kind: research

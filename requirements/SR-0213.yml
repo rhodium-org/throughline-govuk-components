@@ -7,6 +7,8 @@ text: Do not add a second 'confirm password' field, as it is unnecessary when th
 links:
 - target: UR-0021
   type: implements
+- target: INT-0003
+  type: serves
 attrs:
   source_ref: password-input#no-confirm-field
   kind: usage

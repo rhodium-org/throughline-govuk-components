@@ -7,6 +7,8 @@ text: Use h3 headings within the banner content to structure it, but avoid headi
 links:
 - target: UR-0018
   type: implements
+- target: INT-0003
+  type: serves
 attrs:
   source_ref: notification-banner#headings-in-content
   kind: usage

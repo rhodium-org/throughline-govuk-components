@@ -7,6 +7,8 @@ text: Avoid disabled buttons because they have poor contrast and can confuse use
 links:
 - target: UR-0001
   type: implements
+- target: INT-0002
+  type: serves
 attrs:
   source_ref: button#avoid-disabled
   kind: accessibility

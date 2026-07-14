@@ -5,8 +5,15 @@ title: Password input
 text: The password input component helps users accessibly create and enter passwords,
   with an option to show what they have entered as plain text, and a service uses
   it whenever a password must be created or entered.
+rationale: Helps users create and enter passwords accessibly, letting them reveal
+  what they typed to reduce errors and choose stronger, more unique passwords before
+  submitting.
 links:
-- target: INT-0001
+- target: INT-0002
+  type: derives_from
+- target: INT-0003
+  type: derives_from
+- target: INT-0004
   type: derives_from
 attrs:
   source_ref: password-input

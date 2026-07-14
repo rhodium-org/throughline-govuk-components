@@ -7,6 +7,8 @@ text: When asking more than one question on the page, do not set the textarea la
 links:
 - target: UR-0007
   type: implements
+- target: INT-0002
+  type: serves
 attrs:
   source_ref: character-count#label-not-heading-multiple
   kind: accessibility

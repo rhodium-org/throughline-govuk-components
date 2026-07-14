@@ -8,6 +8,8 @@ text: Use role="region" and aria-labelledby="govuk-notification-banner-title" (w
 links:
 - target: UR-0018
   type: implements
+- target: INT-0002
+  type: serves
 attrs:
   source_ref: notification-banner#screen-reader-navigation
   kind: accessibility

@@ -6,6 +6,8 @@ text: Remove a green notification banner when the user moves to a new page.
 links:
 - target: UR-0018
   type: implements
+- target: INT-0003
+  type: serves
 attrs:
   source_ref: notification-banner#remove-green-on-navigation
   kind: usage

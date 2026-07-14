@@ -7,6 +7,8 @@ text: Use the Generic header to bring consistency and maintain user trust in jou
 links:
 - target: UR-0035
   type: implements
+- target: INT-0003
+  type: serves
 attrs:
   source_ref: generic-header#maintain-trust-consistency
   kind: usage

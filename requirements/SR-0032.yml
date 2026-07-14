@@ -7,6 +7,8 @@ text: Accept month names written in full or abbreviated form (for example 'janua
 links:
 - target: UR-0003
   type: implements
+- target: INT-0003
+  type: serves
 attrs:
   source_ref: date-input#accept-month-names
   kind: usage

@@ -7,6 +7,8 @@ text: Do not use the component when the service or content is unlikely to put a 
 links:
 - target: UR-0012
   type: implements
+- target: INT-0003
+  type: serves
 attrs:
   source_ref: exit-this-page#not-when-low-risk
   kind: usage

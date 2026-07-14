@@ -5,8 +5,13 @@ title: Error summary
 text: The service uses the GOV.UK Error summary component at the top of a page to
   summarise validation errors, moving focus to it, linking each error to its answer
   and mirroring the inline error messages.
+rationale: When a user submits answers containing validation errors, they need every
+  problem gathered and focused at the top of the page so they can find, understand,
+  and fix each mistake rather than hunting for what went wrong.
 links:
-- target: INT-0001
+- target: INT-0002
+  type: derives_from
+- target: INT-0003
   type: derives_from
 attrs:
   source_ref: error-summary

@@ -7,6 +7,8 @@ text: Use the text input component when you need to let users enter text no long
 links:
 - target: UR-0033
   type: implements
+- target: INT-0003
+  type: serves
 attrs:
   source_ref: text-input#when-single-line
   kind: usage

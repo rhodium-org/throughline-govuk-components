@@ -7,6 +7,8 @@ text: If the service is not on a gov.uk domain, do not use the GOV.UK header; us
 links:
 - target: UR-0016
   type: implements
+- target: INT-0003
+  type: serves
 attrs:
   source_ref: header#not-off-domain
   kind: usage

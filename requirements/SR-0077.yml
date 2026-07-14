@@ -7,6 +7,8 @@ text: Always position checkboxes to the left of their labels so they are easier 
 links:
 - target: UR-0008
   type: implements
+- target: INT-0002
+  type: serves
 attrs:
   source_ref: checkboxes#boxes-left-of-labels
   kind: accessibility

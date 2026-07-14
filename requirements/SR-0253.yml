@@ -7,6 +7,8 @@ text: Keep hint text to a single short sentence without any full stops to help u
 links:
 - target: UR-0024
   type: implements
+- target: INT-0003
+  type: serves
 attrs:
   source_ref: select#hint-single-sentence
   kind: usage

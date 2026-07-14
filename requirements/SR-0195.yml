@@ -7,6 +7,8 @@ text: Show the page number in the page <title>, for example 'Search results (pag
 links:
 - target: UR-0019
   type: implements
+- target: INT-0002
+  type: serves
 attrs:
   source_ref: pagination#page-number-in-title
   kind: accessibility

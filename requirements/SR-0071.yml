@@ -7,6 +7,8 @@ text: Consider showing a word count instead of a character count where the quest
 links:
 - target: UR-0007
   type: implements
+- target: INT-0003
+  type: serves
 attrs:
   source_ref: character-count#consider-word-count
   kind: usage

@@ -7,6 +7,8 @@ text: A service that sets only essential cookies may omit the banner but must st
 links:
 - target: UR-0009
   type: implements
+- target: INT-0003
+  type: serves
 attrs:
   source_ref: cookie-banner#essential-only-cookies-page
   kind: usage

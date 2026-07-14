@@ -8,6 +8,8 @@ text: Set the limit higher than most users will need, informed by user research 
 links:
 - target: UR-0007
   type: implements
+- target: INT-0003
+  type: serves
 attrs:
   source_ref: character-count#generous-limit
   kind: usage

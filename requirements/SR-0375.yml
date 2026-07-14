@@ -8,6 +8,8 @@ text: Ensure the header does not identify the service as part of GOV.UK, and doe
 links:
 - target: UR-0035
   type: implements
+- target: INT-0003
+  type: serves
 attrs:
   source_ref: generic-header#no-govuk-branding
   kind: usage

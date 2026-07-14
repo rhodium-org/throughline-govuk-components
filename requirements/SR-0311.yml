@@ -7,6 +7,8 @@ text: Where the absence of a tag implies the opposite state, a single status tag
 links:
 - target: UR-0030
   type: implements
+- target: INT-0003
+  type: serves
 attrs:
   source_ref: tag#single-status-sufficient
   kind: usage

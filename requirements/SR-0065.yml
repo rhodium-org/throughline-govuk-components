@@ -8,6 +8,8 @@ text: Test the service without a character count first, and use one only where t
 links:
 - target: UR-0007
   type: implements
+- target: INT-0003
+  type: serves
 attrs:
   source_ref: character-count#test-without-first
   kind: usage

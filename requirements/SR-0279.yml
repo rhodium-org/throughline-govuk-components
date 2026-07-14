@@ -8,6 +8,8 @@ text: Only remove separating borders when the list has no actions, and think car
 links:
 - target: UR-0027
   type: implements
+- target: INT-0002
+  type: serves
 attrs:
   source_ref: summary-list#borders-caution
   kind: accessibility

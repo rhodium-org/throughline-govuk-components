@@ -7,6 +7,8 @@ text: Do not use checkboxes if users can only choose one option from a selection
 links:
 - target: UR-0008
   type: implements
+- target: INT-0003
+  type: serves
 attrs:
   source_ref: checkboxes#not-for-single-choice
   kind: usage

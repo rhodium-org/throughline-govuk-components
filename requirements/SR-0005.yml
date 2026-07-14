@@ -7,6 +7,8 @@ text: Use a start button for the main call to action on a service's start page; 
 links:
 - target: UR-0001
   type: implements
+- target: INT-0003
+  type: serves
 attrs:
   source_ref: button#start-button-is-a-link
   kind: usage

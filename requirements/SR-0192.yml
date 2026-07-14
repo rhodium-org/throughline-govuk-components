@@ -8,6 +8,8 @@ text: Use the 'block' style of pagination for navigating related content split a
 links:
 - target: UR-0019
   type: implements
+- target: INT-0003
+  type: serves
 attrs:
   source_ref: pagination#block-style-for-content
   kind: usage

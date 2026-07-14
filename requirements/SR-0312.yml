@@ -7,6 +7,8 @@ text: Do not use colour alone to convey information in a tag, to meet WCAG 2.2 s
 links:
 - target: UR-0030
   type: implements
+- target: INT-0002
+  type: serves
 attrs:
   source_ref: tag#colour-not-alone
   kind: accessibility

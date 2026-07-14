@@ -5,8 +5,13 @@ title: Cookie banner
 text: The service uses the GOV.UK Cookie banner component to let users accept or reject
   non-essential cookies, shown until a choice is made, with an accessible confirmation
   and a supporting cookies page.
+rationale: When a service sets non-essential cookies, users must be told about them
+  and given a clear choice to accept or reject, so the service meets its data-protection
+  obligations before storing anything on their device.
 links:
-- target: INT-0001
+- target: INT-0002
+  type: derives_from
+- target: INT-0003
   type: derives_from
 attrs:
   source_ref: cookie-banner

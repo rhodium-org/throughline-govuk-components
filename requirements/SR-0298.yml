@@ -8,6 +8,8 @@ text: Prefer tabs when the user views one section at a time or switches quickly 
 links:
 - target: UR-0029
   type: implements
+- target: INT-0003
+  type: serves
 attrs:
   source_ref: tabs#choose-over-accordion-details
   kind: usage

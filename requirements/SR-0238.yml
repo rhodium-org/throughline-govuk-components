@@ -7,6 +7,8 @@ text: If asking more than one question on the page, do not set the legend as the
 links:
 - target: UR-0023
   type: implements
+- target: INT-0003
+  type: serves
 attrs:
   source_ref: radios#no-legend-heading-multiple
   kind: usage

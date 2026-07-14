@@ -8,6 +8,8 @@ text: The earlier component inherited the browser default and showed no visual t
 links:
 - target: UR-0014
   type: implements
+- target: INT-0004
+  type: serves
 attrs:
   source_ref: file-upload#known-gap-target-area
   kind: research

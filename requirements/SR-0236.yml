@@ -7,6 +7,8 @@ text: Group radios in a <fieldset> with a <legend> that describes them, usually 
 links:
 - target: UR-0023
   type: implements
+- target: INT-0002
+  type: serves
 attrs:
   source_ref: radios#fieldset-legend
   kind: accessibility

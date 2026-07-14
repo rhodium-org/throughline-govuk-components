@@ -7,6 +7,8 @@ text: Do not use summary cards for a small amount of related information; use su
 links:
 - target: UR-0027
   type: implements
+- target: INT-0003
+  type: serves
 attrs:
   source_ref: summary-list#cards-not-for-small
   kind: usage

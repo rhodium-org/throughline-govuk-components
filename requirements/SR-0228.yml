@@ -7,6 +7,8 @@ text: Whatever feedback option is used, make sure users do not lose their place 
 links:
 - target: UR-0022
   type: implements
+- target: INT-0003
+  type: serves
 attrs:
   source_ref: phase-banner#preserve-place
   kind: usage

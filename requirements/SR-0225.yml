@@ -8,6 +8,8 @@ text: Show the phase banner inside the <header> element, directly after the Serv
 links:
 - target: UR-0022
   type: implements
+- target: INT-0003
+  type: serves
 attrs:
   source_ref: phase-banner#position-in-header
   kind: usage

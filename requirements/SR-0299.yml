@@ -7,6 +7,8 @@ text: When JavaScript is not available, show the tabbed content on a single page
 links:
 - target: UR-0029
   type: implements
+- target: INT-0002
+  type: serves
 attrs:
   source_ref: tabs#no-js-fallback
   kind: accessibility

@@ -8,6 +8,8 @@ text: Be aware that browsers, password managers and screen readers may add their
 links:
 - target: UR-0021
   type: implements
+- target: INT-0003
+  type: serves
 attrs:
   source_ref: password-input#known-issues-native-toggles
   kind: usage

@@ -1,0 +1,11 @@
+uid: INT-0003
+type: intent
+status: approved
+title: Components are used consistently and correctly across services
+text: Teams reuse each component as intended, with consistent structure, content and
+  wording, so users recognise and trust government services and can transfer what they
+  learn from one service to the next instead of teams reinventing interface elements
+  service by service.
+normative: false
+attrs:
+  source_ref: consistent-use

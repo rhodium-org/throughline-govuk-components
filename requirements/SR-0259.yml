@@ -7,6 +7,8 @@ text: Use the service navigation together with the GOV.UK header component to gi
 links:
 - target: UR-0025
   type: implements
+- target: INT-0003
+  type: serves
 attrs:
   source_ref: service-navigation#consistent-with-header
   kind: usage

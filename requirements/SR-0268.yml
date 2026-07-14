@@ -7,6 +7,8 @@ text: Ignore automated accessibility warnings that the skip link is not inside a
 links:
 - target: UR-0026
   type: implements
+- target: INT-0002
+  type: serves
 attrs:
   source_ref: skip-link#ignore-landmark-warning
   kind: accessibility

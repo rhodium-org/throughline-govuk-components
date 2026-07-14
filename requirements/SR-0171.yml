@@ -8,6 +8,8 @@ text: If the information is directly relevant to the task on the page, put it in
 links:
 - target: UR-0018
   type: implements
+- target: INT-0003
+  type: serves
 attrs:
   source_ref: notification-banner#relevant-info-in-content
   kind: usage

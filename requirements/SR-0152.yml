@@ -7,6 +7,8 @@ text: Make clear whether content can be reused and under what licence, using the
 links:
 - target: UR-0015
   type: implements
+- target: INT-0003
+  type: serves
 attrs:
   source_ref: footer#licensing
   kind: usage

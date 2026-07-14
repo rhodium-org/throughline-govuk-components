@@ -4,8 +4,13 @@ status: approved
 title: Skip link
 text: The skip link component helps keyboard-only users skip the top-level navigation
   and jump straight to the main content on a page.
+rationale: Lets keyboard-only users bypass repetitive top-level navigation links and
+  jump straight to a page's main content, removing the burden of tabbing through the
+  header on every page.
 links:
-- target: INT-0001
+- target: INT-0002
+  type: derives_from
+- target: INT-0003
   type: derives_from
 attrs:
   source_ref: skip-link

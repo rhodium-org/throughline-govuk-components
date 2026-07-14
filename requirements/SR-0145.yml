@@ -7,6 +7,8 @@ text: Screen readers do not read the required attribute in the improved version,
 links:
 - target: UR-0014
   type: implements
+- target: INT-0002
+  type: serves
 attrs:
   source_ref: file-upload#no-required-attribute
   kind: accessibility

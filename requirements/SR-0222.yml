@@ -8,6 +8,8 @@ text: The team decided a second field is not helpful for users, particularly on 
 links:
 - target: UR-0021
   type: implements
+- target: INT-0004
+  type: serves
 attrs:
   source_ref: password-input#research-no-second-field
   kind: research

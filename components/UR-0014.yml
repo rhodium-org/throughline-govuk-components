@@ -3,8 +3,15 @@ type: user_requirement
 status: approved
 title: File upload
 text: The file upload component helps users select and upload a file within a service.
+rationale: So users can reliably select and upload a file when providing that document
+  is critical to delivering the service, with clear errors and drag-and-drop support
+  that also works for assistive technology.
 links:
-- target: INT-0001
+- target: INT-0002
+  type: derives_from
+- target: INT-0003
+  type: derives_from
+- target: INT-0004
   type: derives_from
 attrs:
   source_ref: file-upload

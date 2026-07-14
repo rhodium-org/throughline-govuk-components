@@ -4,8 +4,11 @@ status: approved
 title: Panel
 text: The panel component is a visible container used on confirmation or results pages
   to highlight important content, and a service uses it to confirm a completed transaction.
+rationale: Highlights that a transaction has been completed successfully on a confirmation
+  or results page, giving users clear high-level reassurance and any reference they
+  need once they finish.
 links:
-- target: INT-0001
+- target: INT-0003
   type: derives_from
 attrs:
   source_ref: panel

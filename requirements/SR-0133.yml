@@ -7,6 +7,8 @@ text: The first element inside a fieldset must be a legend describing the group 
 links:
 - target: UR-0013
   type: implements
+- target: INT-0003
+  type: serves
 attrs:
   source_ref: fieldset#legend-first
   kind: usage

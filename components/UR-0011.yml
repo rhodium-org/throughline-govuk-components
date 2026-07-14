@@ -5,8 +5,13 @@ title: Error message
 text: The service uses the GOV.UK Error message component to explain, next to each
   field, what went wrong and how to fix it, worded to match the error summary and
   following the plain-English error guidance.
+rationale: When a user's answer fails validation, they need a clear, specific message
+  beside the field explaining what went wrong and how to fix it, so they can recover
+  and correct their own input rather than being blocked.
 links:
-- target: INT-0001
+- target: INT-0002
+  type: derives_from
+- target: INT-0003
   type: derives_from
 attrs:
   source_ref: error-message

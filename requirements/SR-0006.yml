@@ -7,6 +7,8 @@ text: Use secondary buttons only for secondary calls to action, and simplify the
 links:
 - target: UR-0001
   type: implements
+- target: INT-0003
+  type: serves
 attrs:
   source_ref: button#secondary-for-secondary-actions
   kind: usage

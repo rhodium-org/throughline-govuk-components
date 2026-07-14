@@ -6,6 +6,8 @@ text: Support all characters the user might need to enter, including numbers and
 links:
 - target: UR-0033
   type: implements
+- target: INT-0003
+  type: serves
 attrs:
   source_ref: text-input#support-needed-characters
   kind: usage

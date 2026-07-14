@@ -7,6 +7,8 @@ text: If a page has two or more password inputs, the show and hide toggles and l
 links:
 - target: UR-0021
   type: implements
+- target: INT-0002
+  type: serves
 attrs:
   source_ref: password-input#distinct-toggle-labels
   kind: accessibility

@@ -7,6 +7,8 @@ text: If one or more options differ from the others, separate them with a text d
 links:
 - target: UR-0023
   type: implements
+- target: INT-0003
+  type: serves
 attrs:
   source_ref: radios#text-divider
   kind: usage

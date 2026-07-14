@@ -5,8 +5,15 @@ title: Notification banner
 text: A notification banner tells the user about something they need to know that
   is not directly related to the page content, and a service uses it for service-wide
   problems, personal alerts, or the outcome of a completed action.
+rationale: Alerts users to something they need to know but that is not directly tied
+  to the current task, such as a service-wide problem, an approaching deadline, or
+  the outcome of a prior action, without cluttering the main content.
 links:
-- target: INT-0001
+- target: INT-0002
+  type: derives_from
+- target: INT-0003
+  type: derives_from
+- target: INT-0004
   type: derives_from
 attrs:
   source_ref: notification-banner

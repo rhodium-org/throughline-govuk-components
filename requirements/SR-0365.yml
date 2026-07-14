@@ -8,6 +8,8 @@ text: Avoid using the maxlength attribute because it truncates without feedback 
 links:
 - target: UR-0033
   type: implements
+- target: INT-0002
+  type: serves
 attrs:
   source_ref: text-input#avoid-maxlength
   kind: accessibility

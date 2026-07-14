@@ -8,6 +8,8 @@ text: If you must apply password restrictions, be clear and consistent and keep 
 links:
 - target: UR-0021
   type: implements
+- target: INT-0003
+  type: serves
 attrs:
   source_ref: password-input#consistent-restrictions
   kind: usage

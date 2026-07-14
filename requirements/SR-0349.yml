@@ -7,6 +7,8 @@ text: Align labels above the input they refer to, keep them short and direct, wr
 links:
 - target: UR-0033
   type: implements
+- target: INT-0003
+  type: serves
 attrs:
   source_ref: text-input#label-position-and-style
   kind: usage

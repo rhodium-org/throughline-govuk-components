@@ -6,6 +6,8 @@ text: Allow users to complete tasks in whatever order they like.
 links:
 - target: UR-0031
   type: implements
+- target: INT-0003
+  type: serves
 attrs:
   source_ref: task-list#any-order
   kind: usage

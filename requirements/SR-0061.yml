@@ -7,6 +7,8 @@ text: Place breadcrumbs at the top of the page, before the main element, so the 
 links:
 - target: UR-0006
   type: implements
+- target: INT-0002
+  type: serves
 attrs:
   source_ref: breadcrumbs#place-above-main
   kind: accessibility

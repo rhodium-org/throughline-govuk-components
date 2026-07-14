@@ -4,8 +4,13 @@ status: approved
 title: Fieldset
 text: The fieldset component groups related form inputs so users understand the relationship
   between them.
+rationale: So users, especially screen reader users, understand that several separate
+  form inputs are related and belong to a single question, such as the multiple text
+  boxes making up an address.
 links:
-- target: INT-0001
+- target: INT-0002
+  type: derives_from
+- target: INT-0003
   type: derives_from
 attrs:
   source_ref: fieldset
