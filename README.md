@@ -1,4 +1,4 @@
-# standard-govuk-components
+# throughline-govuk-components
 
 The **GOV.UK Design System component library** expressed as a
 [throughline](https://pypi.org/project/throughline/) **source** — a standalone,
@@ -60,7 +60,7 @@ In a consuming throughline project's `throughline.toml`:
 ```toml
 [[sources]]
 namespace = "govuk"
-path = "vendor/standard-govuk-components"   # or a pinned checkout
+path = "vendor/throughline-govuk-components"   # or a pinned checkout
 ```
 
 Then reference a clause from your own items:
