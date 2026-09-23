@@ -2,8 +2,8 @@
 name = "GOV.UK Design System components (throughline source)"
 format_version = 3
 
-# A throughline *source*: a standalone graph a consuming project composes via
-# throughline-compose, importing it under a namespace (e.g. `govuk`) and referencing
+# A throughline *source*: a standalone graph a consuming project composes with `tl`,
+# importing it under a namespace (e.g. `govuk`) and referencing
 # clauses as `govuk:SR-0001`. The UIDs here are this source's own and immutable; the
 # component's native anchor (e.g. `date-input` or `date-input#accessibility`) lives in
 # `attrs.source_ref`, never in the UID.

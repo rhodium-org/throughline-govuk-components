@@ -8,7 +8,7 @@ full terms.
 
 This repository is a throughline *source*: a requirements graph, not a program. It
 re-expresses the guidance of the GOV.UK Design System component library as a grounded
-IDD graph so consuming projects can compose it with throughline-compose.
+IDD graph so consuming projects can compose it with throughline.
 
 The GOV.UK Design System is produced by the Government Digital Service. Its guidance
 content is © Crown copyright and is published under the Open Government Licence v3.0
