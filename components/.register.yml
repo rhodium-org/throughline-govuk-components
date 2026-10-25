@@ -1,3 +1,4 @@
 prefix: UR
 digits: 4
 title: GOV.UK components
+type: user_requirement
