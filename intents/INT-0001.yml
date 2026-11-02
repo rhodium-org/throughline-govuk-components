@@ -9,6 +9,15 @@ text: The GOV.UK Design System exists so that government services are built from
 normative: false
 attrs:
   source_ref: GOV.UK Design System
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-11-02T14:27:34Z'
+  fingerprint: sha256:77a70fc7b1e10431d54f9504f8161588e860e85d09b3025119139e2178b5ec7c
+  content:
+    deleted:
+      reason: 'Retired: the why-spine moved from a single umbrella intent to three
+        co-equal outcome roots (INT-0002/0003/0004) per the multi-root modelling
+        rule.'
 deleted:
   reason: 'Retired: the why-spine moved from a single umbrella intent to three co-equal
     outcome roots (INT-0002/0003/0004) per the multi-root modelling rule.'
