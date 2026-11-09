@@ -1,9 +1,10 @@
 uid: SR-0095
 type: system_requirement
-status: approved
+status: proposed
 title: Support consent without JavaScript
-text: Where non-essential cookies are set server-side, present the banner inside a
-  form so all users can submit their choice without relying on JavaScript.
+text: Where non-essential cookies are set server-side, present the banner inside
+  a form so all users can submit their choice without relying on JavaScript.
+normative: true
 links:
 - target: UR-0009
   type: implements

@@ -1,10 +1,11 @@
 uid: SR-0098
 type: system_requirement
-status: approved
+status: proposed
 title: Keep cookie text short but accurate
 text: Keep the cookie banner text as short as possible while accurately describing
   how cookies are used, adapting the example text if third parties set cookies or
   cookies are used beyond analytics and settings.
+normative: true
 links:
 - target: UR-0009
   type: implements

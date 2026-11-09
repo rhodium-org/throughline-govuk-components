@@ -1,9 +1,10 @@
 uid: SR-0090
 type: system_requirement
-status: approved
+status: proposed
 title: Show the banner until the user decides
 text: Show the cookie banner on every visit until the user accepts or rejects cookies,
   or saves their preferences on the cookies page.
+normative: true
 links:
 - target: UR-0009
   type: implements

@@ -1,9 +1,10 @@
 uid: SR-0288
 type: system_requirement
-status: approved
+status: proposed
 title: Never use for layout
 text: Never use the table component to lay out content on a page; use the grid system
   instead.
+normative: true
 links:
 - target: UR-0028
   type: implements

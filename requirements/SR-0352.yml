@@ -1,9 +1,10 @@
 uid: SR-0352
 type: system_requirement
-status: approved
+status: proposed
 title: Label is not the page heading with multiple questions
 text: If asking more than one question on the page, do not set the label as the page
   heading.
+normative: true
 links:
 - target: UR-0033
   type: implements

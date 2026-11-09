@@ -1,9 +1,10 @@
 uid: SR-0282
 type: system_requirement
-status: approved
+status: proposed
 title: Do not use cards for small amounts
 text: Do not use summary cards for a small amount of related information; use summary
   lists structured with headings instead.
+normative: true
 links:
 - target: UR-0027
   type: implements

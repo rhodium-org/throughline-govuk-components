@@ -1,9 +1,10 @@
 uid: SR-0292
 type: system_requirement
-status: approved
+status: proposed
 title: Reduce data in tables
 text: Aim to have less data in tables, organising large amounts into multiple tables
   or multiple pages where possible.
+normative: true
 links:
 - target: UR-0028
   type: implements

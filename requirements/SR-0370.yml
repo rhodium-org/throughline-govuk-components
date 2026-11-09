@@ -1,9 +1,10 @@
 uid: SR-0370
 type: system_requirement
-status: approved
+status: proposed
 title: Some users clicked on prefixes
 text: Although the prefix and suffix design tested well across services, some users
   were observed clicking on prefixes assuming it would do something.
+normative: true
 links:
 - target: UR-0033
   type: implements

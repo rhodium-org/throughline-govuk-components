@@ -1,12 +1,13 @@
 uid: UR-0026
 type: user_requirement
-status: approved
+status: proposed
 title: Skip link
 text: The skip link component helps keyboard-only users skip the top-level navigation
   and jump straight to the main content on a page.
-rationale: Lets keyboard-only users bypass repetitive top-level navigation links and
-  jump straight to a page's main content, removing the burden of tabbing through the
-  header on every page.
+rationale: Lets keyboard-only users bypass repetitive top-level navigation links
+  and jump straight to a page's main content, removing the burden of tabbing through
+  the header on every page.
+normative: true
 links:
 - target: INT-0002
   type: derives_from

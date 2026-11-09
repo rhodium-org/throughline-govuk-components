@@ -1,12 +1,13 @@
 uid: UR-0013
 type: user_requirement
-status: approved
+status: proposed
 title: Fieldset
 text: The fieldset component groups related form inputs so users understand the relationship
   between them.
 rationale: So users, especially screen reader users, understand that several separate
   form inputs are related and belong to a single question, such as the multiple text
   boxes making up an address.
+normative: true
 links:
 - target: INT-0002
   type: derives_from

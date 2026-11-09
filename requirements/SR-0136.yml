@@ -1,9 +1,10 @@
 uid: SR-0136
 type: system_requirement
-status: approved
+status: proposed
 title: Keep any legend help text short
 text: Include general help text in the legend only when it aids form completion and
   cannot be written as hint text, keeping it as short as possible.
+normative: true
 links:
 - target: UR-0013
   type: implements

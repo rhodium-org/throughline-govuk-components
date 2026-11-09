@@ -1,9 +1,10 @@
 uid: SR-0176
 type: system_requirement
-status: approved
+status: proposed
 title: Show only one notification banner per page
 text: Avoid showing more than one notification banner on a page; combine messages
   into one, or if too different, show only the highest priority banner.
+normative: true
 links:
 - target: UR-0018
   type: implements

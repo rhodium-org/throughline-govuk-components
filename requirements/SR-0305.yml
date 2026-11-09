@@ -1,9 +1,10 @@
 uid: SR-0305
 type: system_requirement
-status: approved
+status: proposed
 title: Not yet tested with users
 text: This component has not yet been tried in user research and is based on external
   recommendations and examples from other services.
+normative: true
 links:
 - target: UR-0029
   type: implements

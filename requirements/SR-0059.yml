@@ -1,9 +1,10 @@
 uid: SR-0059
 type: system_requirement
-status: approved
+status: proposed
 title: Use to move between levels of a hierarchy
 text: Use breadcrumbs to help users understand where they are and move between the
   multiple levels of a website.
+normative: true
 links:
 - target: UR-0006
   type: implements

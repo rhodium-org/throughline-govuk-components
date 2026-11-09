@@ -1,9 +1,10 @@
 uid: SR-0216
 type: system_requirement
-status: approved
+status: proposed
 title: Always allow copy and paste
 text: Always allow users to copy and paste in password fields, for example when using
   a password manager.
+normative: true
 links:
 - target: UR-0021
   type: implements

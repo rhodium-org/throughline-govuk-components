@@ -1,10 +1,11 @@
 uid: SR-0139
 type: system_requirement
-status: approved
+status: proposed
 title: Let users reuse uploaded files
 text: Allow users to easily reuse a previously uploaded file within a single journey
   unless doing so would be a major security or privacy concern, considering users
   on public devices before enabling preview or download.
+normative: true
 links:
 - target: UR-0014
   type: implements

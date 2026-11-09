@@ -1,9 +1,10 @@
 uid: SR-0198
 type: system_requirement
-status: approved
+status: proposed
 title: Hide previous on first page and next on last page
 text: Do not show the previous page link on the first page, and do not show the next
   page link on the last page.
+normative: true
 links:
 - target: UR-0019
   type: implements

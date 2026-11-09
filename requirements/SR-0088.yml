@@ -1,9 +1,10 @@
 uid: SR-0088
 type: system_requirement
-status: approved
+status: proposed
 title: Use when the service sets cookies
 text: Use a cookie banner if the service sets any cookies; tell users about the cookies
   set and let them accept or reject any that are not essential.
+normative: true
 links:
 - target: UR-0009
   type: implements

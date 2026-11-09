@@ -1,8 +1,9 @@
 uid: SR-0270
 type: system_requirement
-status: approved
+status: proposed
 title: Hidden until keyboard activation
 text: The skip link is visually hidden until a keyboard press activates it.
+normative: true
 links:
 - target: UR-0026
   type: implements

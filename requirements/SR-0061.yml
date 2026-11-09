@@ -1,9 +1,10 @@
 uid: SR-0061
 type: system_requirement
-status: approved
+status: proposed
 title: Place breadcrumbs before the main element
 text: Place breadcrumbs at the top of the page, before the main element, so the 'Skip
   to main content' link skips them along with other navigation links.
+normative: true
 links:
 - target: UR-0006
   type: implements

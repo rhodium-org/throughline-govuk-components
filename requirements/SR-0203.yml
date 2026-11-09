@@ -1,9 +1,10 @@
 uid: SR-0203
 type: system_requirement
-status: approved
+status: proposed
 title: Never use to highlight information in body content
 text: Never use the panel component to highlight important information within body
   content.
+normative: true
 links:
 - target: UR-0020
   type: implements

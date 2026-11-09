@@ -1,11 +1,12 @@
 uid: UR-0014
 type: user_requirement
-status: approved
+status: proposed
 title: File upload
 text: The file upload component helps users select and upload a file within a service.
 rationale: So users can reliably select and upload a file when providing that document
   is critical to delivering the service, with clear errors and drag-and-drop support
   that also works for assistive technology.
+normative: true
 links:
 - target: INT-0002
   type: derives_from

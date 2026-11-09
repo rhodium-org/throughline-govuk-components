@@ -1,12 +1,13 @@
 uid: UR-0016
 type: user_requirement
-status: approved
+status: proposed
 title: GOV.UK header
-text: The GOV.UK header tells users they are using a service on GOV.UK and gives access
-  to GOV.UK-wide tools.
-rationale: So users trust they are in the right place on an official gov.uk service
-  as they move around government websites, giving a consistent GOV.UK experience and
+text: The GOV.UK header tells users they are using a service on GOV.UK and gives
   access to GOV.UK-wide tools.
+rationale: So users trust they are in the right place on an official gov.uk service
+  as they move around government websites, giving a consistent GOV.UK experience
+  and access to GOV.UK-wide tools.
+normative: true
 links:
 - target: INT-0003
   type: derives_from

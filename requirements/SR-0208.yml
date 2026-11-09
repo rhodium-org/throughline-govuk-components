@@ -1,10 +1,11 @@
 uid: SR-0208
 type: system_requirement
-status: approved
+status: proposed
 title: Do not use for non-password information
-text: Do not use this component to ask for anything other than a password; use a text
-  input for MFA codes, security-question answers and other personally identifiable
+text: Do not use this component to ask for anything other than a password; use a
+  text input for MFA codes, security-question answers and other personally identifiable
   information.
+normative: true
 links:
 - target: UR-0021
   type: implements

@@ -1,10 +1,11 @@
 uid: SR-0375
 type: system_requirement
-status: approved
+status: proposed
 title: Do not use GOV.UK branding in the header
 text: Ensure the header does not identify the service as part of GOV.UK, and does
   not use the crown or GOV.UK logotype, the GDS Transport typeface, or the GOV.UK
   brand colours.
+normative: true
 links:
 - target: UR-0035
   type: implements

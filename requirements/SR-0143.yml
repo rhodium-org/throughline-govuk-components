@@ -1,10 +1,11 @@
 uid: SR-0143
 type: system_requirement
-status: approved
+status: proposed
 title: Keep changeable text short
 text: Although the button and 'No file chosen' text can be changed for translation
   or specificity, keep it as short as possible because long text is hard for screen
   reader users.
+normative: true
 links:
 - target: UR-0014
   type: implements

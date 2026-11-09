@@ -1,6 +1,6 @@
 uid: UR-0024
 type: user_requirement
-status: approved
+status: proposed
 title: Select
 text: The select component helps users choose a single item from a long list, used
   only as a last resort in public-facing services because some users find selects
@@ -8,6 +8,7 @@ text: The select component helps users choose a single item from a long list, us
 rationale: Offers a last-resort way to pick one option from a long list in public
   services, but should be avoided because research shows many users struggle to open,
   scroll, and choose within selects, so ask narrowing questions or use radios instead.
+normative: true
 links:
 - target: INT-0002
   type: derives_from

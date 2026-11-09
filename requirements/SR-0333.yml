@@ -1,10 +1,11 @@
 uid: SR-0333
 type: system_requirement
-status: approved
+status: proposed
 title: Statuses redesigned and rows linked after feedback
 text: Statuses were redesigned to look less like buttons and the whole row was linked
-  because user feedback showed some users tried to select statuses thinking they were
-  buttons or links.
+  because user feedback showed some users tried to select statuses thinking they
+  were buttons or links.
+normative: true
 links:
 - target: UR-0031
   type: implements

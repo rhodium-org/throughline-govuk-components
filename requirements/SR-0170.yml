@@ -1,9 +1,10 @@
 uid: SR-0170
 type: system_requirement
-status: approved
+status: proposed
 title: Use notification banners sparingly
 text: Use notification banners sparingly, because people often miss them and overusing
   them worsens this.
+normative: true
 links:
 - target: UR-0018
   type: implements

@@ -1,9 +1,10 @@
 uid: SR-0180
 type: system_requirement
-status: approved
+status: proposed
 title: Add role=alert so focus shifts on load
 text: When reporting the outcome of a user action, add role="alert" so focus shifts
   to the notification banner on page load.
+normative: true
 links:
 - target: UR-0018
   type: implements

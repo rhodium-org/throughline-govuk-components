@@ -1,9 +1,10 @@
 uid: SR-0321
 type: system_requirement
-status: approved
+status: proposed
 title: Do not use to show users their answers
-text: Do not use the task list to show users their answers; use the Summary list component
-  for that instead.
+text: Do not use the task list to show users their answers; use the Summary list
+  component for that instead.
+normative: true
 links:
 - target: UR-0031
   type: implements

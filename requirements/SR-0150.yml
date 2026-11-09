@@ -1,8 +1,9 @@
 uid: SR-0150
 type: system_requirement
-status: approved
+status: proposed
 title: Use at the bottom of every page
 text: Use the footer at the bottom of every page of the service.
+normative: true
 links:
 - target: UR-0015
   type: implements

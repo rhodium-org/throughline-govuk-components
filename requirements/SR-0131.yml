@@ -1,9 +1,10 @@
 uid: SR-0131
 type: system_requirement
-status: approved
+status: proposed
 title: Use to group related inputs
 text: Use a fieldset when you need to show a relationship between multiple form inputs,
   such as grouping the text inputs that make up an address.
+normative: true
 links:
 - target: UR-0013
   type: implements

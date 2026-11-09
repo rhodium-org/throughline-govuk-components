@@ -1,9 +1,10 @@
 uid: SR-0361
 type: system_requirement
-status: approved
+status: proposed
 title: Do not rely on prefixes or suffixes alone
 text: Do not rely on prefixes or suffixes alone because screen readers do not read
   them out; also state the required information in the label or hint.
+normative: true
 links:
 - target: UR-0033
   type: implements

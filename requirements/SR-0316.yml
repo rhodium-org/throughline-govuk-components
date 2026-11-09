@@ -1,10 +1,11 @@
 uid: SR-0316
 type: system_requirement
-status: approved
+status: proposed
 title: Tag styling changed to avoid looking like buttons
-text: Tags were changed from white text on a dark background to darker text on a lighter
-  background because research found users mistook them for buttons and tried to click
-  them.
+text: Tags were changed from white text on a dark background to darker text on a
+  lighter background because research found users mistook them for buttons and tried
+  to click them.
+normative: true
 links:
 - target: UR-0030
   type: implements

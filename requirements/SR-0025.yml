@@ -1,9 +1,10 @@
 uid: SR-0025
 type: system_requirement
-status: approved
+status: proposed
 title: Place the summary above the h1
 text: Put the error summary at the top of the main container; if the page has breadcrumbs
   or a back link, place it below those but above the page heading.
+normative: true
 links:
 - target: UR-0002
   type: implements

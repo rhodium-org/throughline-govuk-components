@@ -1,6 +1,6 @@
 uid: UR-0008
 type: user_requirement
-status: approved
+status: proposed
 title: Checkboxes
 text: The service uses the GOV.UK Checkboxes component to let users select one or
   more options, grouped in a fieldset with an accessible legend, ordered and labelled
@@ -8,6 +8,7 @@ text: The service uses the GOV.UK Checkboxes component to let users select one o
 rationale: Users need to select one or more options from a list, or toggle a single
   option on or off, when a question genuinely allows multiple answers rather than
   a single mutually-exclusive choice.
+normative: true
 links:
 - target: INT-0002
   type: derives_from

@@ -1,9 +1,10 @@
 uid: SR-0140
 type: system_requirement
-status: approved
+status: proposed
 title: Follow error message guidance with specific errors
 text: Style and write errors following the Error message component guidance, using
   specific messages for specific error states.
+normative: true
 links:
 - target: UR-0014
   type: implements

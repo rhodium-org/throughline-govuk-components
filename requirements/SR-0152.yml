@@ -1,9 +1,11 @@
 uid: SR-0152
 type: system_requirement
-status: approved
+status: proposed
 title: State the reuse licence
-text: Make clear whether content can be reused and under what licence, using the Open
-  Government Licence unless the National Archives has permitted a different one.
+text: Make clear whether content can be reused and under what licence, using the
+  Open Government Licence unless the National Archives has permitted a different
+  one.
+normative: true
 links:
 - target: UR-0015
   type: implements

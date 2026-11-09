@@ -1,9 +1,10 @@
 uid: SR-0151
 type: system_requirement
-status: approved
+status: proposed
 title: Add a copyright notice and coat of arms
 text: Add a copyright notice clarifying who owns the copyright, and for GOV.UK services
   include the coat of arms for consistency.
+normative: true
 links:
 - target: UR-0015
   type: implements

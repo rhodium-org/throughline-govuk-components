@@ -1,9 +1,10 @@
 uid: SR-0005
 type: system_requirement
-status: approved
+status: proposed
 title: Start buttons are links, not submit buttons
 text: Use a start button for the main call to action on a service's start page; because
   it does not submit form data, implement it as a link tag rather than a button tag.
+normative: true
 links:
 - target: UR-0001
   type: implements

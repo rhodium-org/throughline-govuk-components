@@ -1,9 +1,10 @@
 uid: SR-0373
 type: system_requirement
-status: approved
+status: proposed
 title: Use for public services not on GOV.UK
 text: Use the Generic header component only if your service is both a public-facing
   government service and not on the GOV.UK website (not part of the GOV.UK proposition).
+normative: true
 links:
 - target: UR-0035
   type: implements

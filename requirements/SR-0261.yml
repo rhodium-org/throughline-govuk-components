@@ -1,9 +1,10 @@
 uid: SR-0261
 type: system_requirement
-status: approved
+status: proposed
 title: Show navigation links
-text: Show navigation links to let users move to different parts of your service and
-  find useful links and tools.
+text: Show navigation links to let users move to different parts of your service
+  and find useful links and tools.
+normative: true
 links:
 - target: UR-0025
   type: implements

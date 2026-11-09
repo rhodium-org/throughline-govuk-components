@@ -1,9 +1,10 @@
 uid: SR-0002
 type: system_requirement
-status: approved
+status: proposed
 title: Button text is sentence case and describes the action
-text: Write button text in sentence case, describing the action it performs (for example
-  'Start now', 'Save and continue').
+text: Write button text in sentence case, describing the action it performs (for
+  example 'Start now', 'Save and continue').
+normative: true
 links:
 - target: UR-0001
   type: implements

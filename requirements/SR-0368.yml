@@ -1,8 +1,10 @@
 uid: SR-0368
 type: system_requirement
-status: approved
+status: proposed
 title: Support all characters the user needs
-text: Support all characters the user might need to enter, including numbers and symbols.
+text: Support all characters the user might need to enter, including numbers and
+  symbols.
+normative: true
 links:
 - target: UR-0033
   type: implements

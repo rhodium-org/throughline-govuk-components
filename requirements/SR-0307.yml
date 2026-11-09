@@ -1,8 +1,9 @@
 uid: SR-0307
 type: system_requirement
-status: approved
+status: proposed
 title: Use tags only to indicate status
 text: Use tags solely to indicate a status; do not repurpose them for other content.
+normative: true
 links:
 - target: UR-0030
   type: implements

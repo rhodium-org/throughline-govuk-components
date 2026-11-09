@@ -1,9 +1,10 @@
 uid: SR-0228
 type: system_requirement
-status: approved
+status: proposed
 title: Let users return to their place after feedback
 text: Whatever feedback option is used, make sure users do not lose their place in
   the service and can return to the page they were on.
+normative: true
 links:
 - target: UR-0022
   type: implements

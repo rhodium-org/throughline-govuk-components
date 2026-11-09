@@ -1,9 +1,10 @@
 uid: SR-0211
 type: system_requirement
-status: approved
+status: proposed
 title: Hide passwords by default
 text: Hide passwords by default until the user chooses to show them, because users
   may not be in a private space.
+normative: true
 links:
 - target: UR-0021
   type: implements

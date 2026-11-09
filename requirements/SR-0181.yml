@@ -1,8 +1,9 @@
 uid: SR-0181
 type: system_requirement
-status: approved
+status: proposed
 title: Remove the green banner when moving to a new page
 text: Remove a green notification banner when the user moves to a new page.
+normative: true
 links:
 - target: UR-0018
   type: implements

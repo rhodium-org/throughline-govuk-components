@@ -1,8 +1,10 @@
 uid: SR-0137
 type: system_requirement
-status: approved
+status: proposed
 title: Ask for uploads only when critical
-text: Only ask users to upload a file when it is critical to the delivery of the service.
+text: Only ask users to upload a file when it is critical to the delivery of the
+  service.
+normative: true
 links:
 - target: UR-0014
   type: implements

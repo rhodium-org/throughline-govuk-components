@@ -1,10 +1,11 @@
 uid: SR-0147
 type: system_requirement
-status: approved
+status: proposed
 title: Make the drop zone visible and responsive
-text: The improved drop zone is bigger, visible at all times and more responsive to
-  interactions, unlike the earlier version which showed no visual target area when
-  dragging and dropping.
+text: The improved drop zone is bigger, visible at all times and more responsive
+  to interactions, unlike the earlier version which showed no visual target area
+  when dragging and dropping.
+normative: true
 links:
 - target: UR-0014
   type: implements

@@ -1,12 +1,13 @@
 uid: UR-0015
 type: user_requirement
-status: approved
+status: proposed
 title: GOV.UK footer
 text: The GOV.UK footer provides copyright, licensing and other information about
   a service and sits at the bottom of every page.
 rationale: So every page of a service clearly states who owns the copyright and under
-  what licence content may be reused, and links users to privacy, accessibility, cookies
-  and terms information.
+  what licence content may be reused, and links users to privacy, accessibility,
+  cookies and terms information.
+normative: true
 links:
 - target: INT-0002
   type: derives_from

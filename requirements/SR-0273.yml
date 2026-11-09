@@ -1,9 +1,10 @@
 uid: SR-0273
 type: system_requirement
-status: approved
+status: proposed
 title: Do not use for tables or simple lists
 text: Do not use the summary list for tabular data or a simple list of information
   or tasks; use a table, ul or ol instead.
+normative: true
 links:
 - target: UR-0027
   type: implements

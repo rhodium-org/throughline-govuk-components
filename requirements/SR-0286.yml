@@ -1,9 +1,10 @@
 uid: SR-0286
 type: system_requirement
-status: approved
+status: proposed
 title: Confirm serious card actions
 text: If a card action cannot easily be undone or might have serious consequences,
   add a warning or ask the user for confirmation.
+normative: true
 links:
 - target: UR-0027
   type: implements

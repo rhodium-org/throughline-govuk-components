@@ -1,12 +1,13 @@
 uid: UR-0028
 type: user_requirement
-status: approved
+status: proposed
 title: Table
 text: The table component presents information in rows and columns to make it easier
   for users to compare and scan.
 rationale: Makes information easier to compare and scan by arranging related data
   into rows and columns, so users can read across shared attributes rather than hunting
   through prose.
+normative: true
 links:
 - target: INT-0002
   type: derives_from

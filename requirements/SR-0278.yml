@@ -1,9 +1,10 @@
 uid: SR-0278
 type: system_requirement
-status: approved
+status: proposed
 title: Mark rows without actions
 text: When mixing rows with and without actions, add the govuk-summary-list__row--no-actions
   modifier class to rows without actions so the bottom border draws correctly.
+normative: true
 links:
 - target: UR-0027
   type: implements

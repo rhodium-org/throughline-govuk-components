@@ -1,6 +1,6 @@
 uid: UR-0018
 type: user_requirement
-status: approved
+status: proposed
 title: Notification banner
 text: A notification banner tells the user about something they need to know that
   is not directly related to the page content, and a service uses it for service-wide
@@ -8,6 +8,7 @@ text: A notification banner tells the user about something they need to know tha
 rationale: Alerts users to something they need to know but that is not directly tied
   to the current task, such as a service-wide problem, an approaching deadline, or
   the outcome of a prior action, without cluttering the main content.
+normative: true
 links:
 - target: INT-0002
   type: derives_from

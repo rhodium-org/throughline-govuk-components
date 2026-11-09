@@ -1,8 +1,9 @@
 uid: SR-0207
 type: system_requirement
-status: approved
+status: proposed
 title: Use whenever a password is created or entered
 text: Use this component whenever you need users to create or enter a password.
+normative: true
 links:
 - target: UR-0021
   type: implements

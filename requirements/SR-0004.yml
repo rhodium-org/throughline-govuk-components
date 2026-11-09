@@ -1,9 +1,10 @@
 uid: SR-0004
 type: system_requirement
-status: approved
+status: proposed
 title: Avoid multiple default buttons on a page
 text: Use a default button for the main call to action, and avoid more than one default
   button on a single page so users can tell what to do next.
+normative: true
 links:
 - target: UR-0001
   type: implements

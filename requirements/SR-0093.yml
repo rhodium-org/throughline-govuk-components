@@ -1,9 +1,10 @@
 uid: SR-0093
 type: system_requirement
-status: approved
+status: proposed
 title: Do not make the banner sticky
-text: Do not fix the cookie banner to the top of the page, so it cannot cover or obscure
-  content that has focus.
+text: Do not fix the cookie banner to the top of the page, so it cannot cover or
+  obscure content that has focus.
+normative: true
 links:
 - target: UR-0009
   type: implements

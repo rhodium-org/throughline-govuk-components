@@ -1,8 +1,9 @@
 uid: SR-0110
 type: system_requirement
-status: approved
+status: proposed
 title: Summarise all errors at the top of the page
 text: Summarise all errors at the top of the page in an error summary component.
+normative: true
 links:
 - target: UR-0011
   type: implements

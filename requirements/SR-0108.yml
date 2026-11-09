@@ -1,9 +1,10 @@
 uid: SR-0108
 type: system_requirement
-status: approved
+status: proposed
 title: Do not clear the user's answers
 text: Do not clear any form fields when showing an error; keep both passing and failing
   answers so users can see and edit what went wrong.
+normative: true
 links:
 - target: UR-0011
   type: implements

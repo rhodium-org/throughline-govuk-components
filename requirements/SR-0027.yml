@@ -1,9 +1,10 @@
 uid: SR-0027
 type: system_requirement
-status: approved
+status: proposed
 title: Do not use for dates users will not know
 text: Do not use the date input component if users are unlikely to know the exact
   date being asked about.
+normative: true
 links:
 - target: UR-0003
   type: implements

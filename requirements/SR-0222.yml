@@ -1,10 +1,11 @@
 uid: SR-0222
 type: system_requirement
-status: approved
+status: proposed
 title: Research decided against a second field
 text: The team decided a second field is not helpful for users, particularly on password
   inputs with show and hide buttons, and is seeking real-life examples from service
   teams to support this.
+normative: true
 links:
 - target: UR-0021
   type: implements

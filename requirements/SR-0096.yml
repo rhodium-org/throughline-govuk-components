@@ -1,10 +1,11 @@
 uid: SR-0096
 type: system_requirement
-status: approved
+status: proposed
 title: Move focus to the confirmation with assistive roles
 text: For a JavaScript-only banner, reveal the confirmation message by removing the
-  hidden attribute, give it tabindex=-1 and role=alert, and shift focus to it so assistive
-  technology reads it.
+  hidden attribute, give it tabindex=-1 and role=alert, and shift focus to it so
+  assistive technology reads it.
+normative: true
 links:
 - target: UR-0009
   type: implements

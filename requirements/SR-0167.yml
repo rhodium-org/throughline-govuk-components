@@ -1,9 +1,10 @@
 uid: SR-0167
 type: system_requirement
-status: approved
+status: proposed
 title: Use Warning text for critical content
-text: To draw attention to very important content such as legal information, use the
-  Warning text component instead of inset text.
+text: To draw attention to very important content such as legal information, use
+  the Warning text component instead of inset text.
+normative: true
 links:
 - target: UR-0017
   type: implements

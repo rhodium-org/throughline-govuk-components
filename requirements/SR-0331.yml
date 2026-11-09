@@ -1,9 +1,10 @@
 uid: SR-0331
 type: system_requirement
-status: approved
+status: proposed
 title: Group tasks under clear headings
 text: When there are many tasks, group them into separate task lists on a page and
   give each group a short heading that clearly explains the grouping.
+normative: true
 links:
 - target: UR-0031
   type: implements

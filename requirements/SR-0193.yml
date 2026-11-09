@@ -1,8 +1,9 @@
 uid: SR-0193
 type: system_requirement
-status: approved
+status: proposed
 title: Use link labels for context
 text: Use link labels to give context on what the neighbouring pages are about.
+normative: true
 links:
 - target: UR-0019
   type: implements

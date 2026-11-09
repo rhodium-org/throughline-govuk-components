@@ -1,10 +1,11 @@
 uid: SR-0083
 type: system_requirement
-status: approved
+status: proposed
 title: Keep item hints short and link-free
 text: Keep each checkbox item hint to a single short sentence without full stops,
   and do not put links in hint text, because screen readers read the whole hint and
   do not flag links.
+normative: true
 links:
 - target: UR-0008
   type: implements

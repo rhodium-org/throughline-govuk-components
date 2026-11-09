@@ -1,9 +1,10 @@
 uid: SR-0174
 type: system_requirement
-status: approved
+status: proposed
 title: Position immediately before the page h1
 text: Position the notification banner immediately before the page h1, at the same
   width as the page's other content.
+normative: true
 links:
 - target: UR-0018
   type: implements

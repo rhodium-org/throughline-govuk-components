@@ -1,9 +1,10 @@
 uid: SR-0079
 type: system_requirement
-status: approved
+status: proposed
 title: Do not pre-select options
-text: Do not pre-select checkbox options, as users may then miss the question or submit
-  the wrong answer.
+text: Do not pre-select checkbox options, as users may then miss the question or
+  submit the wrong answer.
+normative: true
 links:
 - target: UR-0008
   type: implements

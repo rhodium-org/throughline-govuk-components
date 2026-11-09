@@ -1,9 +1,10 @@
 uid: SR-0223
 type: system_requirement
-status: approved
+status: proposed
 title: Required on service.gov.uk until live assessment passed
-text: Services hosted on a service.gov.uk domain must use the phase banner until they
-  pass a live assessment.
+text: Services hosted on a service.gov.uk domain must use the phase banner until
+  they pass a live assessment.
+normative: true
 links:
 - target: UR-0022
   type: implements

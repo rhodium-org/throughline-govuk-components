@@ -1,6 +1,6 @@
 uid: UR-0021
 type: user_requirement
-status: approved
+status: proposed
 title: Password input
 text: The password input component helps users accessibly create and enter passwords,
   with an option to show what they have entered as plain text, and a service uses
@@ -8,6 +8,7 @@ text: The password input component helps users accessibly create and enter passw
 rationale: Helps users create and enter passwords accessibly, letting them reveal
   what they typed to reduce errors and choose stronger, more unique passwords before
   submitting.
+normative: true
 links:
 - target: INT-0002
   type: derives_from

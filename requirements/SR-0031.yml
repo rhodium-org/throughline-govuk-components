@@ -1,9 +1,10 @@
 uid: SR-0031
 type: system_requirement
-status: approved
+status: proposed
 title: Hint text example dates are valid for the question
 text: Make sure any example dates used in hint text are valid for the question being
   asked.
+normative: true
 links:
 - target: UR-0003
   type: implements

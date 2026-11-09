@@ -1,10 +1,11 @@
 uid: SR-0362
 type: system_requirement
-status: approved
+status: proposed
 title: Position prefixes and suffixes outside the input
-text: Position prefixes and suffixes outside the input to avoid interfering with browser-inserted
-  icons, and allow for users who enter the prefix or suffix into the input without
-  showing an error.
+text: Position prefixes and suffixes outside the input to avoid interfering with
+  browser-inserted icons, and allow for users who enter the prefix or suffix into
+  the input without showing an error.
+normative: true
 links:
 - target: UR-0033
   type: implements

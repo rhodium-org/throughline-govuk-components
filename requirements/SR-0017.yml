@@ -1,9 +1,10 @@
 uid: SR-0017
 type: system_requirement
-status: approved
+status: proposed
 title: Always show the summary when there is an error
 text: Always show an error summary when there is a validation error, even if there
   is only one error.
+normative: true
 links:
 - target: UR-0002
   type: implements

@@ -1,8 +1,9 @@
 uid: SR-0189
 type: system_requirement
-status: approved
+status: proposed
 title: Place pagination after the page content
 text: Add the pagination component after the content on each page being paginated.
+normative: true
 links:
 - target: UR-0019
   type: implements

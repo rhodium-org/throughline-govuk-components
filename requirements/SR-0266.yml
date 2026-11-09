@@ -1,8 +1,9 @@
 uid: SR-0266
 type: system_requirement
-status: approved
+status: proposed
 title: Include on every GOV.UK page
 text: All GOV.UK pages must include a skip link.
+normative: true
 links:
 - target: UR-0026
   type: implements

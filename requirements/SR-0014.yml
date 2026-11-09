@@ -1,9 +1,10 @@
 uid: SR-0014
 type: system_requirement
-status: approved
+status: proposed
 title: Green start buttons improve click-through
 text: Testing on GOV.UK showed that using green as the colour of start buttons improved
   click-through rates.
+normative: true
 links:
 - target: UR-0001
   type: implements

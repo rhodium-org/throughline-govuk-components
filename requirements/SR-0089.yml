@@ -1,9 +1,10 @@
 uid: SR-0089
 type: system_requirement
-status: approved
+status: proposed
 title: Treat storage technologies as non-essential cookies
 text: Treat HTML5 local storage, service workers and any other technology that stores
   files on the user's device as non-essential cookies requiring consent.
+normative: true
 links:
 - target: UR-0009
   type: implements

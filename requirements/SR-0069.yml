@@ -1,9 +1,10 @@
 uid: SR-0069
 type: system_requirement
-status: approved
+status: proposed
 title: Show a static limit message without JavaScript
 text: When JavaScript is not available, show a static message telling users how many
   characters they can enter in place of the live count.
+normative: true
 links:
 - target: UR-0007
   type: implements

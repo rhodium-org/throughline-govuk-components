@@ -1,9 +1,10 @@
 uid: SR-0306
 type: system_requirement
-status: approved
+status: proposed
 title: Use when a thing can have more than one status
 text: Use a tag when something can have more than one status and it is useful for
   the user to know which status applies.
+normative: true
 links:
 - target: UR-0030
   type: implements

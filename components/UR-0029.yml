@@ -1,12 +1,13 @@
 uid: UR-0029
 type: user_requirement
-status: approved
+status: proposed
 title: Tabs
 text: The tabs component lets users quickly switch between related sections of content,
   displaying one clearly labelled section at a time.
 rationale: Lets regular or expert users quickly switch between clearly labelled related
   sections without viewing all at once, but is avoided when users must read in order
   or compare content, since tabs hide information many people miss.
+normative: true
 links:
 - target: INT-0002
   type: derives_from

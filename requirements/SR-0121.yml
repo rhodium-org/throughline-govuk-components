@@ -1,9 +1,10 @@
 uid: SR-0121
 type: system_requirement
-status: approved
+status: proposed
 title: Do not use when risk is unlikely
 text: Do not use the component when the service or content is unlikely to put a user
   at risk, because showing it may discourage users who do not identify as at risk.
+normative: true
 links:
 - target: UR-0012
   type: implements

@@ -1,9 +1,10 @@
 uid: SR-0299
 type: system_requirement
-status: approved
+status: proposed
 title: Provide a no-JavaScript fallback
-text: When JavaScript is not available, show the tabbed content on a single page in
-  order with a table of contents linking to each section.
+text: When JavaScript is not available, show the tabbed content on a single page
+  in order with a table of contents linking to each section.
+normative: true
 links:
 - target: UR-0029
   type: implements

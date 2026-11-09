@@ -1,9 +1,10 @@
 uid: SR-0269
 type: system_requirement
-status: approved
+status: proposed
 title: Let users bypass navigation
 text: The skip link gives keyboard users the option to bypass the top-level navigation
   links and jump to the main content on a page.
+normative: true
 links:
 - target: UR-0026
   type: implements

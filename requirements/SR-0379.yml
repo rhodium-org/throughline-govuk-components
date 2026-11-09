@@ -1,9 +1,10 @@
 uid: SR-0379
 type: system_requirement
-status: approved
+status: proposed
 title: Make the brand logo accessible and optimised
-text: Follow your organisation's guidelines and the Design System image guidance to
-  make your brand logo as accessible and optimised as possible.
+text: Follow your organisation's guidelines and the Design System image guidance
+  to make your brand logo as accessible and optimised as possible.
+normative: true
 links:
 - target: UR-0035
   type: implements

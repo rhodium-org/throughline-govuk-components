@@ -1,12 +1,13 @@
 uid: UR-0032
 type: user_requirement
-status: approved
+status: proposed
 title: Textarea
-text: As a service, I use the textarea component to let users enter an amount of text
-  that is longer than a single line.
+text: As a service, I use the textarea component to let users enter an amount of
+  text that is longer than a single line.
 rationale: Lets users provide answers longer than a single line, giving space for
   detailed free-text information that would not fit in a standard single-line input
   field.
+normative: true
 links:
 - target: INT-0002
   type: derives_from

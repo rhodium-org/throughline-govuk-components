@@ -1,9 +1,10 @@
 uid: SR-0381
 type: system_requirement
-status: approved
+status: proposed
 title: Do not show navigation links in the header
 text: Do not use the Generic header to show navigation links; use the Service navigation
   component instead.
+normative: true
 links:
 - target: UR-0035
   type: implements

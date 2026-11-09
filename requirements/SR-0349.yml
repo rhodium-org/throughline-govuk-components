@@ -1,9 +1,10 @@
 uid: SR-0349
 type: system_requirement
-status: approved
+status: proposed
 title: Align labels above and use sentence case
 text: Align labels above the input they refer to, keep them short and direct, write
   them in sentence case, and do not end them with colons.
+normative: true
 links:
 - target: UR-0033
   type: implements

@@ -1,9 +1,10 @@
 uid: SR-0015
 type: system_requirement
-status: approved
+status: proposed
 title: Show the error summary at the top of the page
 text: Show the error summary at the top of the page to summarise any errors the user
   has made.
+normative: true
 links:
 - target: UR-0002
   type: implements

@@ -1,9 +1,10 @@
 uid: SR-0241
 type: system_requirement
-status: approved
+status: proposed
 title: Separate a distinct option with a text divider
 text: If one or more options differ from the others, separate them with a text divider,
   usually the word 'or'.
+normative: true
 links:
 - target: UR-0023
   type: implements

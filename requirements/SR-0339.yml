@@ -1,9 +1,10 @@
 uid: SR-0339
 type: system_requirement
-status: approved
+status: proposed
 title: Always label the textarea
 text: Label every textarea; placeholder text is not a suitable substitute for a label
   because it disappears when users click inside the textarea.
+normative: true
 links:
 - target: UR-0032
   type: implements

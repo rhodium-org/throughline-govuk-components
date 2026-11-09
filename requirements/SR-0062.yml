@@ -1,9 +1,10 @@
 uid: SR-0062
 type: system_requirement
-status: approved
+status: proposed
 title: Run from home to the current page's parent
 text: Start breadcrumbs with the home page and end with the parent section of the
   current page.
+normative: true
 links:
 - target: UR-0006
   type: implements

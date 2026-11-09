@@ -1,8 +1,9 @@
 uid: SR-0190
 type: system_requirement
-status: approved
+status: proposed
 title: Do not show pagination for a single page
 text: Do not show pagination if there is only one page of content.
+normative: true
 links:
 - target: UR-0019
   type: implements

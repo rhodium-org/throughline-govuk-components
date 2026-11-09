@@ -1,12 +1,13 @@
 uid: UR-0017
 type: user_requirement
-status: approved
+status: proposed
 title: Inset text
 text: The inset text component differentiates a block of text from the surrounding
   content, such as quotes, examples or additional information.
 rationale: So a block of supporting text like a quote, example or extra note is visually
   differentiated from surrounding content, used sparingly since it is not reliable
   enough for very important information.
+normative: true
 links:
 - target: INT-0003
   type: derives_from

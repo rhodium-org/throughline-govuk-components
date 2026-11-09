@@ -18,6 +18,7 @@ ratifications:
       reason: 'Retired: the why-spine moved from a single umbrella intent to three
         co-equal outcome roots (INT-0002/0003/0004) per the multi-root modelling
         rule.'
+  revision: a5d811e3b0193c5f0320d4bfa9bbb8d102ad5aa3
 deleted:
   reason: 'Retired: the why-spine moved from a single umbrella intent to three co-equal
     outcome roots (INT-0002/0003/0004) per the multi-root modelling rule.'

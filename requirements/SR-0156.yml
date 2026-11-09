@@ -1,9 +1,10 @@
 uid: SR-0156
 type: system_requirement
-status: approved
+status: proposed
 title: Restrict the footer to GOV.UK services
 text: Only services on the GOV.UK website should use the footer; services outside
   the GOV.UK proposition must create their own and stop using this component.
+normative: true
 links:
 - target: UR-0015
   type: implements

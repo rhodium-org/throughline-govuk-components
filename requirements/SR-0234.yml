@@ -1,9 +1,10 @@
 uid: SR-0234
 type: system_requirement
-status: approved
+status: proposed
 title: Include a 'None of the above' option when valid
 text: Because users cannot return to no selection once one is made without refreshing,
   include 'None of the above' or 'I do not know' when these are valid options.
+normative: true
 links:
 - target: UR-0023
   type: implements

@@ -1,9 +1,10 @@
 uid: SR-0268
 type: system_requirement
-status: approved
+status: proposed
 title: Ignore the landmark warning
-text: Ignore automated accessibility warnings that the skip link is not inside a landmark;
-  do not wrap it in a nav region or move it inside the header.
+text: Ignore automated accessibility warnings that the skip link is not inside a
+  landmark; do not wrap it in a nav region or move it inside the header.
+normative: true
 links:
 - target: UR-0026
   type: implements

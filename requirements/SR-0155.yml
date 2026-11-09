@@ -1,9 +1,10 @@
 uid: SR-0155
 type: system_requirement
-status: approved
+status: proposed
 title: Add secondary navigation only for GOV.UK services
 text: Only add secondary GOV.UK navigation when building a GOV.UK service and you
   want users to navigate away, avoiding it for linear form-type services.
+normative: true
 links:
 - target: UR-0015
   type: implements

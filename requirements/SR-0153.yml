@@ -1,9 +1,10 @@
 uid: SR-0153
 type: system_requirement
-status: approved
+status: proposed
 title: Use standard footer link text
 text: Use 'Privacy', 'Accessibility', 'Cookies' and 'Terms and conditions' as the
   link text when adding those links.
+normative: true
 links:
 - target: UR-0015
   type: implements

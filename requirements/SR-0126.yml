@@ -1,9 +1,10 @@
 uid: SR-0126
 type: system_requirement
-status: approved
+status: proposed
 title: Loading overlay clears the screen
 text: When JavaScript is enabled, a loading overlay appears immediately on activation
   to clear the screen for users on slow connections while the next page loads.
+normative: true
 links:
 - target: UR-0012
   type: implements

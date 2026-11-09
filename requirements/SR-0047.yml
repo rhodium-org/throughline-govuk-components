@@ -1,9 +1,10 @@
 uid: SR-0047
 type: system_requirement
-status: approved
+status: proposed
 title: Keep any summary line as short as possible
 text: Add a summary line only if it is needed and keep it as short as possible, as
   it lengthens the button text.
+normative: true
 links:
 - target: UR-0004
   type: implements

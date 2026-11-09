@@ -1,10 +1,11 @@
 uid: SR-0112
 type: system_requirement
-status: approved
+status: proposed
 title: Write in plain, positive English
-text: Describe what happened and how to fix it in plain, positive English; avoid technical
-  jargon, words like 'forbidden', 'illegal' or 'you forgot', and 'please', 'sorry',
-  'valid', 'invalid' or humorous language.
+text: Describe what happened and how to fix it in plain, positive English; avoid
+  technical jargon, words like 'forbidden', 'illegal' or 'you forgot', and 'please',
+  'sorry', 'valid', 'invalid' or humorous language.
+normative: true
 links:
 - target: UR-0011
   type: implements

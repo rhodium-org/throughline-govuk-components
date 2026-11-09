@@ -1,9 +1,10 @@
 uid: SR-0068
 type: system_requirement
-status: approved
+status: proposed
 title: Show the count message below the textarea
-text: Show the count message below the textarea so it is separate from hint text and
-  error messages and remains visible on scroll.
+text: Show the count message below the textarea so it is separate from hint text
+  and error messages and remains visible on scroll.
+normative: true
 links:
 - target: UR-0007
   type: implements

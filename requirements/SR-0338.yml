@@ -1,9 +1,10 @@
 uid: SR-0338
 type: system_requirement
-status: approved
+status: proposed
 title: Do not use for single-line answers
-text: Do not use the textarea for answers no longer than a single line such as a phone
-  number or name; use the Text input component instead.
+text: Do not use the textarea for answers no longer than a single line such as a
+  phone number or name; use the Text input component instead.
+normative: true
 links:
 - target: UR-0032
   type: implements

@@ -1,9 +1,10 @@
 uid: SR-0045
 type: system_requirement
-status: approved
+status: proposed
 title: Show all content when JavaScript is unavailable
 text: When JavaScript is not available, show all the content with the section labels
   as headings.
+normative: true
 links:
 - target: UR-0004
   type: implements

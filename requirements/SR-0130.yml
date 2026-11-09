@@ -1,10 +1,11 @@
 uid: SR-0130
 type: system_requirement
-status: approved
+status: proposed
 title: Research with your own users first
 text: Testing has focused mainly on users at risk of domestic abuse, so teams should
   do their own user research before using the component, especially on static content
   pages.
+normative: true
 links:
 - target: UR-0012
   type: implements

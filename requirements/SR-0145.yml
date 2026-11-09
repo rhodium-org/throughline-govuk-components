@@ -1,9 +1,10 @@
 uid: SR-0145
 type: system_requirement
-status: approved
+status: proposed
 title: Avoid the required attribute
-text: Screen readers do not read the required attribute in the improved version, and
-  the guidance recommends not using it.
+text: Screen readers do not read the required attribute in the improved version,
+  and the guidance recommends not using it.
+normative: true
 links:
 - target: UR-0014
   type: implements

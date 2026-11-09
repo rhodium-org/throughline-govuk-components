@@ -1,12 +1,13 @@
 uid: UR-0012
 type: user_requirement
-status: approved
+status: proposed
 title: Exit this page
 text: Exit this page gives users a way to quickly and safely leave a service, website
   or application when a page holds sensitive information that could put them at risk.
 rationale: So users who could be put at risk of abuse or retaliation by someone seeing
   sensitive pages, such as a victim escaping domestic abuse, can leave the service
   quickly and cover their tracks.
+normative: true
 links:
 - target: INT-0002
   type: derives_from

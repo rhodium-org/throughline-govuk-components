@@ -1,13 +1,14 @@
 uid: UR-0010
 type: user_requirement
-status: approved
+status: proposed
 title: Details
 text: The service uses the GOV.UK Details component to let users reveal more detailed
   information only if they need it, with short descriptive link text, for content
   only some users need.
-rationale: Users need a page to stay easy to scan when it holds information only some
-  of them require, so less-important detail can be tucked away and revealed on demand
-  rather than cluttering the page.
+rationale: Users need a page to stay easy to scan when it holds information only
+  some of them require, so less-important detail can be tucked away and revealed
+  on demand rather than cluttering the page.
+normative: true
 links:
 - target: INT-0002
   type: derives_from

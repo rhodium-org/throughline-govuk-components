@@ -1,6 +1,6 @@
 uid: UR-0007
 type: user_requirement
-status: approved
+status: proposed
 title: Character count
 text: The service uses the GOV.UK Character count component to tell users how much
   text they can enter into a textarea with a limit, only where limiting is justified,
@@ -8,6 +8,7 @@ text: The service uses the GOV.UK Character count component to tell users how mu
 rationale: When a genuine legal or technical limit caps how much a user can enter,
   they need live feedback on characters or words remaining so they can write their
   full answer and then edit it down without being cut off unexpectedly.
+normative: true
 links:
 - target: INT-0002
   type: derives_from

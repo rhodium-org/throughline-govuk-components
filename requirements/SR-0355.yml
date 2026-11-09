@@ -1,9 +1,10 @@
 uid: SR-0355
 type: system_requirement
-status: approved
+status: proposed
 title: Do not put links in hint text
 text: Do not include links within hint text, because screen readers read the link
   text without telling users it is a link.
+normative: true
 links:
 - target: UR-0033
   type: implements

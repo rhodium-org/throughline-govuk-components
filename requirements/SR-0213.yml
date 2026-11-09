@@ -1,9 +1,10 @@
 uid: SR-0213
 type: system_requirement
-status: approved
+status: proposed
 title: Avoid a confirm password field
 text: Do not add a second 'confirm password' field, as it is unnecessary when the
   component lets users show and hide passwords.
+normative: true
 links:
 - target: UR-0021
   type: implements

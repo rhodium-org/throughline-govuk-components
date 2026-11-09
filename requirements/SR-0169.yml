@@ -1,10 +1,11 @@
 uid: SR-0169
 type: system_requirement
-status: approved
+status: proposed
 title: Use for information not directly relevant to the page task
 text: Use a notification banner to tell the user about something not directly relevant
   to the task on that page, such as a service-wide problem, an alert affecting them
   personally, or the outcome of a previous action.
+normative: true
 links:
 - target: UR-0018
   type: implements

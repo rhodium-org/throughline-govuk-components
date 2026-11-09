@@ -1,9 +1,10 @@
 uid: SR-0066
 type: system_requirement
-status: approved
+status: proposed
 title: Raise a limit users keep hitting
 text: If users keep hitting the backend character limit, increase the limit rather
   than adding a character count.
+normative: true
 links:
 - target: UR-0007
   type: implements

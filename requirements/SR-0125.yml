@@ -1,10 +1,11 @@
 uid: SR-0125
 type: system_requirement
-status: approved
+status: proposed
 title: Decide how to handle session data
 text: Decide whether the service stores or clears the user's session data after they
   activate the component, for example by first redirecting to a URL that clears the
   session before the external site.
+normative: true
 links:
 - target: UR-0012
   type: implements

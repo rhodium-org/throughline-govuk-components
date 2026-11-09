@@ -1,9 +1,10 @@
 uid: SR-0094
 type: system_requirement
-status: approved
+status: proposed
 title: Essential-only services still need a cookies page
 text: A service that sets only essential cookies may omit the banner but must still
   tell users about them, for example on a cookies page linked in the footer.
+normative: true
 links:
 - target: UR-0009
   type: implements

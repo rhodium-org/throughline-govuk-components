@@ -1,9 +1,10 @@
 uid: SR-0182
 type: system_requirement
-status: approved
+status: proposed
 title: Convey success meaning with a heading, not colour alone
 text: Use a heading such as 'Success' on green banners so meaning is not conveyed
   by colour alone.
+normative: true
 links:
 - target: UR-0018
   type: implements

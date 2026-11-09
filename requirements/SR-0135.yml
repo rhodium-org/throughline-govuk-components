@@ -1,9 +1,10 @@
 uid: SR-0135
 type: system_requirement
-status: approved
+status: proposed
 title: Legend signals inputs are related
-text: Including the question as the legend on question pages helps screen reader users
-  understand that all the grouped inputs relate to that question.
+text: Including the question as the legend on question pages helps screen reader
+  users understand that all the grouped inputs relate to that question.
+normative: true
 links:
 - target: UR-0013
   type: implements

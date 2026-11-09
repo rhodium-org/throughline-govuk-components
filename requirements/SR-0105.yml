@@ -1,10 +1,11 @@
 uid: SR-0105
 type: system_requirement
-status: approved
+status: proposed
 title: Show a message on each validation error
 text: Follow the validation pattern and, when there is a validation error, show an
   error message next to the field and in the error summary explaining what went wrong
   and how to fix it.
+normative: true
 links:
 - target: UR-0011
   type: implements

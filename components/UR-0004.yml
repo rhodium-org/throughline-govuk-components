@@ -1,13 +1,14 @@
 uid: UR-0004
 type: user_requirement
-status: approved
+status: proposed
 title: Accordion
-text: The service uses the GOV.UK Accordion component to let users show and hide sections
-  of related content, only where research shows hiding content helps, with clear headings
-  and keyboard support.
+text: The service uses the GOV.UK Accordion component to let users show and hide
+  sections of related content, only where research shows hiding content helps, with
+  clear headings and keyboard support.
 rationale: When users benefit from an overview of related sections and want to reveal,
-  hide, and compare only the parts relevant to them, this lets them control long or
-  repeat-use content instead of scrolling through everything at once.
+  hide, and compare only the parts relevant to them, this lets them control long
+  or repeat-use content instead of scrolling through everything at once.
+normative: true
 links:
 - target: INT-0002
   type: derives_from

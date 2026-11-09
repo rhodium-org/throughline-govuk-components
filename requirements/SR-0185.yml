@@ -1,9 +1,10 @@
 uid: SR-0185
 type: system_requirement
-status: approved
+status: proposed
 title: Use when a single page loads too slowly or most users need only early pages
-text: Consider pagination when showing all content on one page makes it load too slowly,
-  or when most users only need the first page or first few pages.
+text: Consider pagination when showing all content on one page makes it load too
+  slowly, or when most users only need the first page or first few pages.
+normative: true
 links:
 - target: UR-0019
   type: implements

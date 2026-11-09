@@ -1,9 +1,10 @@
 uid: SR-0118
 type: system_requirement
-status: approved
+status: proposed
 title: Pair with the Exit a page quickly pattern
 text: For service journeys, the component must be used together with the Exit a page
   quickly pattern.
+normative: true
 links:
 - target: UR-0012
   type: implements

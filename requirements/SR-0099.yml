@@ -1,8 +1,9 @@
 uid: SR-0099
 type: system_requirement
-status: approved
+status: proposed
 title: Provide a cookies page alongside the banner
 text: Provide a cookies page in the service as well as the cookie banner.
+normative: true
 links:
 - target: UR-0009
   type: implements

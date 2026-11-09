@@ -1,9 +1,10 @@
 uid: SR-0173
 type: system_requirement
-status: approved
+status: proposed
 title: Do not show alongside an error summary
 text: Do not show a notification banner and an error summary on the same page; show
   only the error summary.
+normative: true
 links:
 - target: UR-0018
   type: implements

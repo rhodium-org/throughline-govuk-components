@@ -1,10 +1,11 @@
 uid: SR-0334
 type: system_requirement
-status: approved
+status: proposed
 title: Statuses moved to sentence case for readability
 text: Statuses were changed to sentence case and 'Completed' to black text with no
   background because uppercase made them harder to read and harder to scan for incomplete
   tasks.
+normative: true
 links:
 - target: UR-0031
   type: implements

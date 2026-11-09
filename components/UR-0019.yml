@@ -1,13 +1,14 @@
 uid: UR-0019
 type: user_requirement
-status: approved
+status: proposed
 title: Pagination
-text: Pagination helps users navigate forwards and backwards through a series of numbered
-  pages, and a service uses it for collections such as search results or guidance
-  split across multiple pages.
+text: Pagination helps users navigate forwards and backwards through a series of
+  numbered pages, and a service uses it for collections such as search results or
+  guidance split across multiple pages.
 rationale: Lets users navigate forwards and backwards through a series of numbered
   pages so that content split for performance or usability, like search results or
   multi-page guidance, stays fast to load and easy to move through.
+normative: true
 links:
 - target: INT-0002
   type: derives_from

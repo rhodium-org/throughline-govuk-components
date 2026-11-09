@@ -1,9 +1,10 @@
 uid: SR-0336
 type: system_requirement
-status: approved
+status: proposed
 title: Use for text longer than a single line
 text: Use the textarea component when you need to let users enter text that is longer
   than a single line.
+normative: true
 links:
 - target: UR-0032
   type: implements

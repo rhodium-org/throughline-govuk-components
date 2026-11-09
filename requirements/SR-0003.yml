@@ -1,8 +1,9 @@
 uid: SR-0003
 type: system_requirement
-status: approved
+status: proposed
 title: Primary action aligns to the left of the form
 text: Align the primary action button to the left edge of the form.
+normative: true
 links:
 - target: UR-0001
   type: implements

@@ -1,9 +1,10 @@
 uid: SR-0044
 type: system_requirement
-status: approved
+status: proposed
 title: Give the accordion a unique id
 text: When using HTML, give the govuk-accordion div a unique id across the service's
   domain so the expanded state persists.
+normative: true
 links:
 - target: UR-0004
   type: implements

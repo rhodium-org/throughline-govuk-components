@@ -1,9 +1,10 @@
 uid: SR-0372
 type: system_requirement
-status: approved
+status: proposed
 title: Adapt the hidden text to context
 text: Rewrite the visually hidden text (for example 'Warning') where needed to make
   it appropriate for your context.
+normative: true
 links:
 - target: UR-0034
   type: implements

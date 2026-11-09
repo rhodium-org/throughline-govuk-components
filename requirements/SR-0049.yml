@@ -1,9 +1,10 @@
 uid: SR-0049
 type: system_requirement
-status: approved
+status: proposed
 title: Do not disable sections
 text: Do not disable sections; remove an empty section, or explain why there is no
   content when the section is opened.
+normative: true
 links:
 - target: UR-0004
   type: implements

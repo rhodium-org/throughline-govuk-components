@@ -1,10 +1,12 @@
 uid: SR-0073
 type: system_requirement
-status: approved
+status: proposed
 title: Show an error above the field and the count below
-text: When a user tries to send too many characters, show an error message above the
-  field as well as the count message below it, with specific wording for each error
-  state (for example 'Enter a summary', 'Summary must be 400 characters or less').
+text: When a user tries to send too many characters, show an error message above
+  the field as well as the count message below it, with specific wording for each
+  error state (for example 'Enter a summary', 'Summary must be 400 characters or
+  less').
+normative: true
 links:
 - target: UR-0007
   type: implements

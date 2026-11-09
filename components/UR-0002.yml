@@ -1,6 +1,6 @@
 uid: UR-0002
 type: user_requirement
-status: approved
+status: proposed
 title: Error summary
 text: The service uses the GOV.UK Error summary component at the top of a page to
   summarise validation errors, moving focus to it, linking each error to its answer
@@ -8,6 +8,7 @@ text: The service uses the GOV.UK Error summary component at the top of a page t
 rationale: When a user submits answers containing validation errors, they need every
   problem gathered and focused at the top of the page so they can find, understand,
   and fix each mistake rather than hunting for what went wrong.
+normative: true
 links:
 - target: INT-0002
   type: derives_from

@@ -1,9 +1,10 @@
 uid: SR-0378
 type: system_requirement
-status: approved
+status: proposed
 title: Display your own brand logo, link, and font
 text: Use the Generic header to display your own brand logo, homepage link, and service-name
   font instead of GDS Transport.
+normative: true
 links:
 - target: UR-0035
   type: implements

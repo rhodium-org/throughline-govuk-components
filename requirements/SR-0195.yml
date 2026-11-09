@@ -1,9 +1,10 @@
 uid: SR-0195
 type: system_requirement
-status: approved
+status: proposed
 title: Show the page number in the page title
 text: Show the page number in the page <title>, for example 'Search results (page
   1 of 4)', so screen reader users know they have navigated to a different page.
+normative: true
 links:
 - target: UR-0019
   type: implements

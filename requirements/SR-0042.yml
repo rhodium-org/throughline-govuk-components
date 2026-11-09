@@ -1,9 +1,10 @@
 uid: SR-0042
 type: system_requirement
-status: approved
+status: proposed
 title: Do not use to split up questions
 text: Do not use accordions to split up a series of questions; use separate pages
   instead.
+normative: true
 links:
 - target: UR-0004
   type: implements

@@ -1,9 +1,10 @@
 uid: SR-0289
 type: system_requirement
-status: approved
+status: proposed
 title: Describe the table with a caption
 text: Use the caption element to describe a table like a heading, helping users find,
   navigate and understand tables.
+normative: true
 links:
 - target: UR-0028
   type: implements

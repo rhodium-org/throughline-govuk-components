@@ -1,9 +1,10 @@
 uid: SR-0157
 type: system_requirement
-status: approved
+status: proposed
 title: Use the refreshed branding
 text: Use the refreshed GOV.UK branding, removing the govukRebrand feature flag once
   the service is on GOV.UK Frontend v6.0.0 or later.
+normative: true
 links:
 - target: UR-0015
   type: implements

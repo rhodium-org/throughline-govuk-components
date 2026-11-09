@@ -1,9 +1,10 @@
 uid: SR-0043
 type: system_requirement
-status: approved
+status: proposed
 title: Do not nest accordions or hide-reveal components
 text: Do not put accordions within accordions, or nest the accordion, tabs and details
   components within one another.
+normative: true
 links:
 - target: UR-0004
   type: implements

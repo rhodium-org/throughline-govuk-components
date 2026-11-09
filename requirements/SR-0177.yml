@@ -1,9 +1,10 @@
 uid: SR-0177
 type: system_requirement
-status: approved
+status: proposed
 title: Use h3 headings to structure content
 text: Use h3 headings within the banner content to structure it, but avoid headings
   for single-line notifications that do not need them.
+normative: true
 links:
 - target: UR-0018
   type: implements

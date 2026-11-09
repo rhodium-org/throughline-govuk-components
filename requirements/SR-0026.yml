@@ -1,9 +1,10 @@
 uid: SR-0026
 type: system_requirement
-status: approved
+status: proposed
 title: Use for dates users know or can look up
 text: Use the date input component when asking for a date the user will already know,
   or can look up without using a calendar.
+normative: true
 links:
 - target: UR-0003
   type: implements

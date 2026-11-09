@@ -1,6 +1,6 @@
 uid: UR-0027
 type: user_requirement
-status: approved
+status: proposed
 title: Summary list
 text: A summary list summarises information as a list of key facts, such as a user's
   responses at the end of a form, with an optional summary card variant for grouping
@@ -8,6 +8,7 @@ text: A summary list summarises information as a list of key facts, such as a us
 rationale: Presents information as key-and-value facts, such as metadata or a user's
   form answers at the end of a journey, so people can review and correct their responses
   before submitting.
+normative: true
 links:
 - target: INT-0002
   type: derives_from

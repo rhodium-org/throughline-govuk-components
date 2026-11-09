@@ -1,9 +1,10 @@
 uid: SR-0330
 type: system_requirement
-status: approved
+status: proposed
 title: Do not put links in hint text
 text: Do not include links within task hint text, because the whole row is already
   linked to the task so hint-text links will not work.
+normative: true
 links:
 - target: UR-0031
   type: implements

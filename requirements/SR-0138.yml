@@ -1,9 +1,10 @@
 uid: SR-0138
 type: system_requirement
-status: approved
+status: proposed
 title: Support choose-file and drag-and-drop
 text: Let users upload a file either by using the Choose file button or by dragging
   and dropping a file into the upload input area.
+normative: true
 links:
 - target: UR-0014
   type: implements

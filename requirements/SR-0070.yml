@@ -1,9 +1,10 @@
 uid: SR-0070
 type: system_requirement
-status: approved
+status: proposed
 title: Do not set the label as the heading with multiple questions
 text: When asking more than one question on the page, do not set the textarea label
   as the page heading.
+normative: true
 links:
 - target: UR-0007
   type: implements

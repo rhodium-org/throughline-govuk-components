@@ -1,9 +1,10 @@
 uid: SR-0337
 type: system_requirement
-status: approved
+status: proposed
 title: Consider breaking up open-ended questions
 text: Because users find open-ended questions hard to answer, consider breaking one
   complex question into simpler ones, for example using radios.
+normative: true
 links:
 - target: UR-0032
   type: implements

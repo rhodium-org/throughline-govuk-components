@@ -1,9 +1,10 @@
 uid: SR-0172
 type: system_requirement
-status: approved
+status: proposed
 title: Do not use for validation errors
-text: Do not use a notification banner to tell the user about validation errors; use
-  the error message and error summary components instead.
+text: Do not use a notification banner to tell the user about validation errors;
+  use the error message and error summary components instead.
+normative: true
 links:
 - target: UR-0018
   type: implements

@@ -1,8 +1,9 @@
 uid: SR-0168
 type: system_requirement
-status: approved
+status: proposed
 title: Use sparingly
 text: Use inset text very sparingly, as it becomes less effective when overused.
+normative: true
 links:
 - target: UR-0017
   type: implements

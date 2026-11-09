@@ -1,8 +1,9 @@
 uid: SR-0348
 type: system_requirement
-status: approved
+status: proposed
 title: All inputs must have labels
 text: Give every text input a label, and in most cases keep the label visible.
+normative: true
 links:
 - target: UR-0033
   type: implements

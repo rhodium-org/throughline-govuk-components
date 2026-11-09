@@ -1,9 +1,10 @@
 uid: SR-0271
 type: system_requirement
-status: approved
+status: proposed
 title: Use for a list of key facts
 text: Use a summary list to show information as a list of key facts, such as metadata
   or a user's responses at the end of a form.
+normative: true
 links:
 - target: UR-0027
   type: implements

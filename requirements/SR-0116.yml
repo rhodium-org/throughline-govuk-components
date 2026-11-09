@@ -1,10 +1,11 @@
 uid: SR-0116
 type: system_requirement
-status: approved
+status: proposed
 title: Use instructions and descriptions consistently
-text: Use instructions for some errors and descriptions for others, consistently —
-  for example an instruction like 'Enter your name' for empty fields and a description
+text: Use instructions for some errors and descriptions for others, consistently
+  — for example an instruction like 'Enter your name' for empty fields and a description
   like 'Name must be 35 characters or less' for over-long entries.
+normative: true
 links:
 - target: UR-0011
   type: implements

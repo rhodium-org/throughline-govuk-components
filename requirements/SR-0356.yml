@@ -1,9 +1,10 @@
 uid: SR-0356
 type: system_requirement
-status: approved
+status: proposed
 title: Do not use hint text for long explanations
 text: Do not use hint text for anything longer than a short simple sentence, because
   screen readers read the entire text when users interact with the field.
+normative: true
 links:
 - target: UR-0033
   type: implements

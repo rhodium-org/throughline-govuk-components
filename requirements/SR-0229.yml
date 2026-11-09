@@ -1,8 +1,9 @@
 uid: SR-0229
 type: system_requirement
-status: approved
+status: proposed
 title: Use when only one option can be selected
 text: Use the radios component when users can only select one option from a list.
+normative: true
 links:
 - target: UR-0023
   type: implements

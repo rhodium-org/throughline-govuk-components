@@ -1,10 +1,11 @@
 uid: SR-0225
 type: system_requirement
-status: approved
+status: proposed
 title: Show inside the header after navigation or GOV.UK header
 text: Show the phase banner inside the <header> element, directly after the Service
-  navigation component, or after the GOV.UK header component if the service does not
-  use Service navigation.
+  navigation component, or after the GOV.UK header component if the service does
+  not use Service navigation.
+normative: true
 links:
 - target: UR-0022
   type: implements

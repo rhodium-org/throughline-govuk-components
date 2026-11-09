@@ -1,9 +1,10 @@
 uid: SR-0022
 type: system_requirement
-status: approved
+status: proposed
 title: Link single-field errors to the field
 text: For a question answered in a single field (file upload, select, textarea, text
   input or character count), link the summary error to that field.
+normative: true
 links:
 - target: UR-0002
   type: implements

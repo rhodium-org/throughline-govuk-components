@@ -1,9 +1,10 @@
 uid: SR-0380
 type: system_requirement
-status: approved
+status: proposed
 title: Customise the homepage link
 text: Customise the homepage link, which defaults to '/', to point wherever makes
   the most sense for your service.
+normative: true
 links:
 - target: UR-0035
   type: implements

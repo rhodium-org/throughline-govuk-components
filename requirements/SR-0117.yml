@@ -1,9 +1,10 @@
 uid: SR-0117
 type: system_requirement
-status: approved
+status: proposed
 title: Use the standard error message templates
 text: Use the standard error message templates for common errors on components and
   patterns such as dates, checkboxes and addresses.
+normative: true
 links:
 - target: UR-0011
   type: implements

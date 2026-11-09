@@ -1,9 +1,10 @@
 uid: SR-0064
 type: system_requirement
-status: approved
+status: proposed
 title: Breadcrumbs on dark backgrounds meet contrast minimum
 text: When using the inverse breadcrumbs on a dark background, ensure the background
   has a contrast ratio of at least 4.5:1 with white.
+normative: true
 links:
 - target: UR-0006
   type: implements

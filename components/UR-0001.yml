@@ -1,6 +1,6 @@
 uid: UR-0001
 type: user_requirement
-status: approved
+status: proposed
 title: Button
 text: The service uses the GOV.UK Button component to let users carry out an action,
   following its guidance on button text, variants, grouping, contrast and double-click
@@ -8,6 +8,7 @@ text: The service uses the GOV.UK Button component to let users carry out an act
 rationale: Users need an unambiguous, prominent way to carry out an action such as
   starting an application, signing in, or paying, so the main call to action stands
   out and they always know what to do next.
+normative: true
 links:
 - target: INT-0002
   type: derives_from

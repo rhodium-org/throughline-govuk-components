@@ -1,9 +1,10 @@
 uid: SR-0224
 type: system_requirement
-status: approved
+status: proposed
 title: Use the alpha or beta banner to match the phase
 text: Use an alpha banner when the service is in alpha, and a beta banner when it
   is in private or public beta.
+normative: true
 links:
 - target: UR-0022
   type: implements

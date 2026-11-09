@@ -1,9 +1,10 @@
 uid: SR-0230
 type: system_requirement
-status: approved
+status: proposed
 title: Do not use when multiple selections are possible
 text: Do not use radios if users might need to select more than one option; use the
   checkboxes component instead.
+normative: true
 links:
 - target: UR-0023
   type: implements

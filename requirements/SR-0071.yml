@@ -1,9 +1,10 @@
 uid: SR-0071
 type: system_requirement
-status: approved
+status: proposed
 title: Consider a word count for longer answers
 text: Consider showing a word count instead of a character count where the question
   requires a longer answer.
+normative: true
 links:
 - target: UR-0007
   type: implements

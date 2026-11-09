@@ -1,6 +1,6 @@
 uid: UR-0011
 type: user_requirement
-status: approved
+status: proposed
 title: Error message
 text: The service uses the GOV.UK Error message component to explain, next to each
   field, what went wrong and how to fix it, worded to match the error summary and
@@ -8,6 +8,7 @@ text: The service uses the GOV.UK Error message component to explain, next to ea
 rationale: When a user's answer fails validation, they need a clear, specific message
   beside the field explaining what went wrong and how to fix it, so they can recover
   and correct their own input rather than being blocked.
+normative: true
 links:
 - target: INT-0002
   type: derives_from

@@ -1,10 +1,11 @@
 uid: SR-0257
 type: system_requirement
-status: approved
+status: proposed
 title: Known usability struggles
 text: Research shows users struggle with selects, including being unable to close
   them, trying to type into them, confusing focused with selected items, pinch-zooming
   options, and not realising they can scroll for more items.
+normative: true
 links:
 - target: UR-0024
   type: implements

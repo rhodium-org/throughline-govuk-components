@@ -1,9 +1,10 @@
 uid: SR-0244
 type: system_requirement
-status: approved
+status: proposed
 title: Conditional reveal has a known notification gap
 text: Users are not always notified when a conditionally revealed question is shown
   or hidden, which fails WCAG success criterion 4.1.2 Name, role, value.
+normative: true
 links:
 - target: UR-0023
   type: implements

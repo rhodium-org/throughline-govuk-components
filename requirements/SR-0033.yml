@@ -1,9 +1,10 @@
 uid: SR-0033
 type: system_requirement
-status: approved
+status: proposed
 title: Do not auto-tab between fields
 text: Never automatically move focus between the day, month and year fields, because
   it is confusing and can clash with normal keyboard controls.
+normative: true
 links:
 - target: UR-0003
   type: implements

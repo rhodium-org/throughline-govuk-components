@@ -1,10 +1,11 @@
 uid: SR-0218
 type: system_requirement
-status: approved
+status: proposed
 title: Keep any restrictions identical and consistent
 text: If you must apply password restrictions, be clear and consistent and keep them
   identical wherever the user creates or enters a password; if restrictions change,
   continue supporting existing passwords or ask users to set a new one.
+normative: true
 links:
 - target: UR-0021
   type: implements

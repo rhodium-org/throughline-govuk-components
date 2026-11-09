@@ -1,9 +1,10 @@
 uid: SR-0237
 type: system_requirement
-status: approved
+status: proposed
 title: Set legend as page heading when asking one question
 text: If asking just one question per page, set the legend as the page heading so
   screen reader users hear the content only once.
+normative: true
 links:
 - target: UR-0023
   type: implements

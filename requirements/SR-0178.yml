@@ -1,9 +1,10 @@
 uid: SR-0178
 type: system_requirement
-status: approved
+status: proposed
 title: Use the neutral blue version for problems and elsewhere-events
 text: Use the neutral blue notification banner to tell the user about a problem with
   the whole service or about something happening elsewhere in the service.
+normative: true
 links:
 - target: UR-0018
   type: implements

@@ -1,9 +1,10 @@
 uid: SR-0166
 type: system_requirement
-status: approved
+status: proposed
 title: Do not use for very important information
 text: Avoid using inset text to highlight very important information users need to
   see, because some users do not notice it on complex or busy pages.
+normative: true
 links:
 - target: UR-0017
   type: implements

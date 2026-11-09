@@ -1,9 +1,10 @@
 uid: SR-0200
 type: system_requirement
-status: approved
+status: proposed
 title: Set defaults to reduce clicks
 text: Set defaults to minimise how many pages most users must click through to find
   what they need.
+normative: true
 links:
 - target: UR-0019
   type: implements

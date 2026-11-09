@@ -1,9 +1,10 @@
 uid: SR-0254
 type: system_requirement
-status: approved
+status: proposed
 title: No links in hint text
 text: Do not use links in hint text, because screen readers read the link text but
   usually do not tell users it is a link.
+normative: true
 links:
 - target: UR-0024
   type: implements

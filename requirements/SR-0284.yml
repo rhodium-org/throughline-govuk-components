@@ -1,9 +1,10 @@
 uid: SR-0284
 type: system_requirement
-status: approved
+status: proposed
 title: Write clear card action link text
 text: Write card action link text that says what the action does and that it applies
   to the entire card, keeping it as short as possible, usually two words.
+normative: true
 links:
 - target: UR-0027
   type: implements

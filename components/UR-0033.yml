@@ -1,12 +1,13 @@
 uid: UR-0033
 type: user_requirement
-status: approved
+status: proposed
 title: Text input
 text: As a service, I use the text input component to let users enter text no longer
   than a single line, such as their name or phone number.
 rationale: Lets users enter short, single-line information such as a name or phone
   number, providing an appropriately sized field so they understand what is expected
   without spanning multiple lines.
+normative: true
 links:
 - target: INT-0002
   type: derives_from

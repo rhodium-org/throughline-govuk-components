@@ -1,8 +1,9 @@
 uid: SR-0260
 type: system_requirement
-status: approved
+status: proposed
 title: Show the service name
 text: Use the service navigation to display your service name.
+normative: true
 links:
 - target: UR-0025
   type: implements

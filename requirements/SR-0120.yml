@@ -1,10 +1,11 @@
 uid: SR-0120
 type: system_requirement
-status: approved
+status: proposed
 title: Apply to whole service or sensitive parts
 text: Apply the component either to all pages of a service or only to the parts of
   the journey containing sensitive information; it can also be used on standalone
   content pages.
+normative: true
 links:
 - target: UR-0012
   type: implements

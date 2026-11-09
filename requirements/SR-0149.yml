@@ -1,10 +1,11 @@
 uid: SR-0149
 type: system_requirement
-status: approved
+status: proposed
 title: Known gap in the earlier version
 text: The earlier component inherited the browser default and showed no visual target
   area for drag and drop; the March 2025 improved component addresses this accessibility
   gap.
+normative: true
 links:
 - target: UR-0014
   type: implements

@@ -1,9 +1,10 @@
 uid: SR-0114
 type: system_requirement
-status: approved
+status: proposed
 title: Keep the field and summary messages identical
 text: Use the same message next to the field and in the error summary so they look,
   sound and mean the same and make sense out of context.
+normative: true
 links:
 - target: UR-0011
   type: implements

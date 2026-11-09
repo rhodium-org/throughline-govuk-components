@@ -1,9 +1,10 @@
 uid: SR-0206
 type: system_requirement
-status: approved
+status: proposed
 title: Use description text for detail
 text: If you need to give detailed information or more context, use the description
   text under the heading text.
+normative: true
 links:
 - target: UR-0020
   type: implements

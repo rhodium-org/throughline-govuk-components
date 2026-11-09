@@ -1,9 +1,10 @@
 uid: SR-0226
 type: system_requirement
-status: approved
+status: proposed
 title: Show on all pages as a service-level message
 text: Show the phase banner across all pages so users understand it as a service-level
   message.
+normative: true
 links:
 - target: UR-0022
   type: implements

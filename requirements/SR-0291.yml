@@ -1,8 +1,10 @@
 uid: SR-0291
 type: system_requirement
-status: approved
+status: proposed
 title: Right-align columns of numbers
-text: When comparing columns of numbers, align the numbers to the right in table cells.
+text: When comparing columns of numbers, align the numbers to the right in table
+  cells.
+normative: true
 links:
 - target: UR-0028
   type: implements

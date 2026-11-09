@@ -1,9 +1,10 @@
 uid: SR-0347
 type: system_requirement
-status: approved
+status: proposed
 title: Do not use for multi-line answers
 text: Do not use the text input for longer answers that might span multiple lines;
   use the Textarea component instead.
+normative: true
 links:
 - target: UR-0033
   type: implements

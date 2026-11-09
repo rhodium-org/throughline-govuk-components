@@ -1,9 +1,10 @@
 uid: SR-0303
 type: system_requirement
-status: approved
+status: proposed
 title: Avoid tabs wrapping onto multiple lines
 text: Avoid too many tabs or long labels that wrap over more than one line, because
   this makes the connection between the selected tab and its content harder to see.
+normative: true
 links:
 - target: UR-0029
   type: implements

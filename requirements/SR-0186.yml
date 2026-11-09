@@ -1,9 +1,10 @@
 uid: SR-0186
 type: system_requirement
-status: approved
+status: proposed
 title: Only paginate if it improves performance or usability
 text: Only break content onto separate pages if it improves the performance or usability
   of the service.
+normative: true
 links:
 - target: UR-0019
   type: implements

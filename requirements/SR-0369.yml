@@ -1,9 +1,10 @@
 uid: SR-0369
 type: system_requirement
-status: approved
+status: proposed
 title: Problems found with input type number
 text: Research documented in a blog post surfaced the problems the team discovered
   with input type number.
+normative: true
 links:
 - target: UR-0033
   type: implements

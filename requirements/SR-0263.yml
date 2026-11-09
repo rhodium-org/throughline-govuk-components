@@ -1,9 +1,11 @@
 uid: SR-0263
 type: system_requirement
-status: approved
+status: proposed
 title: Keep aria-label accurate
-text: When a service name is shown, the section is exposed as a region landmark, so
-  rename the aria-label as needed to accurately describe what slots add to the section.
+text: When a service name is shown, the section is exposed as a region landmark,
+  so rename the aria-label as needed to accurately describe what slots add to the
+  section.
+normative: true
 links:
 - target: UR-0025
   type: implements

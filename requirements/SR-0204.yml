@@ -1,9 +1,10 @@
 uid: SR-0204
 type: system_requirement
-status: approved
+status: proposed
 title: Keep panel text brief
 text: Keep panel text brief as a high-level explanation of what has happened, for
   example 'Application complete'.
+normative: true
 links:
 - target: UR-0020
   type: implements
